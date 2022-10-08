@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 6</title>
+
+	<style>
+		#mainBlock{
+			margin: 0 auto;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-top: 20vh;
+			text-align: center;
+			padding: 15px;
+			width: 50%;
+		}
+	</style>
+</head>
+<body onload="init()">
+
+	<div id="mainBlock">
+		<h2>Выберите любую дату</h2>
+		<select name="year" id="year" onchange="yearFunction()"></select>
+		<select name="month" id="month" onchange="monthFunction()"></select>
+		<select name="day" id="day" onchange="dayFunction()"></select>
+
+	</div>
+
+	<script>
+
+		let year = document.getElementById("year");
+		let month = document.getElementById("month");
+		let day = document.getElementById("day");
+		let tempArray = [];
+
+		function init()
+		{
+			let currentYear = new Date().getFullYear();
+			for(let i=1970;i<=currentYear;i++)
+			{
+				tempArray.push(i);
+			}
+			fillSelect(year, tempArray);
+			clearArray(tempArray);
+
+			for(let i=1;i<=12;i++)
+			{
+				tempArray.push(i);
+			}
+			fillSelect(month, tempArray);
+
+			dayFunction(1970, 0);
+		}
+
+		function yearFunction()
+		{
+			clearSelect(day);
+			dayFunction(year.options[year.selectedIndex].text, month.selectedIndex);
+		}
+
+		function monthFunction()
+		{
+			clearSelect(day);
+			dayFunction(year.options[year.selectedIndex].text, month.selectedIndex)
+		}
+
+		function dayFunction(year, month)
+		{
+			clearArray(tempArray);
+			let daysMonth = daysInMonth(year, month);
+			for(let i=1;i<=daysMonth;i++)
+			{
+				tempArray.push(i);
+			}
+			fillSelect(day, tempArray);
+		}
+
+		function fillSelect(select, array)
+		{
+			for(let i=0;i<array.length;i++)
+			{
+				select.add(new Option(array[i]));
+			}
+		}
+
+		function clearArray(array)
+		{
+			array.length = 0
+		}
+
+		function clearSelect(select)
+		{
+			select.options.length = 0;
+		}
+		
+
+		function daysInMonth(yearVar, monthVar)
+		{
+			let date = new Date(yearVar, monthVar + 1, 0)
+			return date.getDate();
+		}
+
+	</script>
+	
+</body>
+</html>

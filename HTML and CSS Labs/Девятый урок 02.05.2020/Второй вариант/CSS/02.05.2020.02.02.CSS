@@ -1,0 +1,51 @@
+.FirstContainer{
+	position: static;
+	border: 1px #FAFAFF solid;
+	width: 100%;
+   	margin-top: 120px;
+   	background-color: #FAFAFF;
+}
+
+.FirstDiv1{
+	background-color: #DFF6E1;
+	margin: 0 auto;
+	width: 60%;
+	height: 50px;
+}
+
+.FirstImg1{
+	height: 40px;
+	margin-top: 5px;
+	display: inline-block;
+    vertical-align: middle;
+
+}
+
+.FirstImg2{
+	height: 15px;
+	margin-top: -100px;
+	margin-left: 770px;
+	display: inline-block;
+    vertical-align: middle;
+
+}
+
+.FirstText1{
+	color: #2F5995;
+	margin-top: -10px;
+	margin-left: 5px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.FirstText2{
+	color: #99AB55;
+	margin-top: -35px;
+	margin-left: 50px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 0.8em;
+	display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Third Task</title>
+
+	<style>
+		#mainBlock{
+			display: block;
+			border: 1px solid black;
+			text-align: center;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			width:50%;
+			margin:0 auto;
+		}
+
+		select, input{
+			margin-bottom: 10px;
+
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Это произвольный список! <br>Наполни его любыми значениями!</h1>
+		<select name="list" id="listID">
+			<option value="Пустой список" disabled selected>Пустой список</option>
+		</select>
+		<br>
+		<input type="text" id="textOption">
+		<br>
+		<button onclick="addOption()">Добавить</button>
+		<button onclick="removeOption()">Удалить</button>
+		<br>
+		<p>Чтобы добавить элемент, введи текст в поле ввода и нажми "Добавить" <br> Чтобы удалить элемент, выбери его в списке и нажми "Удалить"</p>
+	</div>
+
+	<script>
+
+		function addOption()
+		{
+			let text = document.getElementById("textOption").value;
+			let select = document.getElementById("listID");
+
+			if(!(text==""))
+			{
+				if(select[0].value == "Пустой список")
+				{
+					select.remove(0);
+				}
+
+				let option = document.createElement("option");
+				option.text = text;
+				select.add(option)
+				
+			}
+
+			document.getElementById("textOption").value = "";
+		}
+
+		function removeOption()
+		{
+			let select = document.getElementById("listID");
+			select.remove(select.selectedIndex);
+
+			if(select.length == 0)
+			{
+				let option = document.createElement("option");
+				option.text = "Пустой список";
+				select.add(option)
+			}		
+		}
+
+	</script>
+	
+</body>
+</html>

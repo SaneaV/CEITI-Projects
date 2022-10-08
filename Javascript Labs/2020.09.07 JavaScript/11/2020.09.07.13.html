@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		let min = prompt("Введите число от 0 до 59")
+
+		while(min<0 || min>59)
+		{
+			alert("Написал же на русском, ну, от 0 до 59!")
+			min = prompt("Введите число от 0 до 59")
+		}
+
+		if(min>=0 && min<=15)
+		{
+			alert("Вы в первой четверти часа")
+		}
+
+		if(min>15 && min<=30)
+		{
+			alert("Вы во второй четверти часа")
+		}
+
+		if(min>30 && min<=45)
+		{
+			alert("Вы в третьей четверти часа")
+		}
+
+		if(min>45 && min<=59)
+		{
+			alert("Вы в четвёртой четверти часа")
+		}
+	</script>
+	
+</body>
+</html>

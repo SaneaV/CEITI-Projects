@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/2020.11.03.02.css">
+	<title>Task 3</title>
+</head>
+<body>
+
+	<div id="mainBlock">
+		<div id="header">
+			<h2>Convertor Valutar</h2>
+		</div>
+
+		<div id="selectBlock">
+			<h3 id="valutName">Euro</h3>
+			<select name="selector" id="valutSelector" onchange="exchange()">
+				<option value="eur">eur</option>
+				<option value="usd">usd</option>
+				<option value="mdl">mdl</option>
+			</select>
+			<input type="number" min="0" onblur="exchange()" id="ammount">
+		</div>
+
+		<div id="eurBlock">
+			<img src="../img/3.png" alt="">
+			<p>Leu Moldovenesc</p>
+			<p id="mdl">0</p>
+		</div>
+		<div id="usdBlock">
+			<img src="../img/1.png" alt="">
+			<p>Euro</p>
+			<p id="eur">0</p>
+		</div>
+		<div id="mdlBlock">
+			<img src="../img/2.png" alt="">
+			<p>Dolar U.S.A.</p>
+			<p id="usd">0</p>
+		</div>
+	</div>
+
+	<script src="../js/2020.11.03.02.js"></script>
+	
+</body>
+</html>

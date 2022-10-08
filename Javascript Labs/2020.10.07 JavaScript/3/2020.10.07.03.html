@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			margin:0 auto;
+			width: 20%;
+			height: 250px;
+			border: 1px solid black;
+			border-radius: 20px;
+			text-align: center;
+			padding: 5px 10px;
+		}
+
+		ol{
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mainBlock" id="mainBlock">
+		<ol id="ol">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>0</li>
+		</ol>
+		<button onclick="addLi()">Добавить элемент</button>
+	</div>
+
+	<script>
+
+		function addLi(){
+			let node = document.createElement("li");                 
+			let textnode = document.createTextNode("пункт");         
+			node.appendChild(textnode);                              
+			document.getElementById("ol").appendChild(node); 
+    		document.getElementById("mainBlock").style.height = document.getElementById("mainBlock").clientHeight + 15 + 'px'
+		}
+
+	</script>
+
+	
+</body>
+</html>

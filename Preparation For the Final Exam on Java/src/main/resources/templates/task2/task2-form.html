@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Form</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+<div class="mainDiv">
+    <form action="#" method="get" th:action="@{/task2}">
+
+        <br>
+        <label for="destination">Destination</label>
+        <input id="destination" placeholder="destination" th:name="destination" type="text">
+        <br><br>
+
+        <br>
+        <label for="class">Class</label>
+        <input id="class" placeholder="class" th:name="class" type="text">
+        <br><br>
+
+        <input type="submit" value="Find Passenger">
+    </form>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+</div>
+
+</body>
+</html>

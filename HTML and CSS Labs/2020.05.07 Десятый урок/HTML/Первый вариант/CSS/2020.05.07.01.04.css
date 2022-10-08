@@ -1,0 +1,35 @@
+div{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+table{
+  margin: 0 auto;
+  width: 500px;
+  height: 35px;
+}
+
+td{
+  background-color:#3D3D3D;
+  color:white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+td:first-child{
+  width: 100px;
+}
+
+td:last-child{
+  width: 100px;
+}
+
+td:nth-child(8){
+	width: 100px;
+}
+
+td:hover
+{
+	background-color: #FF6C00;
+}

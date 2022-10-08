@@ -1,0 +1,63 @@
+.FirstContainer{
+	position: static;
+	border: 1px #FAFAFF solid;
+	width: 100%;
+   	margin-top: 120px;
+   	background-color: #FAFAFF;
+}
+
+.FirstDiv1{
+	border: 1px black solid;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: 20px;
+	height: 120px;
+}
+
+.FirstText1{
+	margin-left: 20px;
+	color: #3D4247;
+	font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+.FirstImage1{
+	width: 35px;
+	margin-left: 20px;
+	margin-top: -5px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.FirstText2{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FF000C;
+	margin-top: -5px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.FirstDiv2{
+	position: static;
+	border: 1px red dashed;
+	margin-left: 500px;
+	margin-top: -105px;
+	height: 100px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.FirstText3{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #3D4247;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.FirstText4{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 3.8em;
+	margin-top: -28px;
+}

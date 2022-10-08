@@ -1,0 +1,13 @@
+#mainBlock{
+	border-radius: 10px;
+	border: 2px solid black;
+	margin:0 auto;
+	margin-top: 20vh;
+	width: 30%;
+	text-align: left;
+	padding: 10px;
+}
+
+#form{
+	padding-left: 33%;
+}

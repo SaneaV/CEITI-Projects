@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B7B8FDE-61A9-439D-91EF-B9693EAA034A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarRent</RootNamespace>
+    <AssemblyName>CarRent</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>CarRent</ProductName>
+    <PublisherName>Александр</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ferrari.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>82411AB002EA612EE2BF93F70E294FCCF77267ED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CarRent_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutCar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutCar.Designer.cs">
+      <DependentUpon>AboutCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutClientcs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutClientcs.Designer.cs">
+      <DependentUpon>AboutClientcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccessIsDenied.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccessIsDenied.Designer.cs">
+      <DependentUpon>AccessIsDenied.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveCars.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArchiveCars.Designer.cs">
+      <DependentUpon>ArchiveCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveClients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArchiveClients.Designer.cs">
+      <DependentUpon>ArchiveClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveContracts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArchiveContracts.Designer.cs">
+      <DependentUpon>ArchiveContracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveWorkers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArchiveWorkers.Designer.cs">
+      <DependentUpon>ArchiveWorkers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Backup.Designer.cs">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Car.Designer.cs">
+      <DependentUpon>Car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarAdd.Designer.cs">
+      <DependentUpon>CarAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarHasBeenAdded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarHasBeenAdded.Designer.cs">
+      <DependentUpon>CarHasBeenAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarHasBeenDeleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarHasBeenDeleted.Designer.cs">
+      <DependentUpon>CarHasBeenDeleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarList.Designer.cs">
+      <DependentUpon>CarList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarReport.Designer.cs">
+      <DependentUpon>CarReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clear.Designer.cs">
+      <DependentUpon>Clear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientAdd.Designer.cs">
+      <DependentUpon>ClientAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUsersPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminUsersPanel.Designer.cs">
+      <DependentUpon>AdminUsersPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreYouSure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreYouSure.Designer.cs">
+      <DependentUpon>AreYouSure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClientHasBeenDeleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientHasBeenDeleted.Designer.cs">
+      <DependentUpon>ClientHasBeenDeleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientHasBeenAdded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientHasBeenAdded.Designer.cs">
+      <DependentUpon>ClientHasBeenAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientsList.Designer.cs">
+      <DependentUpon>ClientsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContractAdd.Designer.cs">
+      <DependentUpon>ContractAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractHasBeenAddedcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractHasBeenAddedcs.Designer.cs">
+      <DependentUpon>ContractHasBeenAddedcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContractReport.Designer.cs">
+      <DependentUpon>ContractReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contracts.Designer.cs">
+      <DependentUpon>Contracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FotoUpdated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FotoUpdated.Designer.cs">
+      <DependentUpon>FotoUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupCar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GroupCar.Designer.cs">
+      <DependentUpon>GroupCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupClients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GroupClients.Designer.cs">
+      <DependentUpon>GroupClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itsOkay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itsOkay.Designer.cs">
+      <DependentUpon>itsOkay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListContracts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListContracts.Designer.cs">
+      <DependentUpon>ListContracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForm.Designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewArguments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewArguments.Designer.cs">
+      <DependentUpon>NewArguments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewLogPasMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLogPasMail.Designer.cs">
+      <DependentUpon>NewLogPasMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegLog.Designer.cs">
+      <DependentUpon>RegLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UserProfil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserProfil.Designer.cs">
+      <DependentUpon>UserProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientReports.Designer.cs">
+      <DependentUpon>ClientReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker.cs" />
+    <EmbeddedResource Include="AboutCar.resx">
+      <DependentUpon>AboutCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutClientcs.resx">
+      <DependentUpon>AboutClientcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessIsDenied.resx">
+      <DependentUpon>AccessIsDenied.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveCars.resx">
+      <DependentUpon>ArchiveCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveClients.resx">
+      <DependentUpon>ArchiveClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveContracts.resx">
+      <DependentUpon>ArchiveContracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveWorkers.resx">
+      <DependentUpon>ArchiveWorkers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car.resx">
+      <DependentUpon>Car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarAdd.resx">
+      <DependentUpon>CarAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarHasBeenAdded.resx">
+      <DependentUpon>CarHasBeenAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarHasBeenDeleted.resx">
+      <DependentUpon>CarHasBeenDeleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarList.resx">
+      <DependentUpon>CarList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarReport.resx">
+      <DependentUpon>CarReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clear.resx">
+      <DependentUpon>Clear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientAdd.resx">
+      <DependentUpon>ClientAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUsersPanel.resx">
+      <DependentUpon>AdminUsersPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreYouSure.resx">
+      <DependentUpon>AreYouSure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientHasBeenDeleted.resx">
+      <DependentUpon>ClientHasBeenDeleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientHasBeenAdded.resx">
+      <DependentUpon>ClientHasBeenAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsList.resx">
+      <DependentUpon>ClientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractAdd.resx">
+      <DependentUpon>ContractAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractHasBeenAddedcs.resx">
+      <DependentUpon>ContractHasBeenAddedcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractReport.resx">
+      <DependentUpon>ContractReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contracts.resx">
+      <DependentUpon>Contracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FotoUpdated.resx">
+      <DependentUpon>FotoUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupCar.resx">
+      <DependentUpon>GroupCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupClients.resx">
+      <DependentUpon>GroupClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itsOkay.resx">
+      <DependentUpon>itsOkay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListContracts.resx">
+      <DependentUpon>ListContracts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewArguments.resx">
+      <DependentUpon>NewArguments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLogPasMail.resx">
+      <DependentUpon>NewLogPasMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegLog.resx">
+      <DependentUpon>RegLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="UserProfil.resx">
+      <DependentUpon>UserProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientReports.resx">
+      <DependentUpon>ClientReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CarRentDataSet.xsc">
+      <DependentUpon>CarRentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentDataSet.xss">
+      <DependentUpon>CarRentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarRent_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w512h5121337871780512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_question_1566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help_icon-icons.com_55891 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-png-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how-do-you-resize-a-png-image-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserPicture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-button-icon-clipart-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spreadsheet-cell-row.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spreadsheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_filter_1608702.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_ru-350x126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ferrari.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

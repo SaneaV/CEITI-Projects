@@ -1,0 +1,80 @@
+	.mainBlock{
+		display: flex;
+		padding: 5px;
+		border: 1px solid black;
+		margin: 0 auto;
+	}
+
+	.elements{
+		display: block;
+		padding: 10px;
+		margin:0 auto;
+	}
+
+	.element {
+		display: block;
+		background-color: #E2FFFB;
+		border-radius: 9px;
+		width: 170px;
+		height: 60px;
+		border: 1px solid #2BFFFF;
+		padding: 5px 10px;
+		text-align: center;
+		margin-top: 7px;
+	}
+
+	.element-disabled {
+		display: block;
+		background-color: white;
+		border-radius: 9px;
+		width: 170px;
+		height: 60px;
+		border: 1px solid #2BFFFF;
+		padding: 5px 10px;
+		text-align: center;
+		margin-top: 7px;
+	}
+
+	.nameClassification{
+		display: block;
+		background-color: white;
+		border-radius: 9px;
+		width: 170px;
+		height: 60px;
+		border: 1px solid grey;
+		text-align: center;
+		padding: 5px 10px;
+		margin-top: 7px;
+	}
+
+	.nameClassification > h2{
+		margin-top: 16px;
+	}
+
+	.textDiv{
+		color:#5D72B4;
+	}
+
+	.imageDiv > img{
+		width: 40px;
+		height: 40px;
+		size: fixed;
+	}
+
+	body>h1{
+		text-align: center;
+	}
+
+	[class^="protozoa"],
+	[class^="sponges"],
+	[class^="coelenterates"],
+	[class^="worms"],
+	[class^="mollusca"],
+	[class^="arthropods"],
+	[class^="сhordates"]{
+		display: none;
+	}
+
+	.show-block{
+		display: block;
+	}

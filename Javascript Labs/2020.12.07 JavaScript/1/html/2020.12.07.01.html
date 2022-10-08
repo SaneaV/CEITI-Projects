@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Task 1</title>
+
+	<style>
+		body{
+			text-align: center;
+		}
+
+		#mainP{
+			font-size: 5em;
+			padding-top: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<p>Абзац 1(жми)</p>
+	<p>Абзац 2(жми)</p>
+	<p>Абзац 3(жми)</p>
+	<p>Абзац 4(жми)</p>
+	<p>Абзац 5(жми)</p>
+
+	<div>
+		<p id="mainP"></p>
+	</div>
+
+	<script>
+		$('p').click(function(){
+			$('#mainP').text($(this).text());
+		})
+	</script>
+	
+</body>
+</html>

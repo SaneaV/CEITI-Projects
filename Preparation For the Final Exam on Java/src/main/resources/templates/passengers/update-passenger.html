@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Update passenger</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+
+<div class="mainDiv">
+
+    <form action="#" method="get" th:action="@{/passengers/update/{id}(id=${passenger.passengerCode})}"
+          th:object="${passenger}">
+
+        <br>
+        <label for="surname">Surname</label>
+        <input id="surname" placeholder="Surname" th:field="*{surname}" type="text">
+        <br><br>
+
+        <label for="name">Name</label>
+        <input id="name" placeholder="Name" th:field="*{name}" type="text">
+        <br><br>
+
+        <label for="phone">Phone</label>
+        <input id="phone" placeholder="Phone" th:field="*{phone}" type="text">
+        <br><br>
+
+        <input type="submit" value="Update Passenger">
+    </form>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+
+</div>
+
+</body>
+</html>

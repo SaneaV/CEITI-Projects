@@ -1,0 +1,93 @@
+.SecondContainer{
+	position: static;
+	border: 1px #FAFAFF solid;
+	width: 100%;
+   	background-color: #FAFAFF;
+}
+
+.SecondDiv1{
+	box-shadow: 5px 5px #E8E8E8;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: 5px;
+	height: 270px;
+	width: 200px;
+	background-color: white;
+}
+
+.SecondImage1{
+	width: 35px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.NameCinema{
+	color: #6298CD;
+	margin-left: 10px;
+	margin-top: 2px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.Information{
+	margin-top: -22px;
+	margin-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+		display: inline-block;
+    vertical-align: middle;
+}
+
+.SecondImage2{
+	height: 10px;
+		display: inline-block;
+    vertical-align: middle;
+}
+
+.netflix{
+	color:grey;
+}
+
+.SecondHR1{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: -1px;
+	float: left;
+	height: 0px;
+	border: black solid 1px;
+}
+
+.Line{
+	border: 1px grey dashed; 
+	height: 0px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+.SecondHR2{
+	margin: 0 auto;
+	width: 10%;
+	margin-top: -1px;
+	float: left;
+	height: 0px;
+	border: black solid 1px;
+}
+
+.SecondHR3{
+	margin: 0 auto;
+	width: 50%;
+	margin-top: -1px;
+	float: left;
+	height: 0px;
+	border: black solid 1px;
+}
+
+.SecondHR4{
+	margin: 0 auto;
+	width: 29%;
+	margin-top: -1px;
+	float: left;
+	height: 0px;
+	border: black solid 1px;
+}
+

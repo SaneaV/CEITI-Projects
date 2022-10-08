@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 6</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="mainBlock" style="text-align: center;">
+		<textarea id="mainTextArea" cols="30" rows="10"></textarea>
+		<button id="mainButton">Выполнить</button>
+	</div>
+
+	<script>
+		$("#mainButton").click(function(){
+			eval(document.getElementById('mainTextArea').value);
+		})
+	</script>
+
+	
+</body>
+</html>

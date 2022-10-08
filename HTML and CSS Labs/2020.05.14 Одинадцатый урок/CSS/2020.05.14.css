@@ -1,0 +1,41 @@
+.siteTop{
+	height: 62px;
+	width: 100%;
+	background-color: #6FC6FC;
+	position: sticky;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+a{
+	color: black;
+}
+
+.apartmentButton{
+	width: 49%;
+	float: left;
+	text-align: center;
+	border-right: solid;
+	border-width: 1px;
+}
+
+.carButton{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.carButton:hover{
+	background-color: #76BCE8;
+}
+
+.apartmentButton:hover{
+	background-color: #76BCE8;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #e3f3fc;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		table, td, tr{
+			border: 1px solid black;
+			width: 250px;
+			margin:0 auto;
+			text-align: center;
+		}
+
+		button{
+			margin-top: 5px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<table class="table">
+		<tr>
+			<td onclick="changeIt(0,0)">0</td>
+			<td onclick="changeIt(0,1)">1</td>
+			<td onclick="changeIt(0,2)">2</td>
+			<td onclick="changeIt(0,3)">3</td>
+			<td onclick="changeIt(0,4)">4</td>
+		</tr>
+		<tr>
+			<td onclick="changeIt(1,0)">5</td>
+			<td onclick="changeIt(1,1)">6</td>
+			<td onclick="changeIt(1,2)">7</td>
+			<td onclick="changeIt(1,3)">8</td>
+			<td onclick="changeIt(1,4)">9</td>
+		</tr>
+		<tr>
+			<td onclick="changeIt(2,0)">9</td>
+			<td onclick="changeIt(2,1)">8</td>
+			<td onclick="changeIt(2,2)">7</td>
+			<td onclick="changeIt(2,3)">6</td>
+			<td onclick="changeIt(2,4)">5</td>
+		</tr>
+		<tr>
+			<td onclick="changeIt(3,0)">4</td>
+			<td onclick="changeIt(3,1)">3</td>
+			<td onclick="changeIt(3,2)">2</td>
+			<td onclick="changeIt(3,3)">1</td>
+			<td onclick="changeIt(3,4)">0</td>
+		</tr>
+		<tr>
+			<td onclick="changeIt(4,0)">0</td>
+			<td onclick="changeIt(4,1)">0</td>
+			<td onclick="changeIt(4,2)">0</td>
+			<td onclick="changeIt(4,3)">1</td>
+			<td onclick="changeIt(4,4)">1</td>
+		</tr>
+	</table>
+
+
+	<script>
+
+		function changeIt(i,j)
+		{
+			let oldNumber = document.body.firstElementChild.rows[i].cells[j].innerHTML;
+
+			let newNumber = prompt("Введите новое число(желательно)(но можно и не число)", oldNumber);		
+
+			document.body.firstElementChild.rows[i].cells[j].innerHTML = newNumber;
+		}
+		
+	</script>
+	
+</body>
+</html>

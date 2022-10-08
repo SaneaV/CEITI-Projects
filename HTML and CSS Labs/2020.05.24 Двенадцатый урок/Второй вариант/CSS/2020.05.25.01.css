@@ -1,0 +1,109 @@
+body{
+ 	margin: 0 !important;
+    padding: 0 !important;
+    background-color: white;	
+}
+
+.site>div{
+	margin: 0 auto;
+	border:1px solid black;
+	box-shadow: 0 0 20px rgb(0,0,0,100);
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	background-color: grey;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.header>div>img{
+	width:10%;
+	height: 70%;
+}
+
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color:white;
+}
+
+.mainScreen{
+	display: flex;
+	flex-direction: row;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	padding-right: 3%;
+}
+
+.mainScreen>div>img{
+	width:100%;
+	height: 100%;
+}
+
+.recommendation{
+	display: flex;
+	padding-left: 1%;
+	flex-direction: column;
+	width: 50%;
+}
+
+.recommendation>div>img{
+	width: 40%;
+	height: 90%;
+}
+
+.recText{
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.recText:not(:first-child){
+	padding-top: 5%;
+}
+
+.recText>h4{
+	margin-top: -1%;
+	padding-left:1%;
+	color: blue;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	margin-top: -7%;
+	padding-left:1%;
+}
+
+.text>h5:first-child{
+	color:blue;
+	font-size: 1.2em;
+}
+
+.videoName{
+	padding-left: 3%;
+	margin-top: -3%;
+}
+
+.text{
+	margin-top: -1%;
+}
+
+.text>h5{
+	 margin: 0px;
+}
+
+button{
+	color: white;
+	background-color: red;
+	height: 2vw;
+	font-size: 1.1em;
+	border-radius: 10px;
+	margin-left: 3%;
+	margin-top: -3%;
+}

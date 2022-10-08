@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Практика по формам</title>
+
+	<link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png">
+</head>
+<body>
+
+
+	<center>
+		<h1 style="color:red">Вариант 2</h1>
+		<hr width="500" height="500">
+		<h3 style="color:red">Задание №1</h3>
+		<hr width="500" height="500">
+
+		<h2>User Input Form</h2>
+		<form>
+			<fieldset style="width:250px">
+				<legend>Pesonal particular</legend>
+
+				<label for="name">Name: </label>
+				<input type="text" id="Name"><br><br>
+
+				<label for="password">Password: </label>
+				<input type="password" id="password"><br><br>
+
+				<label for="gender">Gender: </label>
+				<input type="radio" name="gender" id="Male">
+				<label for="Male">Male</label>
+				<input type="radio" name="gender" id="Female"> 
+				<label for="Female">Female</label>
+				<br><br>
+
+				<label for="age">Age: </label>
+				<input type="number" value ="1" min="1" max="150" id="age">
+				<br>
+			</fieldset>
+
+			<fieldset style="width:250px">
+				<legend>Languages</legend>
+
+				<input type="checkbox" name="languages" id="Java">
+				<label for="Java">Java</label>
+				<input type="checkbox" name="languages" id="C++">
+				<label for="C++">C/C++</label>
+				<input type="checkbox" name="languages" id="C#">
+				<label for="C#">C#</label>
+
+			</fieldset>
+
+			<fieldset style="width:250px">
+				<legend>Instruction</legend>
+
+				<textarea cols="30" rows="10">Enter your instructions here...</textarea>
+			</fieldset>
+
+			<br>
+			<input type="submit" value="SEND">
+			<input type="reset" value="CLEAR">
+		</form>
+
+
+		<br><br><br>
+		<hr width="500" height="500">
+		<h3 style="color:red">Задание №2</h3>
+		<hr width="500" height="500">
+
+		<form action="https://vk.cc/ao4aY0" target="_blink">
+			<table bgcolor="#2196F4" cellpadding="3">
+
+				<tr>
+					<td align="left" colspan="4">Откуда</td>
+					<td colspan="2">Пассажиры и класс</td>
+				</tr>
+
+				<tr>
+
+					<td>
+						<select>
+							<option>Кишинёв</option>
+							<option>Киев</option>
+							<option>Бухарест</option>
+							<option>Москва</option>
+							<option>Минск</option>
+						</select>
+					</td>
+
+					<td>
+						<select>
+							<option selected disabled hidden>Куда</option>
+							<option>Кишинёв</option>
+							<option>Киев</option>
+							<option>Бухарест</option>
+							<option>Москва</option>
+							<option>Минск</option>
+						</select>
+					</td>
+
+					<td>
+						<input type = "text" onfocus="(this.type='date')" value="Туда" size="16">
+					</td>
+
+					<td>
+						<input type= "text" onfocus="(this.type='date')" value="Обратно" size="16">
+					</td>
+
+					<td>
+						<input type="number" width="1" min = 1 max = 20 value="1">
+					</td>
+
+					<td>
+						<select>
+							<option>Эконом</option>
+							<option>Бизнес</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+
+			<table bgcolor="#2196F4">
+				<tr height="50">
+
+					<td valign="top" width="217">
+						<img src="https://cdn3.iconfinder.com/data/icons/unicons-vector-icons-pack/32/share-512.png" alt="Share" width="10">
+						Составить сложный маршрут
+					</td>
+
+					<td>
+					</td>
+
+					<td valign="top" width="263">
+						<input type="checkbox">Открыть Booking.com в новом окне
+					</td>
+				</tr>
+
+				<tr height="50">
+					<td></td>
+					<td valign="top" align="center">
+						<button style="background-color:#F67C00; border-color:#F67C00;" type="submit"><span valign="center"><big>Найти билеты<img src="https://cdn.icon-icons.com/icons2/510/PNG/512/plane_icon-icons.com_50070.png" height="20"></span></button>​
+						</td>
+					</tr>
+				</table>
+			</form>
+
+
+			<br><br><br>
+			<hr width="500" height="500">
+			<h3 style="color:red">Задание №3</h3>
+			<hr width="500" height="500">
+
+
+			<h4>Калькулятор каско</h4>
+
+			<form>
+
+				<table style="border-collapse:collapse" cellpadding="10">
+
+					<tr>
+						<td>Валюта полиса Рубль<br>Срок страхования 1 год</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>Период оплаты полиса</td>
+						<td>
+							<select style="border-color:green; height:35px; padding: 5px" >
+								<option>Единовременно</option>
+								<option>Частично</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="color:green"><b>Aвтомобиль</b></td>
+						<td></td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0;" >
+						<td>Марка<span style="color:green">*</span></td>
+						<td>
+							<input type="text" placeholder="Например AUDI" size="50"  style="border-color:green; height:25px; padding: 5px" >
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>Год выпуска</td>
+						<td>
+							<input type="number" min="1900" max="2020" value="2020" style="border-color:green; height:25px; padding: 5px;">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>Страховая сумма руб<span style="color:green">*</span></td>
+						<td>
+							<input type="number" style="border-color:green; height:25px; padding: 5px;width: 380px" min="1">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>Противоугонное устройство</td>
+						<td>
+							<input type="text" placeholder="Введите название,например: Starline" size="50" style="border-color:green; height:25px; padding: 5px">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td></td>
+						<td>
+							<input type="checkbox" id="Mechanic">
+							<label for="Mechanic">Механическое противоугонное устройство</label>
+							<br>
+							<input type="checkbox" id="KM"> 
+							<label for="KM">Пробег менее 1000км</label>
+							<br>
+							<input type="checkbox" id="TC"> 
+							<label for="TC">TC находится в залоге у банка</label>
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>Количество мест</td>
+						<td>
+							<input type="number" min=1 max=50 style="border-color:green; height:25px; padding: 5px; width:74px">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>
+							Количество ДТП
+							<img src="https://images.vexels.com/media/users/3/152475/isolated/preview/196160f3899dbc75dc108c9e25f42f80-green-circle-question-mark-icon-by-vexels.png" alt="question" width="15">
+						</td>
+
+						<td>
+							<input type="number" min="0" max="1000" style="border-color:green; height:25px; padding: 5px; width:74px">
+						</td>
+
+					</tr>
+
+					<tr>
+						<td>
+							Регион приобретения полиса <span style="color:green">*</span>
+						</td>
+
+						<td>
+							<input type="text" size="50" style="border-color:green; height:25px; padding: 5px">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Место жительства <br>собственника<span style="color:green">*</span>
+						</td>
+
+						<td>
+							<input type="text" size="50" style="border-color:green; height:25px; padding: 5px">
+						</td>
+
+					</tr>
+
+					<tr>
+						<td>
+							Территория страхования
+						</td>
+
+						<td>
+							<input type="radio" name="Place" id="Russia">
+							<label for="Russia">Россия</label>
+							<label for="ETC" style="float:right">Россия и зарубежные страны</label>
+							<input type="radio" name="Place" id="ETC" style="float:right">
+
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<b><span style="color:green">Владелец</span></b>
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td></td>
+						<td>
+							<input type="radio" id="Fiz" name="Face">
+							<label for="Fiz">Физическое лицо</label>
+							<label for="Iur" style="float:right">Юридическое лицо</label>
+							<input type="radio" id="Iur" name="Face" style="float:right">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+						<td>
+							Лица, допущенные к<br> управлению
+						</td>
+
+						<td>
+							<input type="radio" name="WhoCanDrive" id="NoMatter">
+							<label for="NoMatter">Без ограничения </label>
+							<img src="https://images.vexels.com/media/users/3/152475/isolated/preview/196160f3899dbc75dc108c9e25f42f80-green-circle-question-mark-icon-by-vexels.png" alt="question" width="15">
+							<img src="https://images.vexels.com/media/users/3/152475/isolated/preview/196160f3899dbc75dc108c9e25f42f80-green-circle-question-mark-icon-by-vexels.png" alt="question" width="15" style="float:right">
+							<label for="Conffined" style="float:right">Ограниченный список </label>
+							<input type="radio" name="WhoCanDrive" id="Conffined" style="float:right">
+							<br>
+							<input type="radio" name="WhoCanDrive" id="Conf21">
+							<label for="Conf21">Без ограничения 22+, 2+ </label>
+							<img src="https://images.vexels.com/media/users/3/152475/isolated/preview/196160f3899dbc75dc108c9e25f42f80-green-circle-question-mark-icon-by-vexels.png" alt="question" width="15">
+						</td>
+					</tr>
+
+					<tr style="background-color:#f0f2f0">
+
+						<td>
+							Водитель
+						</td>
+
+						<td>
+							<table style="border-collapse:collapse" cellpadding="5">
+
+								<tr>
+									<td>Возраст<br>(полных лет)
+									</td>
+
+									<td>
+										<input type="number" min="18" max="150" style="border-color:green; height:25px; padding: 5px; width:74px">
+									</td>
+
+									<td>
+										Водительский<br>стаж
+									</td>
+
+									<td>
+										<input type="number" min="1" max="132" style="border-color:green; height:25px; padding: 5px; width:74px">
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										Пол водителя
+									</td>
+
+									<td>
+										<input type="radio" name="gender2" id="Male2">
+										<label for="Male2">Мужской</label>
+									</td>
+
+									<td>
+										<input type="radio" name="gender2" id="Female2">
+										<label for="Female2">Женский</label>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+
+					<tr style="background-color:#f0f2f0">
+						<td></td>
+						<td>
+							<br>
+							<p style="color:green">Добавить ещё одного водителя</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Вариант выплат страхового<br>возмещения
+						</td>
+
+						<td>
+							<input type="radio" name="Variant" id="vozm1">
+							<label for="vozm1">Ремонт на СТОА официальных дилеров по направлению<br>⠀⠀страховой компании</label> <br>
+
+							<input type="radio" name="Variant" id="vozm2">
+							<label for="vozm2">Ремонт на СТОА не являющихся официальными дилерами, по<br>⠀⠀направлению страховой компании</label>
+						</td>
+					</tr>
+				</table>
+
+				<br><br>
+				<input type="submit" style="background-color: green;border-color: green; color: white; height: 35px; width: 100px; font-weight: bold; font-size:15px" value="Раcсчитать">
+
+			</form>
+
+			<br><br>
+			<hr width="1000" height="1000">
+			<h1 style="color:red">Вариант 1</h1>
+			<hr width="500" height="500">
+			<h3 style="color:red">Задание №1</h3>
+			<hr width="500" height="500">
+
+			<form>
+				<h2>Запись на курсы</h2>
+
+				<hr width="500" height="500">
+
+				<table>
+					<tr align="left">
+						<td>
+							Имя:<br>
+							<input type="text">
+
+							<br><br>
+							Язык программирования:<br>
+							<input type="radio" name="Lang" id="C++2">
+							<label for="C++2">C++</label><br>
+							<input type="radio" name="Lang" id="PHP">
+							<label for="PHP">PHP</label><br>
+							<input type="radio" name="Lang" id="Python">
+							<label for="Python">Python</label><br>
+
+							<br><br>
+							Дополнительная информация:<br>
+							<textarea cols="30" rows="5">Есть опыт программирования на С++</textarea>
+
+							<br><br>
+							Секретное слово:<br>
+							<input type="password">
+
+							<br><br>
+							<input type="submit" value="Отправить">
+							<input type="reset" value="Очистить">
+						</td>
+						<td>
+							⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+						</td>
+					</tr>
+				</table>
+			</form>
+
+			<br>
+			<hr width="500" height="500">
+			<h3 style="color:red">Задание №2</h3>
+			<hr width="500" height="500">
+			<br>
+
+			<form>
+
+				<table cellpadding="10" style="border-collapse:collapse;">
+
+					<tr align="left" style="background-color:#f0f2f0">
+						<td colspan="2">Selecta&#X21B;i tipul Creditului <br> 
+							<select style=" height:35px; padding: 5px; width: 300px">
+								<option>Credit Espresso</option>
+								<option>Credit Cappuccino</option>
+								<option>Credit Frappe</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr style="background-color:#FAFAFA">
+						<td valign="top">
+							Summa Creditului <br>	
+							<input type="number" min="2000" max="100000" style=" height:20px; padding: 5px; width: 150px">
+						</td>
+
+						<td>
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td align="left" colspan="6">Min 2000 <span style="float:right">Max 100000</span></td>
+											</tr>
+
+											<tr>
+												<td colspan="6">
+													<input type="range" value="2000" min="2000" max="100000" style="width: 600px">
+												</td>
+											</tr>
+
+											<tr>
+												<td align="left">2000</td>
+												<td align="center">21600</td>
+												<td align="center">41200</td>
+												<td align="right">60800</td>
+												<td align="right">80400</td>
+												<td align="right">100000</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+
+					<tr style="background-color:#f0f2f0" >
+						<td valign="top">
+							Perioada (Luni) <br>	
+							<input type="number" min="3" max="60" style=" height:20px; padding: 5px; width: 150px">
+						</td>
+
+						<td>
+							<table>
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td align="left" colspan="8">Min. 3 luni <span style="float:right">Max. 60 luni</span></td>
+											</tr>
+
+											<tr>
+												<td colspan="8">
+													<input type="range" value="3" min="3" max="60" style="width: 600px">
+												</td>
+											</tr>
+
+											<tr>
+												<td align="left">3</td>
+												<td align="center">6</td>
+												<td align="center">12</td>
+												<td align="center">18</td>
+												<td align="right">30</td>
+												<td align="right">36</td>
+												<td align="right">48</td>
+												<td align="right">60</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr style="background-color:#FAFAFA">
+						<td>
+							Data acord&#X103;rii <br>
+							<input type="date" style=" height:20px; padding: 5px; width: 150px">
+						</td>
+
+						<td>
+							<table border="0" >
+								<tr style=" height:30px; padding: 5px; width: 150px">
+									<td> 
+										Data primei pl&#X103;&#X21B;i <br>
+										<input type="date" style=" height:20px; padding: 5px; width: 150px">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+									</td>
+
+									<td>
+										Modalit&#X21B;&#X103;i de plat&#X103; <br>
+										<select style=" height:30px; padding: 5px; width: 150px">
+											<option>Pl&#X103;&#X21B;i lunare egale</option>
+											<option>Pl&#X103;&#X21B;i anuale egale</option>
+										</select>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+									</td>
+
+									<td >
+										Rata(%)* <br>
+										<input type="number" min="0" max="100" style=" height:20px; padding: 5px; width: 30px">
+									</td>
+								</tr>
+
+							</table>
+						</td>
+					</tr>
+
+				</table>
+
+			</form>
+
+			<br>
+			<hr width="500" height="500">
+			<h3 style="color:red">Задание №3</h3>
+			<hr width="500" height="500">
+			<br>
+
+			<form>
+				<table style="background-color:#ffbb03" cellpadding="10">
+					<tr>
+						<th colspan="2" align="left"><h2>Найти</h2></th>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Место/название объекта: <br>
+							<input type="text" size="35" style="height: 35px">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Дата заезда <br>
+							<input type="date" style="width: 273px;height: 35px">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Дата отъезда <br>
+							<input type="date" style="width: 273px;height: 35px">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Количество взрослых <br>
+							<input type="number" style="width: 273px;height: 35px" min="1">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Количество <br>детей <br>
+							<input type="number" style="width: 175px;height: 35px" min="0">
+						</td>
+
+						<td>
+							Количество <br>номеров <br>
+							<input type="number" style="width: 75px;height: 35px" min="1">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Возраст ребёнка <br>
+							<input type="number" style="width: 273px;height: 35px" min="0">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Возраст ребёнка <br>
+							<input type="number" style="width: 273px;height: 35px" min="0">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="checkbox" id="Itravel">
+							<label for="Itravel">Я путешествую по работе</label>
+							<img src="https://image.flaticon.com/icons/png/512/18/18436.png" alt="question" width="15">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+						</td>
+
+						<td>
+							<input type="submit" style="color:white; background-color: blue; float: right;border-color:blue;height: 35px; width: 65px" value="Найти" >
+						</td>
+					</tr>
+				</table>
+			</form>
+
+		</center>
+
+	</body>
+	</html>

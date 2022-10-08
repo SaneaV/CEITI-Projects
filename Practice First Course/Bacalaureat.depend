@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1528354185 source:d:\Задачи (мусор)\Практика\bacalaureat\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iomanip>
+	<ctime>
+	"BAC.h"
+
+1528354185 d:\Задачи (мусор)\Практика\bacalaureat\bac.h
+
+1528355770 source:d:\Задачи (мусор)\Практика\bacalaureat\bac.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstring>
+	"BAC.h"
+
+1528351646 source:d:\Задачи (мусор)\Практика\bacalaureat\bac2.cpp
+
+1528546006 source:d:\bacalaureat\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iomanip>
+	<ctime>
+	"BAC.h"
+
+1528360003 d:\bacalaureat\bac.h
+
+1528546868 source:d:\bacalaureat\bac.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstring>
+	<mmsystem.h>
+	"BAC.h"
+
+1528543268 source:d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\bacalaureat\bac.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstring>
+	<mmsystem.h>
+	"BAC.h"
+
+1528356403 d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\bacalaureat\bac.h
+
+1528542406 source:d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\bacalaureat\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iomanip>
+	<ctime>
+	"BAC.h"
+
+1528543268 source:d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\bac.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstring>
+	<mmsystem.h>
+	"BAC.h"
+
+1528356403 d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\bac.h
+
+1528542406 source:d:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iomanip>
+	<ctime>
+	"BAC.h"
+
+1528543268 source:e:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\bac.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstring>
+	<mmsystem.h>
+	"BAC.h"
+
+1528356403 e:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\bac.h
+
+1528542406 source:e:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 1 курс (2018)\bacalaureat\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<stdio.h>
+	<iomanip>
+	<ctime>
+	"BAC.h"
+

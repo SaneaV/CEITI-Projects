@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/2020.11.03.01.css">
+	<title>Task 2</title>
+</head>
+<body>
+
+	<div id="blockPizza">
+		<h5>Tip de comanda</h5>
+		<div id="livararePunct">
+			<input type="radio" id="radio1" name="liv" onchange="livrareHome()">
+			<label for="radio1">Livrare</label>
+			<input type="radio" id="radio2" name="liv" onchange="livrareHere()">
+			<label for="radio2">Comanda prealabil&#259; &#238;n restaurant</label>
+
+			<div id="pizza">
+				<img src="../img/1.png" alt="mario">
+				<div id="description">
+					<h5>Mario</h5>
+					<p>Aluat de pizza, sos de rosii, busuioc, ulei de masline, maioneza, branza Mozzarella, carne de pui, cascaval Dor Blue, spanac, carnacilor Cabanos, gogosari</p>
+				</div>
+
+
+				<div id="cantitate">
+					<h5>Cantitate</h5>
+					<div id="cButtons">
+						<button onclick="AmmoutPlus()">+</button>
+						<p id="sumPiz">1</p>
+						<button onclick="AmmoutMinus()">-</button>
+					</div>
+				</div>
+
+				<div id="pret">
+					<h5>Pret</h5>
+					<p>75 MDL</p>
+				</div>
+
+				<div id="total">
+					<h5>Total</h5>
+					<p><span id="sumTotalForPiz">75</span> MDL</p>
+				</div>
+
+			</div>
+
+			<hr width="70%">
+		</div>
+	</div>
+
+	<div id="totalSumDiv">
+
+		<p>Subtotal: <span id="subtotalSum">0</span> MDL</p>
+		<p>Livrare: <span id="LivrareSum">0</span> MDL</p>
+		<h4>Total: <span id="totalSum" >0</span> MDL</h4>
+		
+	</div>
+	
+
+	<script src="../js/2020.11.03.01.js"></script>
+</body>
+</html>

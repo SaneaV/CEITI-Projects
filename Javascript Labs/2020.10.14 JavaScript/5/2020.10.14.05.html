@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		img{
+			width:100px;
+			height: 100px;
+		}
+
+		.increase{
+			width:200px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<center>
+		<div style="display: block; margin-top: 20%">
+			<img src="img/1.jpg" alt="" onclick="varySize('first')" class="first">
+			<img src="img/2.jpg" alt="" onclick="varySize('second')" class="second">
+			<img src="img/3.jpg" alt="" onclick="varySize('third')" class="third">
+		</div>
+	</center>
+
+	<script>
+		
+		function varySize(className){
+			let element = document.querySelector("."+className);
+			element.classList.toggle("increase");
+		}
+	</script>
+	
+</body>
+</html>

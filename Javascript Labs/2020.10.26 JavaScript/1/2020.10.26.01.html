@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 1</title>
+
+	<style>
+		#mainBlock{
+			margin: 0 auto;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-top: 25vh;
+			text-align: center;
+			padding: 15px;
+			width: 50%;
+		}
+
+		#button{
+			margin-top: 5px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h2>Нажмите на кнопку, чтобы поменять текст местами</h2>
+		<textarea id="textareaOne" cols="30" rows="10"></textarea>
+		<textarea id="textareaTwo" cols="30" rows="10"></textarea>
+		<br>
+		<button id="button" onclick="changeText()">Поменять</button>
+	</div>
+
+	<script>
+		function changeText(){
+			let textareaOne = document.getElementById("textareaOne").value;
+			let textareaTwo = document.getElementById("textareaTwo").value;
+			document.getElementById("textareaOne").value = textareaTwo;
+			document.getElementById("textareaTwo").value = textareaOne;
+		}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/2020.11.02.01.css">
+	<title>Task 1</title>
+</head>
+<body>
+
+	<div id="shopBlock">
+		<h1>SHOP</h1>
+		<hr width="74%" align="left">
+
+		<div id="sneakersBlock">
+
+			<div id="sneakers">
+				<h4 id="nameSneakers">Orvab</h4>
+				<img src="../img/1.jpg" alt="firstSneakers">
+				<h5 id="price">29.00$</h5>
+				<h5 id="numberOf">How many?</h5>
+				<input type="number" max="99" min="1" width="1" value="1" id="iFirst"><br>
+				<button onclick="addFirst()">Add to basket</button>
+				<div id="star-1" width="10px"></div>
+			</div>
+
+			<div id="sneakers">
+				<h4 id="nameSneakers">AirLic 270LC</h4>
+				<img src="../img/2.jpg" alt="firstSneakers">
+				<h5 id="price">45.00$</h5>
+				<h5 id="numberOf">How many?</h5>
+				<input type="number" max="99" min="1" width="1" value="1" id="iSecond"><br>
+				<button onclick="addSecond()">Add to basket</button>
+				<div id="star-2" width="10px"></div>
+			</div>
+
+			<div id="sneakers">
+				<h4 id="nameSneakers">AboFashion</h4>
+				<img src="../img/3.jpg" alt="firstSneakers">
+				<h5 id="price">24.00$</h5>
+				<h5 id="numberOf">How many?</h5>
+				<input type="number" max="99" min="1" width="1" value="1" id="iThird"><br>
+				<button onclick="addThird()">Add to basket</button>
+				<div id="star-3" width="10px"></div>
+			</div>
+
+			<div id="cardBlock">
+				<h5>Shopping Cart</h5>
+				<h6 >Total items: <span id="tItmes">0</span></h6>
+				<h6>Total units: <span id="tUnits">0</span></h6>
+				<h6>Total: $<span id="tSum">0.00</span></h6>
+			</div>
+			
+		</div>
+
+	</div>
+
+	<script src="../js/2020.11.03.01.js"></script>
+	
+</body>
+</html>

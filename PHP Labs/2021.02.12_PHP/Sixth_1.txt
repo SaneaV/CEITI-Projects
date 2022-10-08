@@ -1,0 +1,10 @@
+Cushko Filipp 12 160 75
+Ermakov Ostin 13 170 90
+Ignatev Jeduard 22 180 50
+Kravchuk Ciceron 18 170 60
+Ostrozhskij Jonas 19 165 55
+Semochko Jaroslav 29 180 90
+Bachej Dinar 35 174 74
+Vinogradov Klim 45 178 65
+Uvarov Mihail 30 155 50
+Gusev Jozef 24 168 60

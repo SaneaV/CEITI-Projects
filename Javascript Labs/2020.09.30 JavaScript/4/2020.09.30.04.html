@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			border:1px solid black;
+			margin:0 auto;
+			text-align: center;
+			width: 40%;
+			height: 240px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="mainBlock">
+
+	<p onclick="ChangeIt(0)">Нажми, чтобы изменить курсив!</p>
+	<p onclick="ChangeIt(1)">Нажми, чтобы изменить курсив!</p>
+	<p onclick="ChangeIt(2)">Нажми, чтобы изменить курсив!</p>
+	<p onclick="ChangeIt(3)">Нажми, чтобы изменить курсив!</p>
+	<p onclick="ChangeIt(4)">Нажми, чтобы изменить курсив!</p>
+	<p onclick="ChangeIt(5)">Нажми, чтобы изменить курсив!</p>
+
+	</div>
+
+	<script>
+		
+		function ChangeIt(i)
+		{
+			let p = document.getElementsByTagName('p')[i];
+			p.innerHTML = "<i>"+p.innerHTML+"</i>";
+		}
+
+	</script>
+
+</body>
+</html>

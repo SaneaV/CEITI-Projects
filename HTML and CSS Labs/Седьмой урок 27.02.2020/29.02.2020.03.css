@@ -1,0 +1,20 @@
+body {
+  background-image: url("https://pngimg.com/uploads/sakura/sakura_PNG34.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+p{
+	float:right;
+}
+
+.name{
+	margin-left: 100px;
+}
+
+.author{
+	font-style: italic;
+	margin-top: 150px
+}

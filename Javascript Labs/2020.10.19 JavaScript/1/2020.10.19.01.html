@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>First Task</title>
+
+	<style>
+
+		#mainBlock{
+			display: block;
+			border: 1px solid black;
+			text-align: center;
+			padding-bottom: 10px;
+		}
+
+		input{
+			margin-bottom: 10px;
+		}
+
+		table, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		tr, td{
+			padding:3px;
+		}
+		
+		table{
+			margin:0 auto;
+		}
+		
+	</style>
+
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Для отображения таблицы введите значения:</h1>
+		<label for="n">n = </label>
+		<input type="number" id="n" onkeyup="createTable()" value="0">
+		<label for="m">m = </label>
+		<input type="number" id="m" onkeyup="createTable()" value="0">
+	</div>
+	
+
+	<script>
+		
+		function createTable()
+		{
+			let n = document.getElementById("n").value;
+			let m = document.getElementById("m").value;
+			let mainBlock = document.getElementById("mainBlock");
+			let table = document.getElementById("myTable");
+
+			if(!(table === null))
+			{
+				table = document.getElementById("myTable").remove();
+			}
+			
+			table = document.createElement("TABLE");
+			table.setAttribute("id", "myTable");
+			mainBlock.appendChild(table);
+
+			for(let i=0;i<n;i++)
+			{
+				let row = table.insertRow(0);
+
+				for(let j=0;j<m;j++)
+				{
+					let cell = row.insertCell(0);
+					cell.innerHTML = Math.round(100*Math.random());
+				}
+			}
+		}
+
+	</script>
+</body>
+</html>

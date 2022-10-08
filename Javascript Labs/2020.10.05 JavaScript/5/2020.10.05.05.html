@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+			body {
+				background: white;
+			}
+
+			.clock {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				color: black;
+				font-size: 60px;
+				letter-spacing: 7px;
+			}
+		</style>
+
+</head>
+<body onload="timeOf()">
+
+	<center><p>До конца пары/перемены осталось: </p></center>
+	<div id="Clocks" class="clock" onload="showTime()"></div>
+
+	<script>
+
+		let t;
+		
+		function timeOf(){
+			let time = prompt("Во сколько часов звонок на пару/перемену? (HH:MM:SS) ", "08:00:00");
+			let date = new Date();
+			let dateNow = new Date();
+
+			date.setHours(time.split(":")[0]);
+			date.setMinutes(time.split(":")[1]);
+			date.setSeconds(time.split(":")[2]);
+
+			let dif = date-dateNow;
+
+			if(dif<=0)
+				document.getElementById("Clocks").innerHTML = "Пары закончились!";
+			else
+			{
+				let t = new Date(dif);
+  				let hours = t.getUTCHours();
+  				let minutes = t.getUTCMinutes();
+  				let seconds = t.getUTCSeconds();
+				remained(hours,minutes,seconds);
+			}
+			
+
+		}
+
+		function remained(hours, minutes, seconds){
+
+			if(isNaN(minutes) || isNaN(seconds) || isNaN(hours))
+			{
+				document.getElementById("Clocks").innerHTML = "Ошибка!";
+			}
+			else
+			{
+				hours = parseInt(hours);
+				minutes = parseInt(minutes);
+				seconds = parseInt(seconds);
+
+				
+				if(seconds==0)
+				{
+					if(minutes==0 && hours>=1)
+					{
+						hours--;
+						minutes=59;
+						seconds=59;
+					}
+					else if (minutes>=1)
+					{
+						minutes--;
+						seconds=59;
+					}
+				}
+				else
+				{
+					seconds--;
+				}
+
+				if(hours<10)
+			    	hours =  "0" + hours;
+				if(minutes<10)
+			    	minutes =  "0" + minutes;
+			    if(seconds<10)
+			    	seconds =  "0" + seconds;
+
+			    if(seconds==0 && minutes==0 && hours==0)
+			    {
+			    	document.getElementById("Clocks").innerHTML = "Звонок!";
+			    	clearTimeout(t);
+			    }
+			    else{
+			    	document.getElementById("Clocks").innerHTML = hours +":"+ minutes + ":" + seconds;
+			    	t = setTimeout(remained, 1000, hours, minutes, seconds)
+			    }
+
+			}
+			
+		}
+
+	</script>
+	
+</body>
+</html>

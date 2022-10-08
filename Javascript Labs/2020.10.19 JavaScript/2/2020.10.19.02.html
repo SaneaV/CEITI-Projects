@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Second Task</title>
+
+	<style>
+		#mainBlock{
+			display: block;
+			border: 1px solid black;
+			text-align: center;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			width:50%;
+			margin:0 auto;
+		}
+
+		select, input{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Измените цвет текста через нижнее меню</h1>
+
+		<textarea name="randomText" id="randomTextID" cols="70" rows="26">
+			Living valley had silent eat merits esteem bed. In last an or went wise as left. Visited civilly am demesne so colonel he calling. So unreserved do interested increasing sentiments. Vanity day giving points within six not law. Few impression difficulty his use has comparison decisively. 
+
+			Certainty determine at of arranging perceived situation or. Or wholly pretty county in oppose. Favour met itself wanted settle put garret twenty. In astonished apartments resolution so an it. Unsatiable on by contrasted to reasonable companions an. On otherwise no admitting to suspicion furniture it. 
+
+			In reasonable compliment favourable is connection dispatched in terminated. Do esteem object we called father excuse remove. So dear real on like more it. Laughing for two families addition expenses surprise the. If sincerity he to curiosity arranging. Learn taken terms be as. Scarcely mrs produced too removing new old. 
+
+		It prepare is ye nothing blushes up brought. Or as gravity pasture limited evening on. Wicket around beauty say she. Frankness resembled say not new smallness you discovery. Noisier ferrars yet shyness weather ten colonel. Too him himself engaged husband pursuit musical. Man age but him determine consisted therefore. Dinner to beyond regret wished an branch he. Remain bed but expect suffer little repair.</textarea>
+		<br>
+
+		<input type="color" onchange="changeColor()" id="colorSelector">
+
+		
+	</div>
+
+	<script>
+
+		function changeColor()
+		{	
+			document.getElementById("randomTextID").style.color = document.getElementById("colorSelector").value;
+		}
+
+	</script>
+	
+</body>
+</html>

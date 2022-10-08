@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		.mainBody{
+			margin: 0 auto;
+			height: 50%;
+			width: 30%;
+			text-align:left;
+			border: 0 solid black;
+		}
+
+		.button{
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+
+		.find{
+			width: 50px;
+		}
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="mainBody">
+		<table>
+    <tr>
+        <td>
+        	<p>Enter some text</p>
+        	<textarea name="" id="textarea" cols="50" rows="5" ></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        	<p>Enter character to search for <input type="text" size="1" class="find" id="findHTML">
+        	<button type="button" onclick="find()" class="button">Search</button></p>
+        	
+        </td>
+    </tr>
+    <tr>
+        <td>
+        	<p>Results <input type="text" disabled="" id="result"></p>
+
+        </td>
+    </tr>
+	</table>
+
+	</div>
+
+	<script>
+
+		function find()
+		{
+			let textArea = textarea.value;
+			let find = findHTML.value[0];
+
+			//result.value = textArea.split(find).length - 1 + " occurence(s) of " + find + " found"
+			//Более простой вариант, но задание предполагает использование IndexOF
+
+			result.value = character_count(textArea, find) + " occurence(s) of " + find + " found";
+		}
+
+		function character_count(textArea, find, ptr = 0, count = 0) 
+		{
+    		while (ptr = textArea.indexOf(find, ptr) + 1) 
+    			{
+    				count ++
+    			}
+    		return count;
+    	}		
+
+	</script>
+
+</body>
+</html>

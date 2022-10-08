@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<center>
+		<table>
+			<tr>
+				<td>
+					<a href="https://ok.ru/feed" id="h">Ссылка 1</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://vk.com/feed">Ссылка 2</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://web.telegram.org/">Ссылка 3</a>
+				</td>
+			</tr>
+		</table>
+	</center>
+
+	<center>
+			<button onclick="linksHTML()">Click</button>
+	</center>
+
+	<script>
+		
+		function linksHTML(){
+
+			let links = document.getElementsByTagName('a');
+			
+			for(let i=0;i<links.length;i++)
+			{
+				links[i].innerHTML = links[i].innerHTML + "("+ links[i].getAttribute("href") +")";
+			}
+
+		}
+
+	</script>
+	
+</body>
+</html>

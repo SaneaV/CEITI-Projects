@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+
+<div class="mainDiv">
+    <h1>Passenger Info</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Destination</th>
+            <th>Sum</th>
+            <th>Passengers</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="passenger : ${passengers}">
+            <td><span th:text="${passenger.destination}"></span></td>
+            <td><span th:text="${passenger.sum}"></span></td>
+            <td><span th:text="${passenger.passengers}"></span></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+
+</div>
+
+</body>
+</html>

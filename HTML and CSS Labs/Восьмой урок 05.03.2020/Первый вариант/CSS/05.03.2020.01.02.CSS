@@ -1,0 +1,44 @@
+.Caption{
+	height: 20px;
+	line-height: 0;
+	margin-bottom: 20px;
+	color: black;
+	margin-left: -187px;
+	margin-right: auto;
+	font-weight: lighter;
+}
+
+.hrCampionship{
+	border: 0;
+	height: 1px;
+	background: grey;
+	width:55%;
+	margin-top: -20px;
+}
+
+.Groups{
+	background-color: #ececef;
+	color: #0038A5;
+	border-color:grey;
+	text-align: center;
+}
+
+.Teams{
+	border:1px grey solid;
+	width:700px;
+	table-layout: fixed;
+}
+
+.footbalTeams{
+	background-color: #dceeff;
+	color:#0038A5;
+}
+
+.CountryFlag{
+	width: 20px;
+	vertical-align:middle;
+}
+
+.CountryName{
+	vertical-align:middle;
+}

@@ -1,0 +1,22 @@
+		.WeatherDate{
+			font-size: 1.5em;
+			background-color: #0e94b1;
+			color: white;
+			padding: 5px;
+			font-weight: lighter; 
+		}
+
+		.ImgWeather{
+			width: 150px;
+		}
+
+		.Degree{
+			font-weight: lighter; 
+			text-align: center;
+			font-size:2em;
+			padding-top: 15px;
+		}
+
+		.tableWeather{
+			width: 156px;
+		}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add route</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+
+<div class="mainDiv">
+    <form action="#" method="post" th:action="@{/routes/add}" th:object="${route}">
+
+        <br>
+        <label for="destination">Destination</label>
+        <input id="destination" placeholder="Destination" th:field="*{destination}" type="text">
+        <br><br>
+
+        <label for="classType">Class</label>
+        <input id="classType" placeholder="Class" th:field="*{classType}" type="text">
+        <br><br>
+
+        <label for="price">Price</label>
+        <input id="price" placeholder="Price" th:field="*{price}" type="text">
+        <br><br>
+
+        <label for="passengerCode">Passenger Code</label>
+        <input id="passengerCode" placeholder="Passenger Code" th:field="*{passengerCode}" type="text">
+        <br><br>
+
+        <input type="submit" value="Add Route">
+    </form>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+</div>
+
+</body>
+</html>

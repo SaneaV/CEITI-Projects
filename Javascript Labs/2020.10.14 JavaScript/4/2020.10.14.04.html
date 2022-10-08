@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<center><button style="margin-top:20%" onclick="doubleMe()" id="test">Жми!</button></center>
+
+	<script>
+		
+		function doubleMe(){
+
+			let button = document.getElementById("test");
+			button.style.width = (button.clientWidth * 2) + "px";
+			button.style.height = (button.clientHeight * 2) + "px";
+		}
+
+	</script>
+	
+</body>
+</html>

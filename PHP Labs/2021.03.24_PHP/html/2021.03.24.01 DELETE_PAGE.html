@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/2021.03.24 FORM.css">
+    <title>Delete car</title>
+</head>
+
+<body>
+
+    <div class="mainDiv">
+
+        <form action="../php/2021.03.24.01 DELETE_CAS.php" method="GET" enctype="multipart/form-data">
+            <p>
+                <label for="title">Марка Авто</label>
+                <input type="text" name="mark">
+            </p>
+
+            <p>
+                <label for="author">Модель Авто</label>
+                <input type="text" name="model">
+            </p>
+
+            <p>
+                <label for="year">Год выпуска авто</label>
+                <input type="number" name="year">
+            </p>
+
+            <input type="submit" value="Удалить">
+
+        </form>
+
+        <a href="2021.03.24.01 HOME_PAGE.html"><button>Вернуться на главную страницу</button></a>
+
+    </div>
+
+</body>
+
+</html>

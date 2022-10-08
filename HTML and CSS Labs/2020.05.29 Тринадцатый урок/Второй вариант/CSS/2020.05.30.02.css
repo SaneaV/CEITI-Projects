@@ -1,0 +1,155 @@
+body{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+@media screen and (max-width: 319px){
+
+	body{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px){
+
+	body{
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.nav{
+		flex-direction: column;
+		width:100%;
+		height: 100%;
+		text-align: center;
+	}
+
+	.nav>div:not(.button1):not(.button2):not(.number){
+		font-size: 1.5em;
+	}
+
+	.number{
+		padding-bottom: 1%;
+		padding-top: 1%;
+		font-size:1.2em;
+	}
+
+	.button1{
+		text-align: center;
+		margin-right: 0%;
+	}
+
+	.button2{
+		text-align: center;
+		margin:0 auto;
+	}
+
+
+	.button3{
+		margin:2px 0px;
+	}
+
+	.button4{
+		margin:2px 0px;
+	}
+
+
+	button{
+		height: 100%;
+		font-size: 1em;
+	}
+
+	.mainScreen>div{
+		padding-left: 1%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainScreen>div>button{
+		margin-left: -1%;
+		height: 100%;
+		width:100%;
+	}
+	
+	.mainScreen>div>h2{
+		font-size: 1.5em;
+	}
+
+	.box{
+		position:relative;
+		z-index: 0;
+		width: 100%;
+		margin-left: 0%;
+		font-size: larger;
+	}
+	.text>h6{
+		font-size: larger;
+	}
+
+	.gallery{
+		flex-direction: column;
+		text-align: center;
+		font-size:1.3em;
+	}
+
+	.proect:first-child{
+		padding-top: 7%;
+	}
+
+	.proect>div:nth-child(3){
+		padding-bottom: 1%;
+		font-weight: normal;
+	}
+
+	.futureProject{
+		flex-direction: column;
+		padding-right: 0%;
+		padding-left: 0%;
+		margin:0 auto;
+		text-align: center;
+		width: 100%;
+		align-items: center;
+	}
+
+	.futureProject>div>img{
+		display: none;
+	}
+
+	.futureProject>div>h6{
+		font-size:larger;
+	}
+
+	.fpText{
+		font-weight: lighter;
+		margin-top: 5%;
+		font-size: 1.4em;
+	}
+
+	.futureProject>div:not(:first-child){
+		padding-left: 0%;
+	}
+
+	.futureProject>div:nth-child(3){
+		padding-left: 0%;
+	}
+
+	hr{
+		display: none;
+	}
+
+	.Proposal{
+		flex-direction: column;
+		padding-left: 0%;
+		align-items: center;
+	}
+
+	.Proposal>div>h6{
+		font-size:larger;
+	}
+
+	.HaiCuNoi{
+		font-size: 20px;
+		height: 7vh;
+	}
+}

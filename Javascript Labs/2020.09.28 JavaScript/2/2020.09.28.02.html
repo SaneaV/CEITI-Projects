@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		.mainBody{
+			margin: 0 auto;
+			height: 50%;
+			width: 10%;
+			border: 3px solid black;
+			text-align:center;
+		}
+
+		.button{
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="mainBody">
+		<button type="button" onclick="SecondsTillEnd()" class="button">Секунд до завтра</button>
+	</div>
+
+	<script>
+		
+		function SecondsTillEnd()
+		{
+			let today = new Date();
+			let tomorrow =  new Date(today.getFullYear(), today.getMonth(), today.getDate()+1);
+
+			let milliseconds = tomorrow - today;
+ 			alert(Math.round(milliseconds / 1000)); 
+		}
+
+	</script>
+
+</body>
+</html>

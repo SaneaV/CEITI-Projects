@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<center>
+		<p onclick="initialValue()">10</p>
+		<button onclick="start()">Запустить таймер</button>
+	</center>
+
+	<script>
+
+		let t;
+
+		function initialValue(){
+			let p = prompt("Введите количество секунд", 10);
+			if(isNaN(p)) document.body.getElementsByTagName('p')[0].innerHTML = "Ошибка!";
+			else if(p<0) document.body.getElementsByTagName('p')[0].innerHTML = "Ошибка!";
+			else document.body.getElementsByTagName('p')[0].innerHTML = p;
+		}
+		
+		function start(){
+			clearTimeout(t);
+			let seconds = document.body.getElementsByTagName('p')[0].innerHTML;
+			if(seconds!="Ошибка!")
+			{
+				seconds--;
+
+			    if(seconds>=0)
+			    {
+			    	document.body.getElementsByTagName('p')[0].innerHTML = seconds;
+			    	t = setTimeout(start, 1000);
+			    }
+			}		    
+		}
+
+	</script>
+	
+</body>
+</html>

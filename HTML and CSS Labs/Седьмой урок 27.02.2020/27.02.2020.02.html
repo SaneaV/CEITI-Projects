@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inside CSS</title>
+
+	<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+
+	<style>
+
+		div{
+			margin-left: auto;
+			margin-right: auto;
+			width:35em;
+		}
+		
+		h1 {
+			color:red;
+			text-align: center;
+		}
+
+		ol{
+			color:red;
+		}
+
+		#FirstElement{
+			font-weight: bold;
+			font-size:1.1em;
+		}
+
+		#SecondElement{
+			color:blue;
+			font-style: italic;
+			font-weight: bold;
+		}
+
+		h2 {
+			color:green;
+		}
+
+		p{
+			text-align: justify;
+			text-justify: inter-word;
+		}
+
+		.lang{
+			color:red;
+			font-size:1.5em;
+			font-weight: bold;
+		}
+
+		#Script{
+			color:blue;
+			font-style: italic;
+			font-weight: bold;
+		}
+
+		ul>li{
+			font-style: italic;
+			color:brown;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div>
+		<h1>Что нужно знать, чтобы делать сайты</h1>
+
+		<ol>
+			<li><span id="FirstElement">HTML</span></li>
+			<li><span id="SecondElement">CSS</span></li>
+			<li>PHP</li>
+			<li>SQL</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>Flash</li>
+			<li>SEO</li>
+		</ol>
+
+		<h2>PHP и JavaScript</h2>
+
+		<p>
+			Языки программирования <span class="lang">PHP</span> и <span class="lang">JavaScript</span> позволяют сделать сайт динамичным, то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер.
+		</p>
+
+		<h2>Виды скриптов</h2>
+
+		<p>Для этого пишутся скрипты (англ. <span id="Script">script</span> - «сценарий») - программы, позволяющие реагировать на действия пользователя. Скрипты бывают двух видов: </p>
+
+		<ul>
+			<li>те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в готовом виде. Это скрипты, написанные на языке <span class="lang">PHP</span>. На нём пишутся <span class="lang">CMS-ки</span> - системы управления контентом.</li>
+
+			<li>те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке <span class="lang">JavaScript</span>. Они чаще всего используются для того чтобы сделать страницу более удобной и красивой.</li>
+		</ul>
+	</div>
+	
+</body>
+</html>

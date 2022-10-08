@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<script>
+
+	//-------------------Задание 1
+
+	function hello1()
+	{
+		alert("Задание 1: Привет, JavaScript");
+	}
+
+	hello1();
+
+
+	//-------------------Задание 2
+
+	let func = function hello2(name)
+	{
+		if (name) 
+		{
+			alert("Задание 2: Привет, " + name);
+		}
+		else
+		{
+			hello2("гость")
+		}
+	};
+
+	func("Василий");
+	func();
+
+	//-------------------Задание 3
+
+	let mul = (a, b) => {return a*b};
+
+	alert("Задание 3: " + mul(7,2));
+
+	//-------------------Задание 4
+
+	function repeat(str = "", n = 2)
+	{
+		if(n==0) return str;
+		else 
+		{
+			alert("Задание 4: " +str);
+			repeat(str, n-1);
+		}
+	}
+
+	repeat("Красиво");
+	repeat();
+
+	//-------------------Задание 5
+
+	let rgb = (a=0, b=0, c=0) => {return "Задание 5: rgb("+a+", "+b+", "+c+")"};
+
+	alert(rgb());
+	alert(rgb(122,124,142));
+
+
+	//-------------------Задание 6
+
+	let avg = (...args) => 
+	{
+		let sum=0, num=0;
+		for(let arg of args) 
+		{
+			sum+=arg;
+			num++;
+		}
+
+		return sum/num;
+	};
+
+	alert("Задание 6: " + avg(9,10,11,100));
+
+
+	//-------------------Задание 7
+
+
+	function m(a,b)
+	{
+		return mul(a,b);
+	}
+
+	alert("Задание 7: " + m(10, 7));
+
+
+	//-------------------Задание 8
+
+	function div(m,n) {return m/n};
+	function add(m,n) {return m+n};
+	function sub(m,n) {return m-n};
+
+	function operation(m,n,o)
+	{
+		return o(m,n);
+	}
+
+	alert("Задание 8: " + operation(10, 20, div));
+	alert("Задание 8: " + operation(2, 5, add));
+
+
+	//-------------------Задание 9
+
+	function addN(n)
+	{
+		let m = 10;
+		let t = 10;
+
+		//n - передаётся через вызов функции addN
+		//m - создана и передаётся из addN
+		//t - создана и берётся из addN
+
+		function calc(m) 
+		{
+			return t + n + m;
+		}
+
+		return calc(m);
+	}
+
+	alert("Задание 9: " + addN(10));
+
+
+	//-------------------Задание 10
+
+	function words(n = 0)
+	{
+		count = n % 100;
+		if (count >= 5 && count <= 20) {
+			return " товаров"
+		} else {
+			count = count % 10;
+			if (count == 1) {
+				return " товар"
+			} else if (count >= 2 && count <= 4) {
+				return " товара"
+			} else {
+				return " товаров"
+			}
+		}
+	}
+
+	alert("Задание 10: " + 10 + words(10));
+	alert("Задание 10: " + 0 + words());
+	alert("Задание 10: " + 5 + words(5));
+	alert("Задание 10: " + 1 + words(1));
+	alert("Задание 10: " + 3 + words(3));
+	alert("Задание 10: " + 50 + words(50));
+
+
+
+</script>
+
+</body>
+</html>

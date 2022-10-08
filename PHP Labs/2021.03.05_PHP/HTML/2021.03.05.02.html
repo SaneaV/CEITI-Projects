@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/2021.05.03.02.css">
+    <title>Add book</title>
+</head>
+
+<body>
+
+    <div class="mainDiv">
+
+        <form action="../PHP/2021.03.05.03.php" method="POST" enctype="multipart/form-data">
+            <p>
+                <label for="title">Название книги</label>
+                <input type="text" name="title">
+            </p>
+
+            <p>
+                <label for="author">Автор</label>
+                <input type="text" name="author">
+            </p>
+
+            <p>
+                <label for="year">Год</label>
+                <input type="number" name="year">
+            </p>
+
+            <p>
+                <label for="publishing">Издатель</label>
+                <input type="text" name="publishing">
+            </p>
+
+            <p>
+                <label for="subjects">Описание</label>
+                <textarea name="subjects" id="" cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+                <label for="price">Цена</label>
+                <input type="number" name="price">
+            </p>
+
+            <p>
+                <label for="photo">Фото</label>
+                <input type="file" name="photo" id="photo">
+            </p>
+
+            <input type="submit" value="Добавить">
+
+        </form>
+
+        <a href="2021.03.05.01.html"><button>Вернуться на главную страницу</button></a>
+
+    </div>
+
+</body>
+
+</html>

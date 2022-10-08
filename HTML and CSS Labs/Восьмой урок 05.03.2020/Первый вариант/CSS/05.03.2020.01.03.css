@@ -1,0 +1,85 @@
+.Canada{
+	background-color: #918778;
+	width: 40%;
+	margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ border-radius: 10px;
+}
+
+.FlagCanada{
+	width: 400px;
+	height: 250px;
+	padding: 15px;
+}
+
+.DataCanada{
+	border: 1px solid #786d5c;
+	width: 90%;
+	margin-left: auto;
+ margin-right: auto;
+ padding: 5px;
+ height: 210px;
+}
+
+.CanadaNamePanel{
+  border: 1px solid #786d5c;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  height: 50px;
+  padding: 5px;
+}
+
+.CanadaName{
+	font-size:1.7em;
+	font-weight: bolder;
+	color:maroon;
+	line-height: 3px;
+}
+
+.Capital:before{
+  content: "Capital : ";
+  font-weight: normal;
+  color:#213C21;
+}
+
+.language:before{
+  content: "language : ";
+  font-weight: normal;
+  color:#213C21;
+}
+
+.nationality:before{
+  content: "nationality : ";
+  font-weight: normal;
+  color:#213C21;
+}
+
+.CanadaSpan{
+	color:green;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.CA{
+	text-align: right;
+	color: red;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+
+ol {
+  list-style-type: none;
+  margin-left: -20px;
+  text-align:left;
+  font-size:1.2em;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}

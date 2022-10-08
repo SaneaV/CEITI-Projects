@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			margin:0 auto;
+			width: 20%;
+			height: 250px;
+			border: 1px solid black;
+			border-radius: 20px;
+			text-align: center;
+			padding: 5px 10px;
+		}
+
+		ol{
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mainBlock" id="mainBlock">
+		<ol id="ol">
+			<li onclick="adding(0)">1</li>
+			<li onclick="adding(1)">2</li>
+			<li onclick="adding(2)">3</li>
+			<li onclick="adding(3)">4</li>
+			<li onclick="adding(4)">5</li>
+			<li onclick="adding(5)">6</li>
+			<li onclick="adding(6)">7</li>
+			<li onclick="adding(7)">8</li>
+			<li onclick="adding(8)">9</li>
+			<li onclick="adding(9)">0</li>
+		</ol>
+	</div>
+
+	<script>
+
+		function adding(i){
+			let index = parseInt(i);
+			let element = document.body.getElementsByTagName('li')[index];
+			element.innerHTML = 1 + +element.innerHTML;
+		}
+
+	</script>
+
+	
+</body>
+</html>

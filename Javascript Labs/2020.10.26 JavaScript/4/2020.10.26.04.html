@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 4</title>
+
+	<style>
+		#mainBlock{
+			margin: 0 auto;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-top: 20vh;
+			text-align: center;
+			padding: 15px;
+			width: 50%;
+		}
+
+		input{
+			margin-bottom: 10px;
+			border: 3px solid;
+		}
+
+	</style>
+</head>
+<body onload="dataLengthIs(); check()">
+
+	<div id="mainBlock">
+		<h2>Введите текст в поля ввода</h2>
+		<input type="text"><br>
+		<input type="text"><br>
+		<input type="text"><br>
+		<input type="text"><br>
+		<input type="text">
+		
+	</div>
+
+	<script>
+
+		function dataLengthIs()
+		{
+			let dLength = prompt("Data-Length is :", 5);
+
+			if(dLength>1)
+			{
+				let inputs = document.getElementsByTagName("input");
+				for(let i=0;i<inputs.length;i++)
+				{
+					document.getElementsByTagName("input")[i].dataset.length = dLength;
+					inputs[i].addEventListener('blur', check);
+				}
+			}
+		}
+
+		function check()
+		{
+			let inputs = document.getElementsByTagName("input");
+			for(let i=0;i<inputs.length;i++)
+			{
+				if(inputs[i].dataset.length>inputs[i].value.length)
+				{
+					inputs[i].style.borderColor = "red";
+				}
+				else
+				{
+					inputs[i].style.borderColor = "green";
+				}
+			}
+		}
+
+	</script>
+	
+</body>
+</html>

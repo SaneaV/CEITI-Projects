@@ -1,0 +1,31 @@
+table{
+	margin: 0 auto;
+	border-spacing: 5px;
+	margin-top: 120px;
+	font-weight: bolder;
+}
+
+td{
+	background-color: #0081E7;
+	color:white;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	width:185px;
+	border-style: solid;
+	border-color: #0081E7;
+	display: inline-block;
+}
+
+td:hover{
+	background-color: white;
+	color:#1F20FF;
+	border-style: solid;
+
+}
+
+p:after{
+	content: url(../IMG/Six/plane.png);
+	display: inline-block;
+	float: right;
+	margin-top: -5px;
+}

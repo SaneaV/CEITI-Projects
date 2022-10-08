@@ -1,0 +1,29 @@
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\bin\Debug\Practic.exe.config
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\bin\Debug\Practic.exe
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\bin\Debug\Practic.pdb
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.MainForm.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.FAQ.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.Properties.Resources.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.RUaboutProgram.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ENconditions.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ENmainPage.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ENaboutAuthor.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ROaboutProgram.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.RUconditions.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ROconditions.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.RUmainPage.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ROmainPage.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.RUaboutAuthor.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ROaboutAuthor.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.ENaboutProgram.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Cultivated Land.csproj.GenerateResource.cache
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Cultivated Land.csproj.CoreCompileInputs.cache
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.exe
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.pdb
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Cultivated Land.csprojAssemblyReference.cache
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Practic.Loading.resources
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\bin\Debug\Interop.WMPLib.dll
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\bin\Debug\AxInterop.WMPLib.dll
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Interop.WMPLib.dll
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\AxInterop.WMPLib.dll
+E:\Всё для колледжа\Задачи по программированию\Задачи (основные)\Проекты\Практика 2 курс (2019)\Practic\obj\Debug\Cultivated Land.csproj.ResolveComReference.cache

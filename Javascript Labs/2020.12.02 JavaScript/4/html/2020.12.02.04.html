@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 4</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<style>
+		#mainBlock{
+			width: 20%;
+			text-align: center;
+			margin:0 auto;
+			height: 50%;
+		}
+
+		img{
+			width: 100%;
+			height: 100%;
+		}
+
+		p{
+			margin-top: -250px;
+		}
+
+		.hidden {
+			display: none;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<img src="../img/1.png" id="img">
+		<p id="p" class="hidden">Это картинка с красным квадратом!</p>
+		<button id='button' class="hidden"><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Википедия!</a></button>
+
+	</div>
+
+	<script>
+
+		$("#mainBlock").mouseover(function(){
+			$("#button").show();
+			$("#p").show();
+		})
+
+		$("#img").mouseout(function(){
+			$("#button").hide();
+			$("#p").hide();
+		})
+		
+	</script>
+	
+</body>
+</html>

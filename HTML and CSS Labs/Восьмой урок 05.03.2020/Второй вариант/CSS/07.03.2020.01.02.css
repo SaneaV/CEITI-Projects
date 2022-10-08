@@ -1,0 +1,65 @@
+.Countries{
+	background-color: #FAFAFA;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px solid black;
+}
+
+.TOP{
+	background-color: #DBDBDB;
+	color:#636163;
+	width: 40px;
+	padding: 2px;
+	font-size: 0.8em;
+	font-weight: bolder;
+}
+
+.nameCountry{
+	color:#636163;
+	font-weight: bolder;
+
+}
+
+.TopScale{
+	border: 0;
+	height: 15px;
+	background: #0071C3;
+	float: left;
+	vertical-align: middle;
+}
+
+.percent{
+	margin-left: 5px;
+	color:#636163;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: 7px;
+}
+
+.countries{
+	width: 40px;
+}
+
+.scale{
+	width: 275px;
+}
+
+.triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 12px solid green;
+      position: absolute;
+	  margin-top: 4px;
+}
+
+.triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 12px solid red;
+      position: absolute;
+	  margin-top: 4px;
+}

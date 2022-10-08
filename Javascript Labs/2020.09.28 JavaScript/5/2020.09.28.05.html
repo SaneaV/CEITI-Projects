@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		.mainBody{
+			margin: 0 auto;
+			height: 50%;
+			width: 30%;
+			text-align:left;
+		}
+
+		.button{
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+
+		table, th, td {
+  			border: 1px solid black;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="mainBody">
+		
+	<table>
+    <tr>
+        <td>Enter the phone number in the form (555) 555-5555</td>
+        <td><input id="tel" type="tel" placeholder="(XXX) XXX-XXXX"></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="split()" class="button">Split</button></td>
+        <td><input type="text" disabled="" id="checkHTML"></td>
+    </tr>
+    <tr>
+        <td>Area Code</td>
+        <td><input type="text" disabled="" id= "areaHTML"></td>
+    </tr>
+    <tr>
+        <td>Number</td>
+        <td><input type="text" disabled="" id = "numberHTML"></td>
+    </tr>
+	</table>
+	</div>
+
+
+	<script>
+
+		function split(){
+
+			let fullNumber = tel.value;
+
+			if(check(fullNumber))
+			{
+				areaHTML.value = areaCode(fullNumber);
+				numberHTML.value = number(fullNumber);
+			}
+		}
+
+		function check(fullNumber){
+
+			checkHTML.value = " ";
+			areaHTML.value = " ";
+			numberHTML.value = " ";
+			let bracketOpen = 0, hyphen = 0, bracketClose = 0;
+
+			if(fullNumber.length!=14) 
+			{
+				checkHTML.value = "Неверный номер";
+				return false;
+			}
+
+			for(let i=0;i<fullNumber.length;i++)
+			{
+				if(fullNumber[i]=="-") hyphen++;
+				if(fullNumber[i]=='(') bracketOpen++;
+				if(fullNumber[i]==')') bracketClose++;
+			}
+
+			if(hyphen!=1) 
+				{
+					checkHTML.value = "Ошибка дефисов";
+					return false;
+				}
+			if(bracketOpen!=1) 
+				{
+					checkHTML.value = "Ошибка скобок";
+					return false;
+				}
+			if(bracketClose!=1) 
+				{
+					checkHTML.value = "Ошибка скобок";
+					return false;
+				}
+
+			return true;
+		}
+
+		function areaCode(fullNumber)
+		{
+			if(fullNumber.split(" ")[0].split(/([()])/)[2].length!=3) 
+			{
+				checkHTML.value = "Неверный номер";
+				return "";
+			}
+
+			return fullNumber.split(" ")[0].split(/([()])/)[2];
+		}
+
+		function number(fullNumber)
+		{	
+			if(fullNumber.split(" ")[1].length!=8) 
+			{
+				checkHTML.value = "Неверный номер";
+				return "";
+			}
+
+			return fullNumber.split(" ")[1];
+		}
+
+	</script>
+	
+</body>
+</html>

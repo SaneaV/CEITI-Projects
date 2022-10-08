@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 3</title>
+	<style>
+		#mainBlock{
+			margin: 0 auto;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-top: 20vh;
+			text-align: center;
+			padding: 15px;
+			width: 50%;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h2>Нажмите на число и получите его квадрат, куб и четвёртую степень</h2>
+		<p id="1">1</p>
+		<p id="2">2</p>
+		<p id="3">3</p>
+		<p id="4">4</p>
+		<p id="5">5</p>
+		<p id="6">6</p>
+		<p id="7">7</p>
+		<p id="8">8</p>
+		<p id="9">9</p>
+		<p id="10">10</p>
+	</div>
+
+	<script>
+		let used = [0,0,0,0,0,0,0,0,0,0,0];
+		document.getElementById("mainBlock").onclick = function(event) {
+			let target = event.target;
+			if (target.tagName != 'P') return; 
+			let value = target.id;
+
+			if(used[target.id]!=3)
+			{
+				target.innerHTML = Math.pow(value,used[target.id]+2);
+				used[target.id]++;
+			}
+		}
+	</script>
+	
+</body>
+</html>

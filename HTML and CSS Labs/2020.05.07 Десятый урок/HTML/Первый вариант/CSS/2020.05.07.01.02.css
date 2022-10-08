@@ -1,0 +1,18 @@
+div{
+	margin:0 auto;
+	width: 400px;
+}
+
+p::before{
+	content: "Начало: ";
+	color: red;
+}
+
+p::after{
+	content: " :конец! ";
+	color: green;
+}
+
+p{
+	text-align: justify;
+}

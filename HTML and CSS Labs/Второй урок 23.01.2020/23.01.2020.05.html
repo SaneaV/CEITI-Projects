@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Задание 5</title>
+
+	<style>
+		P { 
+			text-indent: 1.5em;
+			text-align: justify;
+		}
+
+		.fig {
+    text-align: center;
+   }
+	</style> 
+
+</head>
+<body>
+
+	<h1 align="center">Циклы в С++</h1>
+
+	<p><i><b>Цикл</b></i> — многократное прохождение по одному и тому же коду программы. Циклы необходимы программисту для многократного выполнения одного и того же кода, пока истинно какое-то условие. Если условие всегда истинно, то такой цикл называется бесконечным, у такого цикла нет точки выхода.</p>
+	<p>В языке программирования С++ существуют такие циклы</p>
+
+	<ul>
+		
+		<li>цикл <big><code><span style="background-color:#f8f2f4">while</span></code></big></li>
+		<li>цикл <big><code><span style="background-color:#f8f2f4">do while</span></code></big></li>
+		<li>цикл <big><code><span style="background-color:#f8f2f4">for</span></code></big></li>
+
+	</ul>
+
+	<h1 align="center">Цикл while в С++</h1>
+	<p>Оператор цикла <span style="background-color:#f8f2f4"><b>while</b></span> или цикл <span style="background-color:#f8f2f4"><b>while</b></span> - цикл, повторяющий одно и то же действие, пока условие продолжения цикла <span style="background-color:#f8f2f4"><b>while</b></span> остаётся истинным.</p>
+
+	<hr align="left" width="1350" size="1" color="black">
+
+<code>
+	<pre>
+	// форма записи цикла while 
+	while (/*условие продолжения цикла while*/) 
+	{
+		/*блок операторов*/;
+		/*управление условием*/;
+	} </pre></code>
+
+		<hr align="left" width="1350" size="1" color="black">
+
+		<p>
+			Условие продолжения цикла должно быть истинно <span style="background-color:#f8f2f4"><b>true</b></span>, как только условие стало ложным, выполняется выход из цикла. Также как и в условных операторах выбора, фигурные скобочки могут опускаться в том случае, если тело цикла — это один оператор. Но как правило в цикле выполняется несколько операторов, так как кроме выполнения полезного действия необходимо делать условие цикла <span style="background-color:#f8f2f4"><b>while</b></span> ложным, иначе цикл будет бесконечным, а это, в свою очередь, приведет к зависанию программы.
+		</p>
+
+		<p>Оператор цикла <span style="background-color:#f8f2f4"><b>while</b></span> или цикл <span style="background-color:#f8f2f4"><b>while</b></span> - цикл, с предусловием, так как сначала проверяется условие продолжения цикла, а затем выполняется тело цикла.</p>
+
+		<p><b><span style="background-color:#f8f2f4">while(0)</span></b> или <b><span style="background-color:#f8f2f4">while(false)</span></b> не выполнится ни разу</p>
+		<p><b><span style="background-color:#f8f2f4">while(1)</span></b> или <b><span style="background-color:#f8f2f4">while(true)</span></b> бесконечный цикл</p>
+
+		<br><br>
+		<p><b><u>Задача</u></b> <big><code>вывести числа от 1 до <i><b>n</b></i></code></big></p>
+
+		<p><i><b>Решение</b></i></p>
+<pre><code>
+	#include &lt;iostream&gt;
+	using namespace std;
+	int main()
+	{
+		int n;
+		cout&lt;&lt;”n=”;
+		cin&gt;&gt;n;
+		int i=1;
+		while(i&lt;=n)
+		{<br>
+			cout&lt;&lt;i&lt;&lt;&quot; &quot;;
+			i++;
+		}
+	}
+</code></pre>
+
+    <p><big><code><b>Ввод</b> 10</code></big></p>
+    <p><big><code><b>Вывод</b> 1 2 3 4 5 6 7 8 9 10</code></big></p>
+
+	<h3 align="center"> Результат выполнения программы (рис.1)</h3>
+
+	<p class="fig"><img src="https://sun9-41.userapi.com/c854124/v854124669/1d8a52/qg3MzWk2cMk.jpg" alt="Результат выполнения программы"></p>
+
+	</body>
+	</html>

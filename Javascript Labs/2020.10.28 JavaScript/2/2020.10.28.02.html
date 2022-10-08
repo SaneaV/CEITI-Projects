@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="2020.10.28.02.css">
+	<title>Form 2</title>
+</head>
+<body onload="hideAllErrors()">
+
+	<div id="mainBlock">
+		
+		<form name="register">
+			<h1>Регистрация</h1>
+
+			<label for="name">Имя</label>
+			<input type="text" id="name"><br>
+			<label id="name-error">Введите ваше имя</label><br>
+
+			<label for="email">Электронный адрес</label>
+			<input type="email" id="email" oninvalid="invalidEmail()"><br>
+			<label id="email-error">Вы ввели некорректный e-mail</label><br>
+
+			<label for="password">Пароль</label>
+			<input type="password" id="password"><br>
+			<label id="password-error">Пароль должен содержать от 4 до 8 символов</label><br>
+
+			<label for="password-repeat">Подтвердите пароль</label>
+			<input type="password" id="password-repeat"><br>
+			<label id="password-repeat-error">Пароли не совпадают</label><br>
+
+			<label>Хобби<label>
+			<input type="checkbox" id="ch1">
+			<label for="ch1" id="whiteText">Плаванье</label>
+			<input type="checkbox" id="ch2">
+			<label for="ch2" id="whiteText">Чтение</label>
+			<input type="checkbox" id="ch3">
+			<label for="ch3" id="whiteText">Ничего неделанье</label><br>
+			<label id="checkbox-error">Выберите как минимум один вариант</label><br>
+
+			<label for="dateBirth">Дата рождения</label>
+			<input type="text" id="dateBirth"><br>
+			<label id="dateBirth-error">Введите дату рождения в формате 01/01/2020</label><br>
+
+			<label for="country">Страна рождения</label>
+			<select id="country">
+				<option disabled selected>--Выберите одну--</option>
+				<option>Молдова</option>
+				<option>Румыния</option>
+				<option>Украина</option>
+			</select><br>
+			<label id="country-error">Выберите страну</label><br>
+
+			<label for="commentary">Комментарий</label>
+			<textarea id="commentary" cols="30" rows="10"></textarea><br><br>
+
+			<label>Вы хотите получать нашу рассылку?</label><br>
+			<input type="radio" id="r1" name="subscribe">
+			<label for="r1" id="whiteText">Да</label>
+			<input type="radio" id="r2" name="subscribe">
+			<label for="r2" id="whiteText">Конечно</label>
+			<input type="radio" id="r3" name="subscribe">
+			<label for="r3" id="whiteText">C удовольствием</label><br>
+			<label id="radio-error">Выберите один вариант</label><br>
+
+			<button type="submit" onclick="check()">Отправить</button>
+
+		</form>
+
+	</div>
+
+	<script src="2020.10.28.02.js"></script>
+	
+</body>
+</html>

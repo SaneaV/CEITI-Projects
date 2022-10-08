@@ -1,0 +1,143 @@
+form{
+	padding:20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f5fafc;
+	background-color: #afddf0;
+	width: 40%;
+	margin:0 auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 950px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+
+.form{
+	margin-top: 20px;
+}
+
+legend{
+	  margin-left: 27%;
+	  font-weight: bold;
+	  font-size: 1.2em;
+	  padding-bottom: 10px;
+}
+
+.requiredInput{
+	color:red;
+	font-size: small;
+}
+
+.requiredText{
+	font-size: smaller;
+}
+
+label {
+    line-height: 2;
+}
+
+label{
+	font-size: 0.9em;
+}
+
+.Inline{
+	display: block;
+}
+
+option{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.img{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 280px;
+	max-width: 100%;
+}
+
+.img2{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 275px;
+	max-width: 100%;
+}
+
+
+.button1{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 230px;
+}
+
+.button2{
+	position: absolute;
+	margin-top: 535px;
+	margin-left: 280px;
+}
+
+.Describtion{
+	position:absolute;
+	margin-left: 280px;
+	margin-top: -112px;
+}
+
+.submit{
+	position: static;
+	margin-left: 109px;
+	margin-top: 40px;
+	border-radius: 5px;
+	height: 30px;
+	width: 130px;
+}
+
+.reset{
+	position: static;
+	margin-left: 38px;
+	margin-top: 40px;
+	border-radius: 5px;
+	height: 30px;
+	width: 130px;
+}
+
+.text{
+	width: 223px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+}
+
+.op{
+	width: 238px;
+	border-radius: 5px;
+	height: 32px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding:5px;
+}
+
+.textarea{
+	resize: none;
+	border-radius: 5px;
+}
+
+
+input[type=text]{
+	padding: 5px;
+}
+
+input[type=number]{
+	padding: 5px;
+}
+
+input[type=tel]{
+	padding: 5px;
+}
+
+input[type=email]{
+	padding: 5px;
+}
+

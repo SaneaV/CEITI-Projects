@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 3</title>
+
+	<style>
+		#mainBlock{
+			border:1px solid black;
+			margin: 0 auto;
+			text-align: center;
+			width: 50%;
+		}
+
+		button{
+			margin-bottom: 10px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Нажми кнопку, чтобы увеличить значение</h1>
+		<button onclick="mathAct()" id="button">0</button>
+	</div>
+
+	<script>
+
+		function mathAct()
+		{
+			let number = document.getElementById("button").textContent;
+			document.getElementById("button").textContent = 1 + +number;
+		}
+		
+	</script>
+	
+</body>
+</html>

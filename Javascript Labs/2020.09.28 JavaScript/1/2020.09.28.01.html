@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		.mainBody{
+			margin: 0 auto;
+			height: 50%;
+			width: 10%;
+			border: 3px solid black;
+			text-align:center;
+		}
+
+		.button{
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="mainBody">
+		<button type="button" onclick="Now()" class="button">Сейчас</button>
+		<button type="button" onclick="Yesterday()" class="button">Вчера</button>
+		<button type="button" onclick="tenYearsAgo()" class="button">10 лет назад</button>
+		<button type="button" onclick="oneWeekPlus()" class="button">Через неделю</button>
+	</div>
+
+	<script>
+
+		function Now()
+		{
+			let date = new Date().toLocaleDateString();
+			let time = new Date().toLocaleTimeString();
+			alert(time +  " " + date);
+		}
+
+		function Yesterday()
+		{
+			let date = new Date();
+			date.setDate(date.getDate()-1);
+			date = date.toLocaleDateString();
+			let time = new Date().toLocaleTimeString();
+			alert(time +  " " + date);
+		}
+
+		function tenYearsAgo()
+		{
+			let date = new Date();
+			date.setYear(date.getFullYear()-10);
+			date = date.toLocaleDateString();
+			let time = new Date().toLocaleTimeString();
+			alert(time +  " " + date);
+		}
+
+		function oneWeekPlus()
+		{
+			let date = new Date();
+			date.setDate(date.getDate()+7);
+			date = date.toLocaleDateString();
+			let time = new Date().toLocaleTimeString();
+			alert(time +  " " + date);
+		}
+
+	</script>
+	
+</body>
+</html>

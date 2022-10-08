@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+
+		let number = []
+
+		for(let i=0;i<3;i++)
+		{
+			number[i] = prompt("Введите число")
+		}
+
+		let sum = Number(number[0]) + Number(number[1]) + Number(number[2]);
+		let multiplication = number[0] * number[1] * number[2];
+		let max = Math.max(number[0], number[1], number[2]);
+		let min = Math.min(number[0], number[1], number[2]);
+		let avg = (sum / number.length);
+
+		alert('Сумма чисел: ' + sum + '\nПроизведение чисел: ' + multiplication + '\nМаксимум: ' + max + '\nМинимум: ' + min + '\nСреднее значение: ' + avg);
+	</script>
+	
+</body>
+</html>

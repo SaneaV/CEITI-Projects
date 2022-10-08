@@ -1,0 +1,67 @@
+body{
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.LOGO{
+	width: 290px;
+}
+
+.row{
+	margin:0 auto;
+}
+
+.header{
+	max-width: 200%;
+	padding:10px;
+	text-align: center;
+
+	border-bottom: solid #F2F2F2;
+
+	background-color: #FAFAFA;
+}
+
+.header>.row>.col-lg-7{
+	text-align:left;
+}
+
+.menu{
+	padding-top: 17px;
+}
+
+.promo{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin:0 auto;
+	background-color: #FAFAFA;
+}
+
+.Main{
+	width: 100%;
+}
+
+.promo>.row>.col-12>h1, h4{
+	padding-left: 1%;
+}
+
+.content{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.contentIMG{
+	width: 200px;
+	height: 200px;
+}
+
+
+.bottom>.row>.col-lg-7{
+	text-align: right;
+}
+
+.bottom{
+	background-color: black;
+	color:white;
+}

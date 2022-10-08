@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 7</title>
+
+	<style>
+		#mainBlock{
+			border:1px solid black;
+			margin: 0 auto;
+			text-align: center;
+			width: 50%;
+			padding-bottom: 10px;
+		}
+
+		select{
+			margin-bottom: 5px;
+		}
+
+		#cities{
+			display: none;
+			margin:0 auto;
+		}
+
+		img{
+			margin-top:10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Выберите страну</h1>
+		<select id="countries" onchange="changedCountry()">
+			<option disabled selected>Выберите страну</option>
+			<option>Молдова</option>
+			<option>Украина</option>
+			<option>Россия</option>
+			<option>Беларусь</option>
+			<option>Казахстан</option>
+		</select>
+
+		<select id="cities"></select>
+
+		<img src="" alt="" id="img">
+	</div>
+
+	<script type="text/javascript">
+		function changedCountry()
+		{
+			let selectCountries = document.getElementById("countries");
+			let selectCities = document.getElementById("cities");
+
+			if(selectCountries[0].value=="Выберите страну")
+			{
+				selectCountries.remove(0);
+				selectCities.style.display = "block";
+			}
+			
+			for (i = selectCities.length-1; i >= 0; i--) {
+				selectCities.options[i] = null;
+			}
+
+			let index = document.getElementById("countries").selectedIndex;
+			let cities;
+
+			if(index==0)
+			{	
+				cities = ["Кишинёв", "Сороки", "Бельцы", "Комрат", "Вулканешты"];
+				document.getElementById("img").src = "img/1.gif";
+			}
+			if(index==1)
+			{	
+				cities = ["Днепр", "Донецк", "Запорожье", "Кривой рог", "Львов"];
+				document.getElementById("img").src = "img/2.gif";			
+			}
+			if(index==2)
+			{	
+				cities = ["Москва", "Сочи", "Екатеренбург", "Санкт-Петербург", "Красноярск"];
+				document.getElementById("img").src = "img/3.gif";			
+			}
+			if(index==3)
+			{	
+				cities = ["Гомель", "Минск", "Брест", "Гродно", "Витебск"];	
+				document.getElementById("img").src = "img/4.gif";		
+			}
+			if(index==4)
+			{	
+				cities = ["Тараз", "Актобе", "Уральск", "Усть-Каменогорск", "Нур-Султан"];
+				document.getElementById("img").src = "img/5.gif";			
+			}
+
+			for(let i=0;i<5;i++)
+			{
+				let option = document.createElement("option");
+				option.text = cities[i];
+				selectCities.add(option);
+			}
+		}
+	</script>
+</body>
+</html>

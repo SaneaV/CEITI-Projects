@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1551337653 source:e:\elev\figury\figury\main.cpp
+	<iostream>
+	"figury.h"
+	"circle.h"
+	"suglamy.h"
+	"treugolnik.h"
+	"paralel.h"
+	"preamoug.h"
+	"romb.h"
+
+1551336961 e:\elev\figury\figury\include\figury.h
+
+1551337076 e:\elev\figury\figury\include\circle.h
+	<figury.h>
+
+1551337939 e:\elev\figury\figury\include\suglamy.h
+	<figury.h>
+
+1551337147 e:\elev\figury\figury\include\treugolnik.h
+	<suglamy.h>
+
+1551337158 e:\elev\figury\figury\include\paralel.h
+	<suglamy.h>
+
+1551337241 e:\elev\figury\figury\include\preamoug.h
+	<paralel.h>
+
+1551337241 e:\elev\figury\figury\include\romb.h
+	<paralel.h>
+
+1551337691 source:e:\elev\figury\figury\src\circle.cpp
+	"circle.h"
+	<iostream>
+
+1551337720 source:e:\elev\figury\figury\src\figury.cpp
+	"figury.h"
+	<iostream>
+	<string.h>
+
+1551337764 source:e:\elev\figury\figury\src\paralel.cpp
+	"paralel.h"
+	<iostream>
+
+1551337803 source:e:\elev\figury\figury\src\preamoug.cpp
+	"preamoug.h"
+	<iostream>
+
+1551337818 source:e:\elev\figury\figury\src\romb.cpp
+	"romb.h"
+	<iostream>
+
+1551337680 source:e:\elev\figury\figury\src\suglamy.cpp
+	"suglamy.h"
+	<iostream>
+
+1551337977 source:e:\elev\figury\figury\src\treugolnik.cpp
+	"treugolnik.h"
+	<iostream>
+
+1551337692 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\circle.cpp
+	"circle.h"
+	<iostream>
+
+1551337078 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\circle.h
+	<figury.h>
+
+1551336962 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\figury.h
+
+1551337722 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\figury.cpp
+	"figury.h"
+	<iostream>
+	<string.h>
+
+1551337766 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\paralel.cpp
+	"paralel.h"
+	<iostream>
+
+1551337160 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\paralel.h
+	<suglamy.h>
+
+1551337940 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\suglamy.h
+	<figury.h>
+
+1551337804 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\preamoug.cpp
+	"preamoug.h"
+	<iostream>
+
+1551337242 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\preamoug.h
+	<paralel.h>
+
+1551337820 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\romb.cpp
+	"romb.h"
+	<iostream>
+
+1551337242 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\romb.h
+	<paralel.h>
+
+1551337682 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\suglamy.cpp
+	"suglamy.h"
+	<iostream>
+
+1551337978 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\src\treugolnik.cpp
+	"treugolnik.h"
+	<iostream>
+
+1551337148 e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\include\treugolnik.h
+	<suglamy.h>
+
+1551338670 source:e:\Всё для колледжа\Задачи по программированию\Задачи (временные)\figury\main.cpp
+	<iostream>
+	"figury.h"
+	"circle.h"
+	"suglamy.h"
+	"treugolnik.h"
+	"paralel.h"
+	"preamoug.h"
+	"romb.h"
+

@@ -1,0 +1,41 @@
+.ThirdContainer{
+	position: static;
+	border: 1px #FAFAFF solid;
+	width: 100%;
+   	background-color: #FAFAFF;
+}
+
+.caption{
+	text-align: center;
+	background-color: #C0D0E0;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.arrow{
+	height: 15px;
+}
+
+.user{
+	height: 14px;
+		display: inline-block;
+    vertical-align: middle;
+}
+
+.nameSubject{
+	color: #5579C4;
+	text-decoration: underline;
+}
+
+.login{
+	margin-top: 15px;
+	color: #5579C4;
+	text-decoration: underline;
+}
+
+.comments{
+	font-size: 0.9em;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}

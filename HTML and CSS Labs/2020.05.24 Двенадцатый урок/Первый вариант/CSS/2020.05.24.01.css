@@ -1,0 +1,352 @@
+.head{
+	display: flex;
+	align-items: baseline;
+	font-size: small;
+	width: 100%;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+.head>h1{
+	flex-grow: 1;
+	padding-left: 10px;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+
+.head>img:last-child{
+	padding-right: 10px;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.menu{
+	display: flex;
+	background-color: #C0C0C0;
+}
+
+.menu>div{
+	font-size: 1.1em;
+	width:100%;
+	text-align: center;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.menu>div:hover{
+	background-color: #7D7D7D;
+}
+
+.mainIMG{
+	width: 100%;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+
+.round{
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 3%;
+	z-index: 1;
+	border-radius: 100%;
+	width: 19vw;
+  	height: 19vw;
+	text-align: center;
+	background-color: #C0C0C0;
+	opacity: 50%;
+	box-shadow: 0 0 20px rgb(255,255,255,100);
+	font-size: auto;
+}
+
+.round>h3{
+	padding-top: 30px;
+}
+
+.textIMG{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 540px;
+}
+
+.menuIMGForest{
+	width: 30%;
+	height: 30%;
+}
+
+.text{
+	display: flex;
+	justify-content: space-around;
+	margin-top: -15%;
+}
+
+.textDiv{	
+	margin-left: -14%;
+	width: 200px;
+	background-color: #C0C0C0;
+	opacity: 75%;
+	box-shadow: 0 0 20px rgb(255,255,255,50);
+	height: 25px;
+	padding: 7px;
+}
+
+
+.text2{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 13%;
+}
+
+.textText{
+	margin-left: -9%;
+}
+
+.bottom{
+	width: 100%;
+	background-color: grey;
+	color:white;
+	height: 5vw; 
+}
+
+/*-----------------------------------------------------------*/
+@media (min-width: 1200px) {
+.head{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+}
+.mainIMG{
+	width: 100%;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+.textIMG{
+	padding-top: 1%;
+}
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+
+.round{
+	margin-left: 80%;
+	margin-top: 3%;
+	width: 19vw;
+  	height: 19vw;
+  	font-size: 1.1em;
+}
+
+.text{
+	margin-top: -15%;
+}
+
+.textDiv{	
+	margin-left: -12%;
+  	height: 2vw;
+}
+
+.text2{
+	margin-top: 13%;
+}
+
+.textText{
+	margin-left: -9%;
+}
+
+}
+/*-----------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.head{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+}
+.mainIMG{
+	width: 100%;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+.textIMG{
+	padding-top: 1%;
+}
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+.round{
+	margin-left: 80%;
+	margin-top: 3%;
+	width: 19vw;
+  	height: 19vw;
+  	font-size: 0.6em;
+}
+
+.text{
+	margin-top: -15%;
+}
+
+.textDiv{	
+	margin-left: -9%;
+  	height: 2vw;
+}
+
+.text2{
+	margin-top: 13%;
+}
+
+.textText{
+	margin-left: -3%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.head{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+}
+.mainIMG{
+	width: 100%;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+.textIMG{
+	padding-top: 1%;
+}
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+.round{
+	margin-left: 80%;
+	margin-top: 3%;
+	width: 19vw;
+  	height: 19vw;
+  	font-size: 0.5em;
+}
+.text{
+	display: none;
+}
+
+.textText{
+	display: none;
+}
+.bottom{
+	margin-top: -9%;
+}
+}
+
+@media (max-width: 767px) {
+.head{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+}
+.mainIMG{
+	width: 100%;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+.textIMG{
+	padding-top: 1%;
+}
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+.round{
+	display: none;
+}
+
+
+.text{	
+	display: none;
+}
+
+.text2{
+	display: none;
+}
+.bottom{
+	margin-top: 10%;
+}
+}
+
+@media (max-width: 480px) {
+.head{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+}
+.mainIMG{
+	width: 100%;
+}
+
+.head>img{
+	height: 20px;
+	width: 20px;
+	padding-right: 5px;
+}
+.textIMG{
+	padding-top: 1%;
+}
+.mainIMG>img{
+	width: 100%;
+	height: auto;
+}
+.round{
+	display: none;
+}
+
+
+.textDiv{	
+	display: none;
+}
+
+.text2{
+	display: none;
+}
+
+.bottom{
+	margin-top: 10%;
+}
+
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<style>
+		img{
+			width:100px;
+			height: 100px;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="mainBlock" style="text-align: center">
+		<img src="../img/1.png" id="img1">
+		<img src="../img/2.jpg" id="img2">
+	</div>
+
+	<script>
+		$("#img1").mouseover(function(){
+			let img1Temp = $("#img1").attr("src");
+			$("#img1").attr("src", $("#img2").attr("src"));
+			$("#img2").attr("src", img1Temp);
+		});
+
+		$("#img2").mouseover(function(){
+			let img2Temp = $("#img2").attr("src");
+			$("#img2").attr("src", $("#img1").attr("src"));
+			$("#img1").attr("src", img2Temp);
+		});
+
+		$("#img1").mouseout(function(){
+			let img1Temp = $("#img1").attr("src");
+			$("#img1").attr("src", $("#img2").attr("src"));
+			$("#img2").attr("src", img1Temp);
+		});
+
+		$("#img2").mouseout(function(){
+			let img2Temp = $("#img2").attr("src");
+			$("#img2").attr("src", $("#img1").attr("src"));
+			$("#img1").attr("src", img2Temp);
+		});
+	</script>
+
+</body>
+</html>

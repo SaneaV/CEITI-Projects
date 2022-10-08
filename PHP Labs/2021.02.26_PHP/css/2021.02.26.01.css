@@ -1,0 +1,30 @@
+#mainBlock {
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+}
+
+#dateBlock {
+    background-color: gray;
+    padding: 10%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#okBox {
+    padding-top: 10px;
+}
+
+#forecastBlock {
+    background-color: gray;
+    margin-top: 20px;
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+#forecastBlock {
+    display: flex;
+    justify-content: space-between;
+}

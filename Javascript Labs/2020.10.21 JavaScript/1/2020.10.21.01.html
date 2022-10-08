@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 1</title>
+
+	<style>
+		#mainBlock{
+			border:1px solid black;
+			margin: 0 auto;
+			text-align: center;
+			width: 50%;
+		}
+
+		input{
+			margin-bottom: 10px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Введите число, чтобы получить его квадрат</h1>
+		<input type="number" id="inputNumber"><br>
+		<button onclick="mathAct()">Квадрат?</button><br>
+		<h2 id="square">1</h2>
+	</div>
+
+	<script>
+
+		function mathAct()
+		{
+			let number = document.getElementById("inputNumber").value;
+			document.getElementById("square").textContent = (number*number);
+		}
+		
+	</script>
+	
+</body>
+</html>

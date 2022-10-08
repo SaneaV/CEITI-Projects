@@ -1,0 +1,30 @@
+#mainBlock{
+	width: 30%;
+	margin:0 auto;
+	border: 1px solid grey;
+	text-align: center;
+	padding: 10px;
+}
+
+#inputTask{
+	margin-bottom:5px;
+	width: 98%;
+}
+
+#tasks{
+	width: 100%;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#task{
+	border:1px solid black;
+	margin-top: 1px;
+	padding: 3px;
+}
+
+img{
+	float: right;
+	width: 20px;
+}

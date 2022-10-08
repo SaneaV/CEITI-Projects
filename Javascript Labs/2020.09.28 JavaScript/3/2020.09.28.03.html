@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+		<script>
+
+		main();
+		
+		function main(...args)
+		{
+			let textP = prompt("Введите текст (латиница + кирилица + цифры), для разделения слов используйте символы: ");
+			alert(actionWithText(textP));
+		}
+
+		function actionWithText(textP)
+		{	
+			textPArr = textP.split(/[^a-zA-Z0-9А-Яа-я()]/u);
+			let FirstWord = findFirstWord(textPArr);
+			let LastWord = findLastWord(textPArr);
+
+			textP = textP.replace(FirstWord, "surlinessPROMENADEfairground0");
+			textP = textP.replace(LastWord, "dweltOVERKILLpiping5");
+
+			textP = textP.replace("surlinessPROMENADEfairground0", LastWord);
+			textP = textP.replace("dweltOVERKILLpiping5", FirstWord);
+
+			return textP;
+
+		}
+
+		function findFirstWord(textPArr)
+		{
+			for(let i=0;i<textPArr.length;i++)
+			{
+				if(textPArr[i]!='')
+					return textPArr[i];
+			}
+		}
+
+		function findLastWord(textPArr)
+		{
+			for(let i=textPArr.length-1;i>=0;i--)
+			{
+				if(textPArr[i]!='')
+					return textPArr[i];
+			}
+		}
+
+
+	</script>
+	
+</body>
+</html>

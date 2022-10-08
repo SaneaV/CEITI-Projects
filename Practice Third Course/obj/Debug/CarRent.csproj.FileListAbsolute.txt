@@ -1,0 +1,180 @@
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.exe.config
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.exe
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.pdb
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.MainForm.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.cache
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.exe
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.pdb
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.MainPage.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.RegLog.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AccessIsDenied.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.UserProfil.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AreYouSure.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AdminUsersPanel.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.NewLogPasMail.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Clients.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.itsOkay.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.FotoUpdated.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientAdd.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientsList.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.GroupClients.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AboutClientcs.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Car.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarAdd.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.csprojAssemblyReference.cache
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarList.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarHasBeenAdded.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientHasBeenAdded.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.GroupCar.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AboutCar.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarHasBeenDeleted.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientHasBeenDeleted.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ContractAdd.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Contracts.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ContractHasBeenAddedcs.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ListContracts.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveWorkers.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveClients.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveCars.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveContracts.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Clear.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.NewArguments.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.exe.config
+E:\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.exe
+E:\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.pdb
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.csprojAssemblyReference.cache
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AboutCar.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AboutClientcs.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AccessIsDenied.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveCars.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveClients.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveContracts.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ArchiveWorkers.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Car.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarAdd.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarHasBeenAdded.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarHasBeenDeleted.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarList.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Clear.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientAdd.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AdminUsersPanel.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.AreYouSure.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientHasBeenDeleted.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientHasBeenAdded.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Clients.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientsList.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ContractAdd.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ContractHasBeenAddedcs.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Contracts.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.FotoUpdated.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.GroupCar.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.GroupClients.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.itsOkay.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ListContracts.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.MainForm.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.MainPage.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.NewArguments.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.NewLogPasMail.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.RegLog.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.UserProfil.resources
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.cache
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.exe
+E:\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.pdb
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\EnvDTE.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\stdole.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\EnvDTE80.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.Build.Tasks.Core.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\VSLangProj.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\VSLangProj80.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.MSXML.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.Build.Utilities.Core.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.Build.Framework.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\VSLangProj2.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\ru\Microsoft.VisualStudio.GraphModel.resources.dll
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.exe.config
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\RdlCompile.cache
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\RdlCompile.compiled
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.csproj.CopyComplete
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.CarReport.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ContractReport.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.ClientReports.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.Help.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.LoadingForm.resources
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.exe.manifest
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\bin\Debug\CarRent.application
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.exe.manifest
+E:\Всё для колледжа\3. Третий курс\Второй семестр\Индивидуальный проект по C#\CarRent\CarRent\obj\Debug\CarRent.application

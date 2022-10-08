@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		let day = prompt("День вашего рождения?");
+		let month = prompt("Месяц вашего рождения?(номер месяца)");
+		let year = prompt("Год вашего рождения?")
+
+		let zodiac;
+		let zodiacYear;
+
+		if((month == 3 && day >=21) || (month==4 && day<=19))
+		{
+			zodiac = "Овен";
+		}
+
+		if((month == 4 && day >=20) || (month==5 && day<=20))
+		{
+			zodiac = "Телец";
+		}
+
+		if((month == 5 && day >=21) || (month==6 && day<=20))
+		{
+			zodiac = "Близнецы";
+		}
+
+		if((month == 6 && day >=21) || (month==7 && day<=22))
+		{
+			zodiac = "Рак";
+		}
+
+		if((month == 7 && day >=23) || (month==8 && day<=22))
+		{
+			zodiac = "Лев";
+		}
+
+		if((month == 8 && day >=23) || (month==9 && day<=22))
+		{
+			zodiac = "Дева";
+		}
+
+		if((month == 9 && day >=23) || (month==10 && day<=22))
+		{
+			zodiac = "Весы";
+		}
+
+		if((month == 10 && day >=23) || (month==11 && day<=21))
+		{
+			zodiac = "Скорпион";
+		}
+
+		if((month == 11 && day >=22) || (month==12 && day<=21))
+		{
+			zodiac = "Стрелец";
+		}
+
+		if((month == 12 && day >=22) || (month==1 && day<=19))
+		{
+			zodiac = "Козерог";
+		}
+
+		if((month == 1 && day >=20) || (month==2 && day<=18))
+		{
+			zodiac = "Водолей";
+		}
+
+		if((month == 2 && day >=19) || (month==3 && day<=20))
+		{
+			zodiac = "Рыбы";
+		}
+
+		if (year % 12 == 4) 
+		{
+			zodiacYear = "Крыса";
+		}
+		else if (year % 12 == 5) 
+		{
+				zodiacYear = "Бык";
+		}
+		else if (year % 12 == 6) 
+		{
+			zodiacYear = "Тигр";
+		}
+		else if (year % 12 == 7) 
+		{
+			zodiacYear = "Кролик";
+		}
+		else if (year % 12 == 8) 
+		{
+			zodiacYear = "Дракон";
+		}
+		else if (year % 12 == 9) 
+		{
+			zodiacYear = "Змея";
+		}
+		else if (year % 12 == 10) 
+		{
+			zodiacYear = "Лошадь";
+		}
+		else if (year % 12 == 11) 
+		{
+			zodiacYear = "Овца";
+		}
+		else if (year % 12 == 0) 
+		{
+			zodiacYear = "Обезьяна";
+		}
+		else if (year % 12 == 1) 
+		{
+			zodiacYear = "Петух";
+		}
+		else if (year % 12 == 2) 
+		{
+			zodiacYear = "Собака";
+		}
+		else if (year % 12 == 3) 
+		{
+			zodiacYear = "Свинья";
+		}
+
+		alert("Ваш знак зодиака - " + zodiac);
+		alert("Ваш знак зодиака по году - " + zodiacYear);
+	</script>
+	
+</body>
+</html>

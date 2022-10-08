@@ -1,0 +1,21 @@
+table{
+	margin: 0 auto;
+	border-spacing: 5px;
+	margin-top: 120px;
+}
+
+td{
+	background-color: #484848;
+	color:white;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	width:175px;
+	border-style: solid;
+	
+}
+
+td:hover{
+	background-color: white;
+	color:black;
+	border-style: solid;
+}

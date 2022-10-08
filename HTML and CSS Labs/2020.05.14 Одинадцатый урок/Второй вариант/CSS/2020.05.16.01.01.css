@@ -1,0 +1,199 @@
+form{
+	padding:20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f5fafc;
+	background-color: #afddf0;
+	width: 40%;
+	margin:0 auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 950px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+
+	height: 670px;
+
+}
+
+.form{
+	margin-top: 20px;
+}
+
+legend{
+	  margin-left: 27%;
+	  font-weight: bold;
+	  font-size: 1.2em;
+	  padding-bottom: 10px;
+}
+
+input[type=text]{
+	padding: 5px;
+	width: 223px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+}
+
+input[type=number]{
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	padding: 5px;
+	width: 223px;
+}
+
+input[type=tel]{
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	padding: 5px;
+	width: 223px;
+}
+
+input[type=email]{
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	padding: 5px;
+	width: 223px;
+}
+
+.required{
+	width: 10px;
+	height: 5px;
+	border-radius: 5px;
+	border: 1px solid blue;
+
+	margin-bottom: 2px;
+	margin-left: 2px;
+
+	display: inline-block;
+}
+
+.requiredText{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-top: -20px;
+	margin-left: 5px;
+}
+
+label{
+	font-size: 0.9em;
+}
+
+.requiredField{
+	border:1px solid blue;
+}
+
+input[type="text"]{
+	margin-bottom: 10px;
+}
+
+input[type="number"]{
+	margin-bottom: 10px;
+}
+
+input[type="tel"]{
+	margin-bottom: 10px;
+}
+
+input[type="email"]{
+	margin-bottom: 10px;
+}
+
+select{
+	margin-bottom: 10px;
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	padding: 5px;
+	width: 237px;
+}
+
+.img{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 280px;
+	max-width: 100%;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.button{
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 210px;
+	max-width: 100%;
+}
+
+textarea{
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	resize: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.comfort{
+	margin-left: 280px;
+	margin-top: 250px;
+}
+
+.secutity{
+	margin-left: 280px;
+	margin-top: 347px;
+}
+
+.describtion{
+	margin-left: 280px;
+	margin-top: 445px;
+}
+
+.submit{
+  background-color: #76BCE8; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #76BCE8;
+  float:right;
+}
+
+.reset{
+  background-color: #76BCE8; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #76BCE8;
+
+  float:right;
+}
+
+.reset:hover {
+  background-color: #76BCE8;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #76BCE8;
+  color: white;
+}

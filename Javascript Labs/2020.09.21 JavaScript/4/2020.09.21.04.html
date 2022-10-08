@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		
+		.mainBlock{
+			margin: 0 auto;
+			height: 50%;
+			width: 25%;
+			border: 3px solid black;
+			text-align:right;
+		}
+
+		.input{
+			padding: 5px;
+		}
+
+		.button{
+			margin: 5px;
+		}
+		
+	</style>
+
+</head>
+<body>
+
+		<div class="mainBlock">
+
+		<form action="">
+			
+			<div class="input">Base <input type="number" id="Base" step="0.1"></div>
+			<div class="input">Exponent <input type="number" id="Exponent" step="0.1"></div>
+			<div class="input">Result <input type="text" id="Result" disabled></div>
+
+			<button type="button" onclick="IntegerPower(parseInt(Base.value), parseInt(Exponent.value))" class="button">Calculate</button>
+			
+		</form>
+
+		</div>
+
+		<script>
+			
+			function IntegerPower(Base, Exponent)
+			{
+				let sum = 1;
+
+				for(let i=0; i<Exponent; i++)
+				{
+					sum *= Base;
+				}
+
+				Result.value = sum;
+			}
+
+		</script>
+	
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		
+		main();
+
+		function main()
+		{
+			let textP = prompt("Введите текст из символов: ");
+			alert(searchPalendrom(textP));
+		}
+
+
+		function searchPalendrom(textP)
+		{
+			let tempElement;
+
+			for(let i=0;i<textP.length;i++)
+			{
+				if(isCharNumber(textP[i]))
+				{
+					tempElement = textP[i];
+
+					for(let j=i+1;j<textP.length;j++)
+					{
+						if(!isCharNumber(textP[j]))
+							break;
+
+						if(tempElement==textP[j]) 
+						{
+								textP = ifPalendrom(textP, i, j+1);
+								i--;
+								break;					 	
+						}
+					}
+				}
+
+			}
+
+			return textP;
+		}
+
+		function ifPalendrom(textP, i, j)
+		{
+			let palendrom = textP.substring(i, j);
+
+			if(palendrom === palendrom.split('').reverse().join(''))
+				return deleteSubstring(textP, i, j);
+		}
+
+		function isCharNumber(c){
+    		return c >= '0' && c <= '9';
+		}
+
+		function deleteSubstring(textP, i, j)
+		{
+			return textP.replace(textP.substring(i, j), '');
+		}
+
+	</script>
+	
+</body>
+</html>

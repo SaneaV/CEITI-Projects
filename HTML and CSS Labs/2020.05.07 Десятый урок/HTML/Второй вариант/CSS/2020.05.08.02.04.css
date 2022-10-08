@@ -1,0 +1,28 @@
+div{
+	margin-left: 370px;
+}
+
+table{
+	float: center;
+	border-collapse: collapse;
+
+}
+
+tr:first-child{
+	background-color: #414141;
+	color:#9C9B96;
+	
+}
+
+tr:first-child>td{
+	padding: 15px;
+}
+
+td:hover{
+	color:#FF7008;
+}
+
+tr:last-child{
+	background-color:#FF7008;
+	height: 5px;
+}

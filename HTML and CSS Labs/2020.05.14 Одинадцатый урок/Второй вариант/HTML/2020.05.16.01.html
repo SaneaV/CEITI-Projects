@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Car</title>
+
+	<link rel="stylesheet" href="../../CSS/2020.05.14.css">
+	<link rel="stylesheet" href="../CSS/2020.05.16.01.01.css">
+	<link rel="shortcut icon" href="../../IMG/car.svg">
+</head>
+<body>
+	<div class="siteTop">
+		<a href="../../Первый вариант/HTML/2020.05.14.01.html">
+		<div class="apartmentButton">
+			<h4>Продать квартиру</h4>
+		</div>
+		</a>
+
+		<a href="2020.05.16.01.html">	
+		<div class="carButton">
+			<h4>Продать машину</h4>
+		</div>
+		</a>
+	</div>
+
+
+	<form class="form">
+
+		<legend>Создание объявления</legend>
+		<br>
+		
+		<label><div class="required"></div><span class="requiredText"> - поля, для обязательного ввода</span></label><br>
+
+		<img src="../IMG/car.jpg" alt="" height="200" width="250" class="img">
+		<input class="button" type="file">
+
+		<textarea class="comfort" id="" cols="28" rows="5" placeholder="Комфорт"></textarea>
+		<textarea class="secutity" id="" cols="28" rows="5" placeholder="Безопасность"></textarea>
+		<textarea class="describtion" id="" cols="28" rows="5" placeholder="Описание"></textarea>
+
+		<input type="text" placeholder ="Марка авто" required class="requiredField"><br>
+		<input type="text" placeholder ="Модель авто" required class="requiredField"><br>
+		<input type="number" placeholder ="Год производства" required class="requiredField" min="1900" max="2020"><br>
+		<input type="number" placeholder ="Стоимость авто" required class="requiredField" min="1"><br>
+		<input type="text" placeholder ="Цвет авто" required class="requiredField"><br>
+
+		<select>
+			<option disabled selected value>Коробка передач</option>
+			<option>Механическая</option>
+			<option>Автоматическая</option>
+			<option>Роботизированная</option>
+			<option>Вариативная</option>
+		</select><br>
+
+		<select>
+			<option disabled selected value>Тип топлива</option>
+			<option>Бензин</option>
+			<option>Дизель</option>
+			<option>Газ</option>
+			<option>Электричество</option>
+			<option>Гибрид</option>
+			<option>ГБО</option>
+		</select><br>
+
+		<input type="text" placeholder ="Тип кузова" required class="requiredField"><br>
+		<input type="number" placeholder ="Пробег авто" required class="requiredField" min="0"><br>
+
+				<select>
+			<option disabled selected value>Тип привода</option>
+			<option>Передний</option>
+			<option>Задний</option>
+			<option>Полноприводный</option>
+		</select><br>
+
+		<input type="number" placeholder ="Количество мест"><br>
+		<input type="number" placeholder ="Количество дверей"><br>
+
+		<input type="tel" id="Number" placeholder="Номер телефона" pattern="[0-9]{11}" required class="requiredField"><br>
+
+		<input type="email" id="Mail" placeholder="Электронный адрес"><br><br>
+
+		<input type="submit" class="submit">
+		<input type="reset" class="reset">
+		
+	</form>
+
+	<br><br>
+
+
+
+	
+</body>
+</html>

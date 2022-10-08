@@ -1,0 +1,72 @@
+#mainBody{
+	width: 50%;
+	text-align: center;
+	display: flex;
+	margin:0 auto;
+	flex-wrap: wrap;
+}
+
+h1{
+	width: 100%;
+}
+
+hr{
+	width: 100%;
+	text-align: center;
+}
+
+#options{
+	justify-content: space-around;
+}
+
+#theDate, #idBank{
+	color:#267FA5;
+	width: 300px;
+	margin-left: 15px;
+	height: 30px;
+	border-color: silver;
+	margin-bottom: 10px;
+}
+
+#inputFrom, #inputTo{
+	width: 600px;
+	height: 30px;
+	border-color: silver;
+}
+
+#from, #to{
+	color:white;
+	background-color: #267FA5;
+}
+
+#convert1, #convert2{
+	display: flex;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	flex-wrap: wrap;
+}
+
+#labelTo, #labelFrom{
+	color:white;
+	background-color: #267FA5;
+	padding: 3px;
+}
+
+#valutes1, #valutes2{
+	display: flex;
+}
+
+#valutes1 > div{
+	color:white;
+	background-color: grey;
+	margin-right: 3px;
+	padding: 3px;
+}
+
+
+#valutes2 > div{
+	color:white;
+	background-color: grey;
+	margin-right: 3px;
+	padding: 3px;
+}

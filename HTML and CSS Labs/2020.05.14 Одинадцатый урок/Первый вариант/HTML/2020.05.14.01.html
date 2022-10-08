@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Apartment</title>
+
+	<link rel="stylesheet" href="../../CSS/2020.05.14.css">
+	<link rel="stylesheet" href="../CSS/2020.05.14.01.01.css">
+	<link rel="shortcut icon" href="../../IMG/home.svg">
+</head>
+<body>
+
+	<div class="siteTop">
+		<a href="2020.05.14.01.html">
+		<div class="apartmentButton">
+			<h4>Продать квартиру</h4>
+		</div>
+		</a>
+
+		<a href="../../Второй вариант/HTML/2020.05.16.01.html">
+		<div class="carButton">
+			<h4>Продать машину</h4>
+		</div>
+		</a>
+	</div>
+
+	<div class="form">
+		<form>
+
+		<legend>Создание объявления</legend>
+		<label class="requiredText"><span class="requiredInput">*</span> - поля, для обязательного заполнения</label><br>
+
+		<label class="Inline" for="Region">Регион:<span class="requiredInput">*</span></label>
+		<input class="text" type="text" id="Region" required><br>
+
+		<img src="../IMG/Home.jpg" alt="" height="250" width="250" class="img">
+		<input class="button1" type="file">
+
+		<img src="../IMG/Plan.jpg" alt="" height="250" width="250" class="img2">
+		<input class="button2" type="file">
+
+		<label class="Inline" for="Adres">Адрес:<span class="requiredInput">*</span></label>
+		<input class="text" type="text" id="Adres" required><br>
+
+		<label class="Inline" for="Price">Цена($):<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="Price" min="100" required><br>
+
+		<label class="Inline" for="Rooms">Количество комнат:<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="Rooms" min="1" max="20" required><br>
+
+		<label class="Inline" for="Area">Общая площадь:<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="Area" min="1" required><br>
+
+		<label class="Inline" for="LiveArea">Жилая площадь:<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="LiveArea" min="1" required><br>
+
+		<label class="Inline" for="Floor">Этаж:<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="Floor" min="1" max="200" required><br>
+
+		<label class="Inline" for="Floors">Этажность:<span class="requiredInput">*</span></label>
+		<input class="text" type="number" id="Floors" min="1" max="200" required><br>
+
+		<label class="Inline" for="Balcony">Количество балконов:</label>
+		<input class="text" type="number" id="Balcony" min="0" max="10"><br>
+
+		<label class="Inline" for="Bathroom">Количество санузлов:</label>
+		<input class="text" type="number" id="Bathroom" min="0" max="10"><br>
+
+		<label class="Inline" for="Telephone">Наличие телефона</label>
+		<input type="radio" id="Telephone1" name="Telephone">
+		<label for="Telephone"><label for="Telephone1">Да</label></label>
+		<input type="radio" id="Telephone2" name="Telephone">
+		<label for="Telephone"><label for="Telephone2">Нет</label></label><br>
+
+		<label class="Inline" for="Internet">Наличие интернета</label>
+		<input type="radio" id="Internet1" name="Internet">
+		<label for="Internet"><label for="Internet1">Да</label></label>
+		<input type="radio" id="Internet2" name="Internet">
+		<label for="Internet"><label for="Internet2">Нет</label></label><br>
+
+		<label class="Inline" for="typeHome">Жильё</label>
+		<select class="op" name="typeHome" id="typeHome" value=-1>
+			<option disabled selected value> ---- Выберите тип жилья ---- </option>
+			<option>Новострой</option>
+			<option>Вторичное</option>
+		</select><br>
+		
+		<div class="Describtion">
+			<label class="Inline" for="Describtion">Описание</label>
+			<textarea class="textarea" name="Describtion" cols="33" rows="13"></textarea><br>
+		</div>
+
+		<label class="Inline" for="Number">Конктактный телефон<span class="requiredInput">*</span></label>
+		<input class="text" type="tel" id="Number" value="+373" pattern="[0-9]{11}" required><br>
+
+		<label class="Inline" for="Mail">Адрес электронной почты</label>
+		<input class="text" type="email" id="Mail"><br><br>
+
+		<input type="submit" class="submit">
+		<input type="reset" class="reset">
+	</div>
+
+<br><br>
+	
+</body>
+</html>

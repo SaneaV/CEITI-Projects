@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		
+		let firstNumber = prompt("Старт: ");
+		let finishNumber = prompt("Конец: ");
+
+		let random =  Math.floor(Math.random() * (++finishNumber - ++firstNumber + 1) ) + ++firstNumber;
+		let userNumber;
+
+		do{
+
+			userNumber = prompt("Введите ваше число: ")
+
+			if(userNumber==random) 
+			{
+				alert("Поздравляю, вы угадали число!");
+				break;
+			}
+
+			if(userNumber>random)
+				alert("Число слишком большое!")
+
+			if(userNumber<random)
+				alert("Число слишком маленькое!")
+
+		}while(userNumber!=random)
+
+	</script>
+	
+</body>
+</html>

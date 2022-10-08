@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="2.css">
+	<title>Converter</title>
+</head>
+<body>
+	
+
+
+	<div id="mainBody">
+
+		<h1 width="100%">Конвертер валют</h1>
+		<hr>
+
+		<div id="options">
+			<input type="date" id="theDate">
+			<select name="bank" id="idBank">
+				<option value="1">НБМ</option>
+			</select>
+
+			<div id="convert1">
+				<input type="number" id="inputFrom" required>
+				<label for="inputFrom" id="labelFrom">MDL</label>
+				<div id="valutes1">
+					<div id="mdlFrom">MDL</div>
+					<div id="usdFrom">USD</div>
+					<div id="eurFrom">EUR</div>
+					<div id="rubFrom">RUB</div>
+					<div id="ronFrom">RON</div>
+				</div>
+			</div>
+			<div id="convert2">
+				<input type="number" id="inputTo" required>
+				<label for="inputTo" id="labelTo">USD</label>
+				<div id="valutes2">
+					<div id="mdlTo">MDL</div>
+					<div id="usdTo">USD</div>
+					<div id="eurTo">EUR</div>
+					<div id="rubTo">RUB</div>
+					<div id="ronTo">RON</div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+	
+	<script src="3.js"></script>
+</body>
+</html>

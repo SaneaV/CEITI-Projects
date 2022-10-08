@@ -1,0 +1,77 @@
+#wrap{
+	width:800px;
+	margin:0 auto;
+}
+
+#item{
+	border-top: 1px solid silver;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#name{
+	justify-content: flex-start;
+	width: 50%;
+	display: flex;
+}
+
+#price{
+	justify-content: flex-end;
+	width: 50%;
+	display: flex;
+}
+
+#photo{
+	height: 100px;
+	width: 100px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	font-style: italic;
+}
+
+#description{
+	justify-content: flex-start;
+	display: flex;
+	width: 680px;
+}
+
+img{
+	width: 100px;
+	height: 50px;
+}
+
+body{
+	background-color: white;
+	color: silver;
+	font-family: Arial;
+}
+
+h3{
+	color: white;
+	background-color: navy;
+	padding: 10px;
+}
+
+h4{
+	color: navy;
+}
+
+.h4{
+	text-align: right;
+}
+
+a{
+	color: silver;
+}
+
+a:active, a:link, a:visited{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: overline;
+}
+

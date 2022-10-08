@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+
+<div class="mainDiv">
+    <h1>Passenger Info</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Code</th>
+            <th>Surname</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="passenger : ${passengers}">
+            <td><span th:text="${passenger.passengerCode}"></span></td>
+            <td><span th:text="${passenger.surname}"></span></td>
+            <td><span th:text="${passenger.name}"></span></td>
+            <td><span th:text="${passenger.phone}"></span></td>
+            <td><a th:href="@{/passenger-update/{id}(id=${passenger.passengerCode})}">Update</a></td>
+            <td><a th:href="@{/passengers/delete/{id}(id=${passenger.passengerCode})}">Delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <h1>Route Info</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Code</th>
+            <th>Destination</th>
+            <th>Class</th>
+            <th>Price</th>
+            <th>Passenger Code</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="route : ${routes}">
+            <td><span th:text="${route.codeRoute}"></span></td>
+            <td><span th:text="${route.destination}"></span></td>
+            <td><span th:text="${route.classType}"></span></td>
+            <td><span th:text="${route.price}"></span></td>
+            <td><span th:text="${route.passengerCode}"></span></td>
+            <td><a th:href="@{/route-update/{id}(id=${route.codeRoute})}">Update</a></td>
+            <td><a th:href="@{/routes/delete/{id}(id=${route.codeRoute})}">Delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+
+</div>
+
+</body>
+</html>

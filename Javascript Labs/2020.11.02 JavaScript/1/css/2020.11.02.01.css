@@ -1,0 +1,117 @@
+#shopBlock{
+	margin:0 auto;
+	margin-top: 5vh;
+	width:70%;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+#shopBlock>h1{
+	margin-left: 30px;
+}
+
+#sneakersBlock{
+	display: flex;
+	justify-content: space-around;
+}
+
+#sneakers{
+	display: column;
+	border:1px solid grey;
+	padding:8px;
+	text-align: center;
+	width: 200px;
+	margin-right: 50px;
+
+}
+
+#nameSneakers{
+	color: red;
+	font-weight: lighter;
+}
+
+img{
+	width:140px;
+	height: 150px;
+}
+
+#numberOf, #number{
+	display: inline-block;
+	margin-top: -29px;
+}
+
+button{
+	height: 50px;
+}
+
+#price{
+	margin-top: -19px;
+}
+
+button, #star-1, #star-2, #star-3{
+	display: inline-block;
+}
+
+
+#star-1, #star-2, #star-3 {
+	width: 0;
+	height: 0;
+	color: #fc2e5a;
+	border-right: 10px solid transparent;
+	border-bottom: 7px solid grey;
+	border-left: 10px solid transparent;
+	-moz-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+}
+
+#star-1:before, #star-2:before, #star-3:before {
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	top: -5px;
+	left: -6px;
+	border-bottom: 8px solid grey;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	content: '';
+	-webkit-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	-o-transform: rotate(-35deg);
+}
+
+#star-1:after, #star-2:after, #star-3:after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: -10px;
+	color: #fc2e5a;
+	border-right: 10px solid transparent;
+	border-bottom: 7px solid grey;
+	border-left: 10px solid transparent;
+	-webkit-transform: rotate(-70deg);
+	-moz-transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-o-transform: rotate(-70deg);
+}
+
+
+#cardBlock{
+	background-color: #F8F7ED;
+	width: 20%;
+	height: 250px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-style: italic;
+
+	font-family: 'Open Sans';
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.4em;
+}

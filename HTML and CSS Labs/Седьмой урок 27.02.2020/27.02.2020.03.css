@@ -1,0 +1,58 @@
+body{
+	background-repeat: no-repeat;
+	background-image: url("https://images.wallpaperscraft.com/image/lines_red_background_86982_2048x1152.jpg");
+    background-size: cover;
+}
+
+img{
+
+	border-radius: 999em;
+    height: 100%;
+    width: 100%;	
+    margin: 0;
+}
+
+div.imageborder {
+      border-radius: 999em;
+      width: 350px;
+      height: 350px;
+      padding: 5px;
+      line-height: 0;
+      border: 10px solid #000;
+      background-color: #eee;
+      margin-left: 50px;
+	  margin-top: 50px;
+	  float:left;
+	  box-shadow: 2px 2px #ff0000;
+}
+
+div.TomAndJerry{
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+}
+
+div.text{
+	margin-left: 460px;
+	margin-top: 15px;
+	padding: 10px;
+  	text-align: justify;
+  	text-justify: inter-word;
+  	height: 250px;
+  	width: 800px;
+  	font-size:1.3em;
+}
+
+div>h1{
+	text-align: center; 
+	text-shadow: 2px 2px #ff0000;
+}
+
+.original{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.byTheFinal{
+	font-weight: bold;
+}

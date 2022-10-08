@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 1</title>
+
+	<style>
+		#mainBlock{
+			border:1px solid black;
+			margin:0 auto;
+			width: 40%;
+			padding-bottom:10px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<center>
+		<div id="mainBlock">
+			<h2>User Input Form</h2>
+			<form name="information">
+				<fieldset style="width:250px">
+					<legend>Pesonal particular</legend>
+
+					<label for="name">Name: </label>
+					<input type="text" id="Name" required ><br><br>
+
+					<label for="password">Password: </label>
+					<input type="password" id="password" required ><br><br>
+
+					<label for="gender">Gender: </label>
+					<input type="radio" name="gender" id="Male" required>
+					<label for="Male">Male</label>
+					<input type="radio" name="gender" id="Female" required> 
+					<label for="Female">Female</label>
+					<br><br>
+
+					<label for="age">Age: </label>
+					<input type="number" value ="1" min="1" max="150" id="age" required>
+					<br>
+				</fieldset>
+
+				<fieldset style="width:250px">
+					<legend>Languages</legend>
+
+					<input type="checkbox" name="languages" id="Java">
+					<label for="Java">Java</label>
+					<input type="checkbox" name="languages" id="C++">
+					<label for="C++">C/C++</label>
+					<input type="checkbox" name="languages" id="C#">
+					<label for="C#">C#</label>
+
+				</fieldset>
+
+				<fieldset style="width:250px">
+					<legend>Instruction</legend>
+
+					<textarea cols="30" rows="10" required placeholder="Enter your instructions here..." id="text"></textarea>
+				</fieldset>
+
+				<br>
+				<button onclick="check()">Send</button>
+				<button type="reset">Reset</button>
+			</form>
+		</div>
+
+	</center>
+	
+	<script src="2020.11.04.01.js"></script>
+	
+</body>
+</html>

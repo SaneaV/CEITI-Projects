@@ -1,0 +1,82 @@
+#blockPizza{
+	text-align: center;
+}
+
+img{
+	width:100px;
+	height:100px;
+	margin-left: 70px;
+}
+
+#pizza{
+	display: flex;
+	width: 70%;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+#description{
+	display: block;
+	width: 175px;
+	text-align: left;
+	margin-top: -20px;
+	margin-left: 20px;
+	height: 100px;
+}
+
+#description>p{
+	font-size: 0.7em;
+}
+
+#description>h5{
+	margin-bottom: -5px;
+}
+
+#cantitate{
+	display: block;
+	width: 175px;
+	text-align: left;
+	margin-top: -20px;
+	margin-left: 100px;
+	height: 100px;
+}
+
+#cButtons>button{
+	height: 22px;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#cantitate>h5{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+#cButtons{
+	display: flex;
+	margin-top: -30px;
+}
+
+#pret{
+	margin-top: -20px;
+}
+
+#pret>p{
+	margin-top: -10px;
+}
+
+#total{
+	margin-top: -20px;
+	margin-left: 100px;
+}
+
+#total>p{
+	margin-top: -10px;
+}
+
+#totalSumDiv{
+	margin-left: 70%;
+	width: 200px;
+}

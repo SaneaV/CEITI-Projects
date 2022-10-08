@@ -1,0 +1,25 @@
+#mainBlock{
+	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+h3{
+	background-color: blue;
+	padding: 2px;
+	color: white;
+	margin-top: -1px;
+	margin-bottom: 10px;
+}
+
+#studentBlock{
+	border: 1px solid grey;
+	text-align: center;
+	padding: 5px;
+	width: 200px;
+}
+
+div[id^="student"]{
+	border: 1px solid grey;
+	margin-top: 5px;
+}

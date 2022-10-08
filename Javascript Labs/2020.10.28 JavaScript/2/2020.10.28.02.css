@@ -1,0 +1,40 @@
+#mainBlock{
+	border-radius: 10px;
+	border: 1px solid black;
+	margin:0 auto;
+	width: 40%;
+	text-align: left;
+	padding: 10px;
+	background-color: #67999A;
+}
+
+form>h1{
+	color:white;
+}
+
+#whiteText{
+	color:white;
+	font-weight: normal;
+}
+
+form{
+	background-color: #67999A;
+	color: #283C3F;
+	text-align: right;
+	padding: 5px 10px 5px 5px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+label[id$="error"]{
+	color: red;
+}
+
+input, select, textarea, button{
+	margin-top: 10px;
+}
+
+textarea{
+	margin-bottom: -5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		
+		let year = 1990;
+		let tone = 20;
+		let sumTone = 20;
+		let lessThanFive = false;
+		let moreThanNinety = false;
+
+		//Если каждые два года урожай уменьшается на 0.2%, то в самом лучшем случае, каждый год сокращает
+		//Количество урожая на 0.1% неизменно.
+
+		while(!moreThanNinety || !lessThanFive)
+		{
+			year++;
+			tone -= tone*0.1;
+			sumTone += tone;
+
+			if(sumTone>=90 && !moreThanNinety) 
+			{
+				alert("Общий урожай с 1990 по "+year+" составил более 90 тонн яблок");
+				moreThanNinety = true;
+			}
+
+			if(tone<=5 && !lessThanFive) 
+			{
+				alert("Увы, но в "+year+" мы собрали менее 5 тонн яблок");
+				lessThanFive = true;
+			}
+		}
+
+	</script>
+	
+</body>
+</html>

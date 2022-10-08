@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+
+		main();
+		
+		function main(...args)
+		{
+			//По условию, об удалении символов ничего не сказано, поэтому они остаются.
+			//vicev alexandr 19 years programmer => vicev  19 years programmer
+			let textP = prompt("Введите текст (латиница + кирилица + цифры), для разделения слов используйте символы: ");
+			alert(actionWithText(textP));
+		}
+
+		function actionWithText(textP)
+		{
+			let tempIndex;
+			let k = 0;
+
+			for(let i=0;i<textP.length;i++)
+			{
+				if(isChar(textP[i]))
+				{
+					if((++k%2)!=0)
+					{
+						tempIndex = textP[i];
+						for(let j=i+1;j<textP.length;j++)
+						{
+							if(isChar(textP[j]))
+							{
+								textP = deleteSubstring(textP, i, j);
+								break;
+							}
+						}
+					}
+				}
+			}
+			return textP;
+		}
+
+
+		function isChar(c){
+    		return c.match(/^[^а-яА-Яa-zA-Z0-9]+$/) ? true : false;
+		}
+
+		function deleteSubstring(textP, i, j)
+		{
+			if((i%2==0 && (i+(j-1))%2==0) || ((i%2!=0) && (i+(j-1))%2!=0))
+			{
+				return textP;
+			}
+			else{
+				return textP.replace(textP.substring(++i, j), '');
+			}
+			
+		}
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,20 @@
+#mainBlock{
+	margin:0 auto;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border:1px solid silver;
+}
+
+button{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+table, td{
+	margin:0 auto;
+	border: 1px solid black;
+}
+
+td{
+	padding: 10px;
+}

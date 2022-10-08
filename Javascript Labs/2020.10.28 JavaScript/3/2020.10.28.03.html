@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="2020.10.28.03.css">
+	<title>Form 3</title>
+</head>
+<body onload="init()">
+
+	<div id="mainBlock">
+		
+		<form name="form">
+			<h3>Проверка формы</h3>
+
+			<div id="divErrorMessage">
+				<label id="errorMessage"></label>
+			</div>
+
+			<table>
+				<tr>
+					<td><label for="login">Логин:<span id="required">*</span></label></td>
+					<td><input type="text" id="login"><br></td>
+				</tr>
+				<tr>
+					<td><label for="password">Пароль:<span id="required">*</span></label></td>
+					<td><input type="password" id="password"><br></td>
+				</tr>
+				<tr>
+					<td><label for="passwordRepeat">Подтвердите пароль:<span id="required">*</span></label></td>
+					<td><input type="password" id="passwordRepeat"><br></td>
+				</tr>
+				<tr>
+					<td><label for="email">E-mail адрес:<span id="required">*</span></label></td>
+					<td><input type="email" id="email" oninvalid="invalidEmail()"><br></td>
+				</tr>
+				<tr>
+					<td><label for="email-show">Показывать E-mail:</label></td>
+					<td><select id="email-show">
+						<option value="Да">Да</option>
+						<option value="Нет">Нет</option>
+					</select>
+				</td>
+			</tr> 
+			<tr>
+				<td><label for="phone">Телефон</label></td>
+				<td><input type="phone" id="text"><br></td>
+			</tr>
+			<tr>
+				<td><label for="myTextArea">О себе:<span id="required">*</span></label></td>
+				<td><textarea cols="22" rows="5" name="myTextArea"></textarea><br></td>
+			</tr>
+			<tr>
+				<td><label for="ch">Получать рассылку:</label></td>
+				<td><input type="checkBox" id="ch"></td>
+			</tr>
+			<tr>
+				<td><button type="submit" onclick="check()">Отправить</button></td>
+			</tr>
+		</table>
+
+	</form>
+
+</div>
+
+<script src="2020.10.28.03.js"></script>
+
+</body>
+</html>

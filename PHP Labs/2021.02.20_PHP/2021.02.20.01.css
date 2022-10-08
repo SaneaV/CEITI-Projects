@@ -1,0 +1,64 @@
+.mainBody{
+	text-align:center; 
+	width:60%; 
+	margin:0 auto; 
+	border:1px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;'
+}
+
+button, input[type=submit]{
+	background-color: grey;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+
+
+button:hover, input[type=submit]{
+	background-color: grey;
+	color: white;
+}
+
+.actions{
+	text-align:center; 
+	width:90%; 
+	margin:0 auto; 
+	border:1px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+	margin-top: 10px;
+}
+
+input{
+	margin: 10px;
+}
+
+form{
+	text-align: center;
+	margin:0 auto;
+	width: 30%;
+}
+
+.hide{
+	display: none;
+}
+
+input[type=submit]{
+	margin-right: 0px;
+}
+
+table, td{
+	border:1px solid black;
+	border-collapse: collapse;
+	padding:5px;
+}
+
+table{
+	margin:0 auto;
+}

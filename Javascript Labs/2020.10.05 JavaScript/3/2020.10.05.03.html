@@ -1,0 +1,55 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+
+		<style>
+			body {
+				background: white;
+			}
+
+			.clock {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				color: black;
+				font-size: 60px;
+				letter-spacing: 7px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="Clocks" class="clock" onload="showTime()"></div>
+
+	<script>
+
+	function showTime(){
+			let date = new Date();
+		    let HH = date.getHours();
+		    let MM = date.getMinutes();
+		    let SS = date.getSeconds();
+
+		    if(HH<10)
+		    	HH =  "0" + HH;
+		    if(MM<10)
+		    	MM =  "0" + MM;
+		    if(SS<10)
+		    	SS =  "0" + SS;
+
+		    let time = HH + ":" + MM + ":" + SS + " ";
+		    document.getElementById("Clocks").innerText = time;
+		    document.getElementById("Clocks").textContent = time;
+		    
+		    setTimeout(showTime, 1000);
+	}
+
+	showTime();
+
+</script>
+
+</body>
+</html>

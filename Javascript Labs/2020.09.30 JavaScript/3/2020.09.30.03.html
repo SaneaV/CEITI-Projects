@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			border:1px solid black;
+			margin:0 auto;
+			text-align: center;
+			width: 40%;
+			height: 350px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mainBlock">
+		<p>Нажми на текст, чтобы его изменить!</p>
+		<textarea id="ta" cols="50" rows="15" onclick="changeTheText()">
+Поезд Москва — Сухуми. 
+В купе едет семейная пара и их попутчик. 
+Жена все время пилит мужа. 
+Через некоторое время мужчины выходят покурить. 
+— Слушайте, — говорит попутчик, — это, конечно, не мое дело, но у вашей жены ужасный характер. Я дам вам адрес психотерапевта в Москве — он исправит это за один сеанс. 
+Правда, он берет $500. — Не надо, — отвечает муж, — я везу ее в Сухуми — там обещали пристрелить за $100.
+		</textarea>
+
+		<p id="p" onclick="changeTheP()">Ты можешь заменить и меня! Просто нажми!</p>
+	</div>
+
+	
+	
+
+	<script>
+		
+		function changeTheText(){
+
+			let newText = prompt("Введите новый текст", "");
+			document.getElementById("ta").innerHTML = newText;
+		}
+
+		function changeTheP(){
+
+			let newText = prompt("Введите новый текст", "");
+			if(newText.length==0) newText= "☺";
+			document.getElementById("p").innerHTML = newText;
+		}
+
+	</script>
+</body>
+</html>

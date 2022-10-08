@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>List of passengers</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" type="text/css"/>
+</head>
+<body>
+
+<div class="mainDiv">
+    <h1>Passengers List</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Code</th>
+            <th>Surname</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Update</th>
+            <th>Delete</th>
+            <th>Info</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="passenger : ${passengers}">
+            <td><span th:text="${passenger.passengerCode}"></span></td>
+            <td><span th:text="${passenger.surname}"></span></td>
+            <td><span th:text="${passenger.name}"></span></td>
+            <td><span th:text="${passenger.phone}"></span></td>
+            <td><a th:href="@{/passenger-update/{id}(id=${passenger.passengerCode})}">Update</a></td>
+            <td><a th:href="@{/passengers/delete/{id}(id=${passenger.passengerCode})}">Delete</a></td>
+            <td><a th:href="@{/task1(id=${passenger.passengerCode})}">Info</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <form action="/passenger-add">
+        <input type="submit" value="Add Passenger"/>
+    </form>
+
+    <form action="/">
+        <input type="submit" value="Main page"/>
+    </form>
+
+</div>
+
+</body>
+</html>

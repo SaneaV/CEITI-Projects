@@ -1,0 +1,48 @@
+.ThirdCaption{
+	background-color: #FCF8E4;
+	text-align: left;
+	margin-left: 2px;
+	height: 40px;
+}
+
+.Titles{
+	background-color: #FF9823;
+	color: white;
+	height: 25px;
+
+}
+
+.ThirdImg1{
+
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.ThirdText1{
+	color: #467CAA;
+
+}
+
+.ThirdText2{
+	color: #467CAA;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.ThirdText3{
+	margin-top: -20px;
+		display: inline-block;
+    vertical-align: middle;
+}
+
+.time{
+	margin-top:-12px;
+}
+
+.CaptionText{
+	margin-top: 10px;
+}
+
+.Line {
+  border-bottom: 1px solid #F6EDD5;
+}

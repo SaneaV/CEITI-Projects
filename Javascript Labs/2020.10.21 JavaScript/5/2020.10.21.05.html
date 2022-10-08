@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 5</title>
+
+	<style>
+		#mainBlock{
+			border:1px solid black;
+			margin: 0 auto;
+			text-align: center;
+			width: 50%;
+		}
+
+		input, select, button{
+			margin-bottom: 10px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		<h1>Введите число, чтобы добавить его в раскрывающийся список</h1>
+		<input type="number" id="inputNumber"><br>
+
+		<select id="numbersList">
+			<option disabled selected>Список пуст</option>
+		</select><br>
+
+		<button onclick="add()">Добавить</button><br>
+
+
+	</div>
+
+	<script>
+
+		function add()
+		{
+			let number = document.getElementById("inputNumber").value;
+			let select = document.getElementById("numbersList");
+			let exist = false;
+
+			for(let i=0;i<select.length;i++)
+			{
+				if(select[i].value == number)
+				{
+					exist = true;
+					select.selectedIndex = i;
+					break;
+				}
+			}
+
+			if(!exist)
+			{
+				if(select[0].text == "Список пуст")
+				{
+					select.remove(0);
+				}
+
+				let option = document.createElement("option");
+				option.text = number;
+				select.add(option);
+				document.getElementById("numbersList").selectedIndex = select.length-1;
+			}
+		}
+		
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,14 @@
+p::first-line{
+	color:red;
+	font-style: italic;
+}
+
+div{
+	margin:0 auto;
+	width:580px;
+}
+
+
+p{
+	text-align: justify;
+}

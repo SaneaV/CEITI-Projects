@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		
+		let str = prompt("Введите строку: ");
+		alert("Слово \"cert\" встречается " + countCert(str))
+
+		function countCert(str, cert='cert')
+		{
+			return str.split(cert).length - 1;
+		}
+
+	</script>
+	
+</body>
+</html>

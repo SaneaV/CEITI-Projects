@@ -1,0 +1,48 @@
+#mainBlock{
+	margin:0 auto;
+	margin-top: 5vh;
+	text-align: center;
+	width:50%;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+table, td{
+	margin:0 auto;
+	border:1px solid black;
+}
+
+.greyBG{
+	opacity: 60%;
+}
+
+[id^=button]{
+	position: absolute;
+	margin-left: -90px;
+	margin-top: 40px;
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: none;
+}
+
+[id^=nameGood]{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -150px;
+	background-color: #f44336;
+	color: white;
+	text-decoration: none;
+	display: none;
+}
+
+.display{
+	display: inline-block;
+}

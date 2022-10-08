@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+		<style>
+		
+		.mainBlock{
+			margin: 0 auto;
+			height: 50%;
+			width: 25%;
+			border: 3px solid black;
+			text-align:right;
+		}
+
+		.input{
+			padding: 5px;
+		}
+
+		.button{
+			margin: 5px;
+		}
+		
+	</style>
+
+</head>
+<body>
+
+
+	<div class="mainBlock">
+
+		<form action="">
+			
+			<div class="input">x1 <input type="number" id="x1" step="0.1"></div>
+			<div class="input">y1 <input type="number" id="y1" step="0.1"></div>
+			<div class="input">x2 <input type="number" id="x2" step="0.1"></div>
+			<div class="input">y2 <input type="number" id="y2" step="0.1"></div>
+			<button type="button" onclick="calc()" class="button">Расчитать</button>
+			<div class="input">Дистанция <input type="text" id="dist" disabled></div>
+
+		</form>
+
+	</div>
+
+	<script>
+		function calc()
+		{
+		x1Value = parseFloat(x1.value);
+		y1Value = parseFloat(y1.value);
+		x2Value = parseFloat(x2.value);
+		y2Value = parseFloat(y2.value);
+
+		dist.value = Math.sqrt((Math.pow(x2Value-x1Value, 2)) + (Math.pow(y2Value-y1Value, 2)));
+		}
+
+	</script>
+	
+</body>
+</html>

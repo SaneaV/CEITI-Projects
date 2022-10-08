@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fourth Task</title>
+
+	<style>
+		#mainBlock{
+			display: block;
+			border: 1px solid black;
+			text-align: center;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			width:50%;
+			margin:0 auto;
+		}
+
+		.square, .rectangle, .triangle, .circle, .parallelogram{
+			border: 1px solid black;
+			width:50%;
+			margin:0 auto;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			display: none;
+		}
+
+		input{
+			margin-top: 5px;
+		}
+
+		.hide{
+			display: block;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="mainBlock">
+		
+		<h1>Выберите фигуру и введите её параметры</h1>
+		<select name="shapes" id="shapesID" onchange="showShapeParams()">
+			<option value="Выберите фигуру" disabled selected>Выберите фигуру</option>
+			<option value="Квадрат">Квадрат</option>
+			<option value="Прямоугольник">Прямоугольник</option>
+			<option value="Треугольник">Треугольник</option>
+			<option value="Окружность">Окружность</option>
+			<option value="Параллелограмм">Параллелограмм</option>
+		</select>
+
+		<div id="0" class="square">
+			<h3>Квадрат</h3>
+
+			<label for="part">Сторона a: </label>
+			<input type="number" id="part" min="1">
+		</div>
+
+		<div id="1" class="rectangle">
+			<h3>Прямоугольник</h3>
+
+			<label for="part1">Сторона a: </label>
+			<input type="number" id="part1" min="1">
+			<br>
+			<label for="part2">Сторона b: </label>
+			<input type="number" id="part2" min="1">
+		</div>
+
+		<div id="2" class="triangle">
+			<h3>Треугольник</h3>
+
+			<label for="part1">Сторона a: </label>
+			<input type="number" id="part1" min="1">
+			<br>
+			<label for="part2">Сторона b: </label>
+			<input type="number" id="part2" min="1">
+			<br>
+			<label for="part3">Сторона с: </label>
+			<input type="number" id="part3" min="1">
+		</div>
+
+		<div id="3" class="circle">
+			<h3>Окружность</h3>
+
+			<label for="part1">Радиус r: </label>
+			<input type="number" id="part1" min="1">
+		</div>
+
+		<div id="4" class="parallelogram">
+			<h3>Параллелограмм</h3>
+
+			<label for="part1">Сторона a: </label>
+			<input type="number" id="part1" min="1">
+			<br>
+			<label for="part2">Сторона b: </label>
+			<input type="number" id="part2" min="1">
+			<br>
+			<label for="part3">Угол: </label>
+			<input type="number" id="part3" min="1">
+		</div>
+
+	</div>
+
+	<script>
+		function showShapeParams()
+		{	
+			let select = document.getElementById("shapesID");
+
+			if(select[0].value == "Выберите фигуру")
+			{
+				select[0].remove();
+			}
+			hideShapeParams();
+
+			let element = document.getElementById(select.selectedIndex);
+			element.classList.toggle("hide");
+		}
+
+		function hideShapeParams()
+		{
+			for(let i=0;i<=4;i++)
+			{
+				let element = document.getElementById(i);
+				if(element.classList.contains("hide")) 
+				{
+					element.classList.toggle("hide");
+				}			
+			}
+		}
+
+	</script>
+
+</body>
+</html>

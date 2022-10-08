@@ -1,0 +1,15 @@
+#mainBlock{
+	display: column;
+	justify-content: space-around;
+	margin:0 auto;
+	text-align: center;
+}
+
+#definitionImage{
+	width: 500px;
+	height: 500px;
+}
+
+h1{
+	text-align: center;
+}

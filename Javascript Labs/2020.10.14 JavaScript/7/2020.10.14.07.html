@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.hide{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+	<div style="display: block; align-content: space-around;">
+		<center>
+			<div id="block" style="border:1px black solid; width: 150px; height: 150px; background-color: red;">
+				<button onclick="hide('block')"><img src="img/1.png" alt="close" style="width:50px;"></button>
+			</div>
+
+			<div id="block-2" style="border:1px black solid; width: 150px; height: 150px; background-color: green;">
+				<button onclick="hide('block-2')"><img src="img/1.png" alt="close" style="width:50px;"></button>
+			</div>
+
+			<div id="block-3" style="border:1px black solid; width: 150px; height: 150px; background-color: blue;">
+				<button onclick="hide('block-3')"><img src="img/1.png" alt="close" style="width:50px;"></button>
+			</div>
+		</center>		
+	</div>
+
+	<script>
+		function hide(className){
+			let element = document.getElementById(className);
+			element.classList.toggle("hide");
+		}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			margin:0 auto;
+			width: 20%;
+			height: 150px;
+			border: 1px solid black;
+			border-radius: 20px;
+			text-align: center;
+			padding: 5px 10px;
+		}
+
+		#firstInput{
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mainBlock" id="mainBlock">
+		<input type="text" id="firstInput">
+		<button onclick="createNewInput()">+</button>
+	</div>
+
+	<script>
+		
+		function createNewInput(){
+			let input = document.createElement('input');
+
+			document.getElementById("mainBlock").style.height = document.getElementById("mainBlock").clientHeight + 20 + 'px'
+			document.getElementById('mainBlock').innerHTML += "<input type='text' style=\"margin: 3px; margin-left: -25px;\"/><br />";
+
+		}
+
+	</script>
+	
+</body>
+</html>

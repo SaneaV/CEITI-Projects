@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 5</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="mainBlock" style="text-align: center">
+		<form id="mainForm">
+			<label for="mainInput">Total: </label>
+			<input type="text" disabled value="0" id="mainInput">
+			<br>
+
+			<input type="checkbox" id="first">
+			<label for="first">Carte 1 - 50 lei</label>
+			<br>
+
+			<input type="checkbox" id="second">
+			<label for="second">Carte 2 - 60 lei</label>
+			<br>
+
+			<input type="checkbox" id="third">
+			<label for="third">Carte 3 - 30.50 lei</label>
+		</form>
+	</div>
+
+	<script>
+		$("#first").click(function(){
+
+			if($("#first").is(":checked"))
+			{
+				let price = $("#mainInput").val();
+				$("#mainInput").val((50+(+price)));
+			}
+			else
+			{
+				$("#mainInput").val(($("#mainInput").val()-50))
+			}
+		})
+
+		$("#second").click(function(){
+			if($("#second").is(":checked"))
+			{
+				let price = $("#mainInput").val();
+				$("#mainInput").val((60+(+price)));
+			}
+			else
+			{
+				$("#mainInput").val(($("#mainInput").val()-60))
+			}
+			
+		})
+
+		$("#third").click(function(){
+			if($("#third").is(":checked"))
+			{
+				let price = $("#mainInput").val();
+				$("#mainInput").val((30.50+(+price)));
+			}
+			else
+			{
+				$("#mainInput").val(($("#mainInput").val()-30.50))
+			}
+		})
+	</script>
+	
+</body>
+</html>

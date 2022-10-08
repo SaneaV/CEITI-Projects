@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			border:1px solid black;
+			margin:0 auto;
+			text-align: center;
+			width: 20%;
+			height: 130px;
+		}
+
+		ol{
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mainBlock">
+		
+		<ol id="list">
+			<li>4</li>
+			<li>8</li>
+			<li>3</li>
+		</ol>
+
+		<button onclick="increaseValue()">Нажми!</button>
+
+	</div>
+
+	<script>
+
+		function increaseValue()
+		{
+			for(let i=0;i<list.children.length;i++)
+			{
+				list.children[i].innerHTML++;
+			}
+		}	
+
+	</script>
+	
+</body>
+</html>

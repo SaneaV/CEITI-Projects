@@ -1,0 +1,70 @@
+.mercedes-benz{
+	background-color: #79A6D3;
+	text-align: center;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 30%;
+ 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ 	border-radius: 10px;
+ 	padding: 20px;
+ 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+	width: 150px;
+}
+
+.mark{
+	color:blue;
+	font-weight: lighter;
+	font-size:1.2em;
+	margin-left: 10px;
+}
+
+li{
+	color:blue;
+}
+
+.color:before{
+  content: "Color: ";
+  font-weight: bold;
+  color:#214518;
+}
+
+.year:before{
+  content: "Year: ";
+  font-weight: bold;
+  color:#214518;
+}
+
+.price:before{
+  content: "Price: ";
+  font-weight: bold;
+  color:#214518;
+}
+
+.characteristics {
+  list-style-type: none;
+    text-align:left;
+}
+
+.characteristicsmodel
+{
+	text-align: left;
+	color: #214518;
+	font-weight: lighter;
+}
+
+ol{
+	float: center;
+	  text-align:left;
+	  font-weight: bold;
+}
+
+
+
+.hrMercedes{
+	
+	width: 350px;
+	background-color: grey;
+}

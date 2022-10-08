@@ -1,0 +1,37 @@
+div{
+	margin:0 auto;
+}
+
+table{
+	text-align: center;
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	border-collapse: collapse;
+	font-weight: bold;
+}
+
+tr:first-child{
+	background-color: #DF1D3D;
+	color:white;
+	font-size: 17px;
+
+}
+
+td:first-child{
+	background-color: #1A293A;
+	color:white;
+	height: 100px;
+	font-size: 14px;
+	
+}
+
+td{
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+.verticalText{
+	writing-mode: vertical-lr;
+	display: inline-block;
+}

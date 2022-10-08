@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		alert("Ну слушай, я знаю, что БАК ты сдал, но математику ещё никто не отменял, поэтому жми \"Закрыть\" и вводи три числа")
+
+		let firstNumber = prompt("Введите первое число")
+		let secondNumber = prompt("Введите второе число")
+		let thirdNumber = prompt("Введите третье число")
+
+		let sum = Number(firstNumber) + Number(secondNumber) + Number(thirdNumber);
+		let multiplication = firstNumber * secondNumber * thirdNumber;
+		let max = Math.max(firstNumber, secondNumber, thirdNumber);
+		let min = Math.min(firstNumber, secondNumber, thirdNumber);
+		let array = [firstNumber, secondNumber, thirdNumber].sort();
+
+		alert('Сумма чисел: ' + sum + '\nПроизведение чисел: ' + multiplication + '\nМаксимум: ' + max + '\nМинимум: ' + min + '\nЧисла в возрастающем порядке: ' + array)
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		let product;
+		let number;
+		while(true)
+		{
+			alert("1 - продукт1 - $2,98\n2 - продукт2 - $4,50\n3 - продукт3 - $9,98\n4 - продукт4 - $4,49\n5 - продукт5 - $6,87")
+
+			let product = prompt("Введите номер продукта")
+			if(product=='0')
+				break;
+			let number = prompt("Введите количество проданного продукта")
+
+			switch(product)
+			{
+				case '1':{
+					alert("Цена 2.98$\n"+"Общая стоимость "+2.98*number+"$")
+					break;
+				}
+				case '2':{
+					alert("Цена 4.50$\n"+"Общая стоимость "+4.50*number+"$")
+					break;
+				}
+				case '3':{
+					alert("Цена 9.98$\n"+"Общая стоимость "+9.98*number+"$")
+					break;
+				}
+				case '4':{
+					alert("Цена 4.49$\n"+"Общая стоимость "+4.49*number+"$")
+					break;
+				}
+				case '5':{
+					alert("Цена 6.87$\n"+"Общая стоимость "+6.87*number+"$")
+					break;
+				}
+				default:{
+					alert("Ошибка")
+				}
+			}
+		}
+
+		alert("Вы покинули программу")
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,40 @@
+#mainBlock{
+	margin:0 auto;
+	text-align: center;
+}
+
+#mainPicture{
+	margin:0 auto;
+	text-align: center;
+}
+
+#mainPng{
+	width: 400px;
+	height: 400px;
+}
+
+#album{
+	margin:0 auto;
+	display: inline-flex;
+	text-align: center;
+}
+
+button{
+	background-color: grey;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	outline:none;
+}
+
+[id^=picture]{
+	width: 80px;
+	height: 80px;
+}
+

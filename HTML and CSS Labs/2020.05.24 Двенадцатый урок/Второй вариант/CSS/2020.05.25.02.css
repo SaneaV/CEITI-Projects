@@ -1,0 +1,270 @@
+.container{
+	max-width: 1200px;
+	min-width: 320px;
+}
+
+@media screen and (max-width: 320px){
+	.menu{
+		flex-direction: column;
+		font-size: 1.5em;
+	}
+
+	.menu>div{
+		text-align: center;
+	}
+
+	.header>div>img{
+		display: none;
+	}
+
+	.menu>div:hover{
+		color: black;
+		background-color: orange;
+	}
+
+	.mainScreen{
+		flex-direction: column;
+		width: 91%;
+		text-align: center;
+		padding-left: 5%;
+	}
+
+	.mainScreen>div>img{
+		width: 100%;
+	}
+
+
+	.recText{
+		padding-top: 15%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 30vw;
+	}
+
+	.recText{
+		width: 92vw;
+	}
+
+	.recText>img{
+		height: 100%;
+		width: 100%;
+	}
+
+	.text{
+		text-align: left;
+		position: absolute;
+		margin-left: 37%;
+		margin-top: 2%;
+	}
+
+	button{
+		height: 100%;
+		font-size: 1.1em;
+		margin-left: 3%;
+		margin-top: -3%;
+	}
+
+	.videoName>h2{
+		font-size: 2.9vh;
+	}
+
+	.videoName>h5{
+		font-size: 2vh;
+	}
+
+	.text>h5:first-child{
+		font-size: 2vh;
+	}
+
+	.text>h5:not(:first-child){
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.menu{
+		flex-direction: column;
+		font-size: 1.5em;
+	}
+
+	.menu>div{
+		text-align: center;
+	}
+
+	.header>div>img{
+		display: none;
+	}
+
+	.menu>div:hover{
+		color: black;
+		background-color: orange;
+	}
+
+	.mainScreen{
+		flex-direction: column;
+		width: 91%;
+		text-align: center;
+		padding-left: 5%;
+	}
+
+	.mainScreen>div>img{
+		width: 100%;
+	}
+
+
+	.recText{
+		padding-top: 15%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 30vw;
+	}
+
+	.recText{
+		width: 92vw;
+	}
+
+	.recText>img{
+		height: 100%;
+		width: 100%;
+	}
+
+	.text{
+		text-align: left;
+		position: absolute;
+		margin-left: 37%;
+		margin-top: 1%;
+	}
+
+	button{
+		height: 100%;
+		font-size: 1.1em;
+		margin-left: 3%;
+		margin-top: -3%;
+	}
+
+	.videoName>h2{
+		font-size: 3vh;
+	}
+
+	.videoName>h5{
+		font-size: 2vh;
+	}
+
+	.text>h5:first-child{
+		font-size: 2vh;
+	}
+
+	.text>h5:not(:first-child){
+		font-size: 2vh;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.menu{
+		flex-direction: column;
+		font-size: 1.5em;
+	}
+
+	.menu>div{
+		text-align: center;
+	}
+
+	.menu>div:hover{
+		color: black;
+		background-color: orange;
+	}
+
+	.mainScreen{
+		flex-direction: column;
+		width: 91%;
+		text-align: center;
+		padding-left: 5%;
+	}
+
+	.mainScreen>div>img{
+		width: 100%;
+	}
+
+
+	.recText{
+		padding-top: 15%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 30vw;
+	}
+
+	.recText{
+		width: 92vw;
+	}
+
+	.recText>img{
+		height: 100%;
+		width: 100%;
+	}
+
+	.text{
+		text-align: left;
+		position: absolute;
+		margin-left: 37%;
+		margin-top: 0%;
+	}
+
+	button{
+		height: 100%;
+		font-size: 1.1em;
+		margin-left: 3%;
+		margin-top: -3%;
+	}
+
+	.videoName>h2{
+		font-size: 3vh;
+	}
+
+	.videoName>h5{
+		font-size: 2vh;
+	}
+
+	.text>h5:first-child{
+		font-size: 10vw;
+	}
+
+	.text>h5:not(:first-child){
+		font-size: 10vw;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	button{
+		height: 100%;
+		font-size: 1.1em;
+		margin-left: 3%;
+		margin-top: -3%;
+	}
+
+	.videoName>h2{
+		font-size: 3vh;
+	}
+
+	.videoName>h5{
+		font-size: 2vh;
+	}
+
+	.text>h5:first-child{
+		font-size: 2vh;
+	}
+
+	.text>h5:not(:first-child){
+		font-size: 2vh;
+	}
+}
+
+@media screen and (max-width: 2560px){
+
+	.menu>div:hover{
+		color: orange;
+		background-color: black;
+	}
+}

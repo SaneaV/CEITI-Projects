@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		.mainBlock{
+			margin:0 auto;
+			width: 20%;
+			height: 250px;
+			border: 1px solid black;
+			border-radius: 20px;
+			text-align: center;
+			padding: 5px 10px;
+		}
+
+	</style>
+</head>
+<body onload="adding()">
+
+	<script>
+
+		function adding(){
+			document.body.innerHTML += "<div id=\"mainBlock\" class=\"mainBlock\"></div>";
+			let parent = document.getElementById("mainBlock");
+
+			let elements = prompt("Введите элементы через пробел").trim();
+			elements = elements.split(" ");
+
+			let node;
+
+			for(let i=0;i<elements.length;i++)
+			{
+				node = document.createElement("p");                 
+				node.innerHTML = elements[i];         
+				parent.appendChild(node);                 
+			}
+
+    		document.getElementById("mainBlock").style.height = document.getElementById("mainBlock").clientHeight + elements.length*20 + 'px'
+		}
+
+	</script>
+	
+</body>
+</html>
