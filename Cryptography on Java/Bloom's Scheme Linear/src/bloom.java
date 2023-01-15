@@ -26,7 +26,7 @@ public class bloom {
 		System.out.println();
 		int[] usersKeys = new int[n];
 		for (int i = 0; i < n; i++) {
-			System.out.print("User ¹" + (1 + i) + ", inputs the public key = ");
+			System.out.print("User â„–" + (1 + i) + ", inputs the public key = ");
 			usersKeys[i] = scanner.nextInt();
 		}
 		scanner.close();

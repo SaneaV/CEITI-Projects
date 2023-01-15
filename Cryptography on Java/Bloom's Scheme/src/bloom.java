@@ -3,59 +3,59 @@ import java.util.Scanner;
 public class bloom {
 	public static void main(String args[])
 	{
-		//------------------------------------------Ввод данных
+		//------------------------------------------Р’РІРѕРґ РґР°РЅРЅС‹С…
 		
 		Scanner s = new Scanner(System.in);
-		System.out.print("Введите значение p: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ p: ");
 		int pMod = s.nextInt();
 		System.out.println();
-		System.out.println("Заполнение матрицы D: ");
+		System.out.println("Р—Р°РїРѕР»РЅРµРЅРёРµ РјР°С‚СЂРёС†С‹ D: ");
 		int[][] D = inputArray(3, 3, s);
 		System.out.println();
-		System.out.println("Заполнение матрицы I1: ");
+		System.out.println("Р—Р°РїРѕР»РЅРµРЅРёРµ РјР°С‚СЂРёС†С‹ I1: ");
 		int[][] I1 = inputArray(3, 1, s);
 		System.out.println();
-		System.out.println("Заполнение матрицы I2: ");
+		System.out.println("Р—Р°РїРѕР»РЅРµРЅРёРµ РјР°С‚СЂРёС†С‹ I2: ");
 		int[][] I2 = inputArray(3, 1, s);
 		s.close();
 		System.out.println();
 		
-		//------------------------------------------Вывод данных в консоль
+		//------------------------------------------Р’С‹РІРѕРґ РґР°РЅРЅС‹С… РІ РєРѕРЅСЃРѕР»СЊ
 		
 		System.out.println("p = " + pMod);
-		System.out.println("\nМатрица D: ");
+		System.out.println("\nРњР°С‚СЂРёС†Р° D: ");
 		showArray(D, 3, 3);
-		System.out.println("\nМатрица I1: ");
+		System.out.println("\nРњР°С‚СЂРёС†Р° I1: ");
 		showArray(I1, 3, 1);
-		System.out.println("\nМатрица I2: ");
+		System.out.println("\nРњР°С‚СЂРёС†Р° I2: ");
 		showArray(I2, 3, 1);
 		System.out.println();
 		
-		//------------------------------------------Умножение матриц
+		//------------------------------------------РЈРјРЅРѕР¶РµРЅРёРµ РјР°С‚СЂРёС†
 		
 		int[][] G1 = multipleArray(D, I1, 3, 3, 1);
 		System.out.println();
 		int[][] G2 = multipleArray(D, I2, 3, 3, 1);
 		
 		
-		//------------------------------------------Вывод данных в консоль
+		//------------------------------------------Р’С‹РІРѕРґ РґР°РЅРЅС‹С… РІ РєРѕРЅСЃРѕР»СЊ
 		
-		System.out.println("\nМатрица G1: ");
+		System.out.println("\nРњР°С‚СЂРёС†Р° G1: ");
 		showArray(G1, 3, 1);
-		System.out.println("\nМатрица G2: ");
+		System.out.println("\nРњР°С‚СЂРёС†Р° G2: ");
 		showArray(G2, 3, 1);
 		System.out.println();
 		
 		
-		//------------------------------------------Сумма матриц
-		System.out.println("\nСумма матрицы G1 и I2: ");
+		//------------------------------------------РЎСѓРјРјР° РјР°С‚СЂРёС†
+		System.out.println("\nРЎСѓРјРјР° РјР°С‚СЂРёС†С‹ G1 Рё I2: ");
 		int K1 = sumArray(G1, I2, 3, 1) % pMod;
 		System.out.println();
-		System.out.println("\nСумма матрицы G2 и I1: ");
+		System.out.println("\nРЎСѓРјРјР° РјР°С‚СЂРёС†С‹ G2 Рё I1: ");
 		int K2 = sumArray(G2, I1, 3, 1) % pMod;
 		System.out.println();
 		
-		//------------------------------------------Ответ
+		//------------------------------------------РћС‚РІРµС‚
 		
 		System.out.println("\nK1 mod " + pMod + " = : " + K1);
 		System.out.println("\nK1 mod " + pMod + " = : " + K2);
@@ -69,7 +69,7 @@ public class bloom {
 		for(int i=0;i<n;i++)
 			for(int j=0;j<m;j++)
 			{
-				System.out.print("Введите число: ");
+				System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 				temp[i][j] = s.nextInt(); 
 				//(int) (10 + Math.random() * 10); 
 			}
