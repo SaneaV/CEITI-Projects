@@ -8,16 +8,16 @@ using namespace std;
 main()
 {
     setlocale(0,"Rus");
-    cout<<"Ââåäèòå n: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n: ";
     float n,x,S=0;
     cin>>n;
-    cout<<"Ââåäèòå x: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ x: ";
     cin>>x;
     for (int i=1;i<=n;i++)
     {
         S+=cos(x);
     }
-    cout<<"Âàø îòâåò: "<<S;
+    cout<<"Ð’Ð°Ñˆ Ð¾Ñ‚Ð²ÐµÑ‚: "<<S;
 
     }
 

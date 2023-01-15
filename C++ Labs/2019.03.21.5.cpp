@@ -11,9 +11,9 @@ public:
 
     Type input()
     {
-        cout<<"Ââåäèòå ÷èñëî à: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð°: ";
         cin>>a;
-        cout<<"Ââåäèòå ÷èñëî b: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ b: ";
         cin>>b;
     }
 
@@ -51,9 +51,9 @@ int main()
 
     int Select;
 
-    cout<<"1. Ðàáîòàòü ñ int"<<endl;
-    cout<<"2. Ðàáîòàòü ñ float"<<endl;
-    cout<<"3. Ðàáîòàòü ñ char"<<endl;
+    cout<<"1. Ð Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ Ñ int"<<endl;
+    cout<<"2. Ð Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ Ñ float"<<endl;
+    cout<<"3. Ð Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ Ñ char"<<endl;
     cin>>Select;
 
     if(Select==1)
@@ -63,10 +63,10 @@ int main()
         s1.show();
 
         cout<<endl;
-        cout<<"Îïåðàöèÿ ñëîæåíèÿ: "<<s1.PlusType()<<endl;
-        cout<<"Îïåðàöèÿ âû÷èñëåíèÿ: "<<s1.MinusType()<<endl;
-        cout<<"Îïåðàöèÿ óìíîæåíèÿ: "<<s1.UmnojType()<<endl;
-        cout<<"Îïåðàöèÿ äåëåíèÿ: "<<s1.DelType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.PlusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: "<<s1.MinusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.UmnojType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð´ÐµÐ»ÐµÐ½Ð¸Ñ: "<<s1.DelType()<<endl;
     }
     else if(Select==2)
     {
@@ -75,10 +75,10 @@ int main()
         s1.show();
 
         cout<<endl;
-        cout<<"Îïåðàöèÿ ñëîæåíèÿ: "<<s1.PlusType()<<endl;
-        cout<<"Îïåðàöèÿ âû÷èñëåíèÿ: "<<s1.MinusType()<<endl;
-        cout<<"Îïåðàöèÿ óìíîæåíèÿ: "<<s1.UmnojType()<<endl;
-        cout<<"Îïåðàöèÿ äåëåíèÿ: "<<s1.DelType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.PlusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: "<<s1.MinusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.UmnojType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð´ÐµÐ»ÐµÐ½Ð¸Ñ: "<<s1.DelType()<<endl;
     }
     else if(Select==3)
     {
@@ -87,10 +87,10 @@ int main()
         s1.show();
 
         cout<<endl;
-        cout<<"Îïåðàöèÿ ñëîæåíèÿ: "<<s1.PlusType()<<endl;
-        cout<<"Îïåðàöèÿ âû÷èñëåíèÿ: "<<s1.MinusType()<<endl;
-        cout<<"Îïåðàöèÿ óìíîæåíèÿ: "<<s1.UmnojType()<<endl;
-        cout<<"Îïåðàöèÿ äåëåíèÿ: "<<s1.DelType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.PlusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: "<<s1.MinusType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ: "<<s1.UmnojType()<<endl;
+        cout<<"ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ñ Ð´ÐµÐ»ÐµÐ½Ð¸Ñ: "<<s1.DelType()<<endl;
     }
 
     return 0;

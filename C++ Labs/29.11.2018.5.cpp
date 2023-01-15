@@ -41,14 +41,14 @@ bool GameltonCikle()
     int k=0;
     int B[100];
 
-    cout<<"Ââåäèòå êîëè÷åñòâî âåðøèí: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð²ÐµÑ€ÑˆÐ¸Ð½: ";
     cin>>k;
 
     if (k!=n+1) return false;
 
     for(int i=0; i<k; i++)
     {
-        cout<<"Ââåäèòå âåðøèíó: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€ÑˆÐ¸Ð½Ñƒ: ";
         cin>>A[i];
     }
 
@@ -84,8 +84,8 @@ int main()
 
     ReadTXT();
     Show();
-    if (GameltonCikle()) cout<<"Ãàìåëüòîíîâ öèêë";
-    else cout<<"Íå ãàìåëüòîíîâ öèêë";
+    if (GameltonCikle()) cout<<"Ð“Ð°Ð¼ÐµÐ»ÑŒÑ‚Ð¾Ð½Ð¾Ð² Ñ†Ð¸ÐºÐ»";
+    else cout<<"ÐÐµ Ð³Ð°Ð¼ÐµÐ»ÑŒÑ‚Ð¾Ð½Ð¾Ð² Ñ†Ð¸ÐºÐ»";
 
 
 

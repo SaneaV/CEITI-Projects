@@ -1,4 +1,4 @@
-//Найти сумму S+=n/(n+1.0);
+//РќР°Р№С‚Рё СЃСѓРјРјСѓ S+=n/(n+1.0);
 
 #include <iostream>
 
@@ -8,7 +8,7 @@ main()
 {
     setlocale(0,"Rus");
     float n, S=0;
-    cout<<"Введите n: ";
+    cout<<"Р’РІРµРґРёС‚Рµ n: ";
     cin>>n;
     for (int i=0;i<=n;i++);
     {

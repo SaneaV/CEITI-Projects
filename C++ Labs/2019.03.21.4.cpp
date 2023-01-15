@@ -14,7 +14,7 @@ public:
     {
         if(n<0 || n>=LIMIT)
         {
-            cout<<"\nÎøèáî÷íûé èíäåêñ!"<<endl;
+            cout<<"\nÐžÑˆÐ¸Ð±Ð¾Ñ‡Ð½Ñ‹Ð¹ Ð¸Ð½Ð´ÐµÐºÑ!"<<endl;
         }
         return arr[n];
     }
@@ -32,7 +32,7 @@ int main()
         sa1[j]=j*10;
 
     char ch;
-    cout<<"Ââåäèòå ñèìâîë: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»: ";
     cin>>ch;
 
     for(int j=0; j<LIMIT; j++)
@@ -44,7 +44,7 @@ int main()
     for(int j=0; j<LIMIT; j++)
     {
         int temp = sa1[j];
-        cout<<"Ýëåìåíò "<<j<<" ðàâåí "<<temp<<endl;
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ "<<j<<" Ñ€Ð°Ð²ÐµÐ½ "<<temp<<endl;
     }
 
     cout<<endl<<endl;
@@ -52,14 +52,14 @@ int main()
     for(int j=0; j<LIMIT; j++)
     {
         char temp = sa2[j];
-        cout<<"Ýëåìåíò "<<j<<" ðàâåí "<<temp<<endl;
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ "<<j<<" Ñ€Ð°Ð²ÐµÐ½ "<<temp<<endl;
     }
     cout<<endl<<endl;
 
     for(int j=0; j<LIMIT; j++)
     {
         float temp = sa3[j] *1.0;
-        cout<<"Ýëåìåíò "<<j<<" ðàâåí "<<temp<<endl;
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ "<<j<<" Ñ€Ð°Ð²ÐµÐ½ "<<temp<<endl;
     }
 
     return 0;

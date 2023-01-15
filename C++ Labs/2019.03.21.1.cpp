@@ -24,27 +24,27 @@ int main()
     double doubleMassive[10];
     char charMassive[10];
 
-    cout<<"Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
     cin>>n;
 
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò int: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ int: ";
         cin>>intMassive[i];
     }
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò long: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ long: ";
         cin>>longMassive[i];
     }
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåí double: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½ double: ";
         cin>>doubleMassive[i];
     }
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò char: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ char: ";
         cin>>charMassive[i];
     }
 

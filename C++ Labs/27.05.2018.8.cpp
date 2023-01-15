@@ -1,4 +1,4 @@
-//Структуры. Ввод. Вывод.
+//РЎС‚СЂСѓРєС‚СѓСЂС‹. Р’РІРѕРґ. Р’С‹РІРѕРґ.
 
 #include <iostream>
 #include <windows.h>
@@ -18,7 +18,7 @@ main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    cout<<"Количество учеников: ";
+    cout<<"РљРѕР»РёС‡РµСЃС‚РІРѕ СѓС‡РµРЅРёРєРѕРІ: ";
     int n;
     cin>>n;
 
@@ -28,11 +28,11 @@ main()
     for (int i=0;i<n;i++)
     {
         cin.ignore();
-        cout<<"Имя ученика: ";
+        cout<<"РРјСЏ СѓС‡РµРЅРёРєР°: ";
         gets(Stud[i].name);
-        cout<<"Фамилия ученика: ";
+        cout<<"Р¤Р°РјРёР»РёСЏ СѓС‡РµРЅРёРєР°: ";
         gets(Stud[i].surname);
-        cout<<"Оценка ученика: ";
+        cout<<"РћС†РµРЅРєР° СѓС‡РµРЅРёРєР°: ";
         cin>>Stud[i].note;
 
         Sleep(200);

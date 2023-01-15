@@ -1,4 +1,4 @@
-//Работа с файлами на с++.
+//Р Р°Р±РѕС‚Р° СЃ С„Р°Р№Р»Р°РјРё РЅР° СЃ++.
 
 #include <iostream>
 #include <fstream>
@@ -20,7 +20,7 @@ int main()
     setlocale(LC_ALL,"RUS");
     ofstream f("Student.txt");
 
-    cout<<"Введите количество учеников: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СѓС‡РµРЅРёРєРѕРІ: ";
     int n;
     cin>>n;
 
@@ -30,11 +30,11 @@ int main()
     for (int i=0; i<n; i++)
     {
         cin.ignore();
-        cout<<"Имя ученика: ";
+        cout<<"РРјСЏ СѓС‡РµРЅРёРєР°: ";
         gets(Stud[i].Name);
-        cout<<"Фамилия ученика: ";
+        cout<<"Р¤Р°РјРёР»РёСЏ СѓС‡РµРЅРёРєР°: ";
         gets(Stud[i].Surname);
-        cout<<"Средний балл: ";
+        cout<<"РЎСЂРµРґРЅРёР№ Р±Р°Р»Р»: ";
         cin>>Stud[i].Medium;
 
         f<<Stud[i].Name<<" "<<Stud[i].Surname<<" "<<Stud[i].Medium<<endl;

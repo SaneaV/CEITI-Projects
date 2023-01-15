@@ -1,6 +1,6 @@
-/*Оплата остатка
-Простой пример жадного алгоритма - тот, который используется для решения следующей задачи:
-нам нужно дать сдачу клиенту, используя минимальное число монет (банкнот).*/
+/*РћРїР»Р°С‚Р° РѕСЃС‚Р°С‚РєР°
+РџСЂРѕСЃС‚РѕР№ РїСЂРёРјРµСЂ Р¶Р°РґРЅРѕРіРѕ Р°Р»РіРѕСЂРёС‚РјР° - С‚РѕС‚, РєРѕС‚РѕСЂС‹Р№ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ СЂРµС€РµРЅРёСЏ СЃР»РµРґСѓСЋС‰РµР№ Р·Р°РґР°С‡Рё:
+РЅР°Рј РЅСѓР¶РЅРѕ РґР°С‚СЊ СЃРґР°С‡Сѓ РєР»РёРµРЅС‚Сѓ, РёСЃРїРѕР»СЊР·СѓСЏ РјРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ РјРѕРЅРµС‚ (Р±Р°РЅРєРЅРѕС‚).*/
 
 
 #include <iostream>
@@ -71,7 +71,7 @@ int main()
 {
     setlocale(LC_ALL,"RUS");
 
-    cout<<"Введите сумму сдачи: ";
+    cout<<"Р’РІРµРґРёС‚Рµ СЃСѓРјРјСѓ СЃРґР°С‡Рё: ";
     cin>>Sdacha;
 
     while(ElementExist())
@@ -79,14 +79,14 @@ int main()
         SelectElement();
     }
 
-        if(Kolichestvo[0]!=0) cout<<"Купюр номиналом 1 лей: "<<Kolichestvo[0]<<endl;
-        if(Kolichestvo[1]!=0) cout<<"Купюр номиналом 5 лей: "<<Kolichestvo[1]<<endl;
-        if(Kolichestvo[2]!=0) cout<<"Купюр номиналом 10 лей: "<<Kolichestvo[2]<<endl;
-        if(Kolichestvo[3]!=0) cout<<"Купюр номиналом 20 лей: "<<Kolichestvo[3]<<endl;
-        if(Kolichestvo[4]!=0) cout<<"Купюр номиналом 50 лей: "<<Kolichestvo[4]<<endl;
-        if(Kolichestvo[5]!=0) cout<<"Купюр номиналом 100 лей: "<<Kolichestvo[5]<<endl;
-        if(Kolichestvo[6]!=0) cout<<"Купюр номиналом 200 лей: "<<Kolichestvo[6]<<endl;
-        if(Kolichestvo[7]!=0) cout<<"Купюр номиналом 500 лей: "<<Kolichestvo[7]<<endl;
-        if(Kolichestvo[8]!=0) cout<<"Купюр номиналом 1000 лей: "<<Kolichestvo[8]<<endl;
+        if(Kolichestvo[0]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 1 Р»РµР№: "<<Kolichestvo[0]<<endl;
+        if(Kolichestvo[1]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 5 Р»РµР№: "<<Kolichestvo[1]<<endl;
+        if(Kolichestvo[2]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 10 Р»РµР№: "<<Kolichestvo[2]<<endl;
+        if(Kolichestvo[3]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 20 Р»РµР№: "<<Kolichestvo[3]<<endl;
+        if(Kolichestvo[4]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 50 Р»РµР№: "<<Kolichestvo[4]<<endl;
+        if(Kolichestvo[5]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 100 Р»РµР№: "<<Kolichestvo[5]<<endl;
+        if(Kolichestvo[6]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 200 Р»РµР№: "<<Kolichestvo[6]<<endl;
+        if(Kolichestvo[7]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 500 Р»РµР№: "<<Kolichestvo[7]<<endl;
+        if(Kolichestvo[8]!=0) cout<<"РљСѓРїСЋСЂ РЅРѕРјРёРЅР°Р»РѕРј 1000 Р»РµР№: "<<Kolichestvo[8]<<endl;
 
 }

@@ -67,7 +67,7 @@ void LockingFor()
         }
     }
 
-    cout<<"Ñàìûé ëó÷øèé âàðèàíò: "<<endl;
+    cout<<"Ð¡Ð°Ð¼Ñ‹Ð¹ Ð»ÑƒÑ‡ÑˆÐ¸Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚: "<<endl;
     cout<<xpoz1<<endl;
     cout<<xpoz2<<endl;
     cout<<xpoz3<<endl;

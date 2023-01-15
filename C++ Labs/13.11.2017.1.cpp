@@ -1,4 +1,4 @@
-//Вводится число N.
+//Р’РІРѕРґРёС‚СЃСЏ С‡РёСЃР»Рѕ N.
 //S=sqrt(n)*sqrt(n)...n*sqrt(n);
 
 #include <iostream>
@@ -9,7 +9,7 @@ using namespace std;
 main ()
 {
     setlocale (LC_ALL,"Rus");
-    cout<<"Введите число";
+    cout<<"Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ";
     int n;
     int S=1,p=1;
     cin>>n;

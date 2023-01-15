@@ -1,4 +1,4 @@
-//Задача о лабиринте
+//Р—Р°РґР°С‡Р° Рѕ Р»Р°Р±РёСЂРёРЅС‚Рµ
 
 #include <iostream>
 #include <fstream>
@@ -93,64 +93,64 @@ void SelectElement()
 
     if(Labyrint[CurrentI+1][CurrentJ]==0 and abs(EndI-CurrentI-1)<abs(EndI-CurrentI) and CurrentI<n-1 or Labyrint[CurrentI+1][CurrentJ]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI+1<<" "<<CurrentJ<<endl;
-        g<<"Вниз"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI+1<<" "<<CurrentJ<<endl;
+        g<<"Р’РЅРёР·"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentI++;
     }
     else if(Labyrint[CurrentI-1][CurrentJ]==0 and abs(EndI-CurrentI+1)<abs(EndI-CurrentI) and CurrentI>0 or Labyrint[CurrentI-1][CurrentJ]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI-1<<" "<<CurrentJ<<endl;
-        g<<"Вверх"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI-1<<" "<<CurrentJ<<endl;
+        g<<"Р’РІРµСЂС…"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentI--;
     }
     else if(Labyrint[CurrentI][CurrentJ+1]==0 and abs(EndJ-CurrentJ-1)<abs(EndJ-CurrentJ) and CurrentJ<m-1 or Labyrint[CurrentI][CurrentJ+1]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI<<" "<<CurrentJ+1<<endl;
-        g<<"Направо"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI<<" "<<CurrentJ+1<<endl;
+        g<<"РќР°РїСЂР°РІРѕ"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentJ++;
     }
     else if(Labyrint[CurrentI][CurrentJ-1]==0 and abs(EndJ-CurrentJ+1)<abs(EndJ-CurrentJ) and CurrentJ>0 or Labyrint[CurrentI][CurrentJ-1]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI<<" "<<CurrentJ-1<<endl;
-        g<<"Налево"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI<<" "<<CurrentJ-1<<endl;
+        g<<"РќР°Р»РµРІРѕ"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentJ--;
     }
     else if(Labyrint[CurrentI+1][CurrentJ]==0 and CurrentI<n-1 or Labyrint[CurrentI+1][CurrentJ]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI+1<<" "<<CurrentJ<<endl;
-        g<<"Вниз"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI+1<<" "<<CurrentJ<<endl;
+        g<<"Р’РЅРёР·"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentI++;
     }
     else if(Labyrint[CurrentI-1][CurrentJ]==0 and CurrentI>0 or Labyrint[CurrentI-1][CurrentJ]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI-1<<" "<<CurrentJ<<endl;
-        g<<"Вверх"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI-1<<" "<<CurrentJ<<endl;
+        g<<"Р’РІРµСЂС…"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentI--;
     }
     else if(Labyrint[CurrentI][CurrentJ+1]==0 and CurrentJ<m-1 or Labyrint[CurrentI][CurrentJ+1]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI<<" "<<CurrentJ+1<<endl;
-        g<<"Направо"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI<<" "<<CurrentJ+1<<endl;
+        g<<"РќР°РїСЂР°РІРѕ"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentJ++;
     }
     else if(Labyrint[CurrentI][CurrentJ-1]==0 and CurrentJ>0 or Labyrint[CurrentI][CurrentJ-1]==3)
     {
-        cout<<"Робот совершает ход на позицию: "<<CurrentI<<" "<<CurrentJ-1<<endl;
-        g<<"Налево"<<endl;
+        cout<<"Р РѕР±РѕС‚ СЃРѕРІРµСЂС€Р°РµС‚ С…РѕРґ РЅР° РїРѕР·РёС†РёСЋ: "<<CurrentI<<" "<<CurrentJ-1<<endl;
+        g<<"РќР°Р»РµРІРѕ"<<endl;
         Labyrint[CurrentI][CurrentJ]=5;
         CurrentJ--;
     }
 
     if(Labyrint[CurrentI+1][CurrentJ]==1 and Labyrint[CurrentI-1][CurrentJ]==1 and Labyrint[CurrentI][CurrentJ+1]==1 and Labyrint[CurrentI][CurrentJ-1]==1)
     {
-        g<<"Робот попал в тупик"<<endl;
+        g<<"Р РѕР±РѕС‚ РїРѕРїР°Р» РІ С‚СѓРїРёРє"<<endl;
     }
 
 }

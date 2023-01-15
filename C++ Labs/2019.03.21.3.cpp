@@ -24,30 +24,30 @@ int main()
     float floatMassive[10];
     char charMassive[10];
 
-    cout<<"Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ: ";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
     cin>>n;
 
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò int: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ int: ";
         cin>>intMassive[i];
     }
 
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò float: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ float: ";
         cin>>floatMassive[i];
     }
 
     for(int i=0; i<n; i++)
     {
-        cout<<"Ýëåìåíò char: ";
+        cout<<"Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ char: ";
         cin>>charMassive[i];
     }
 
-    cout<<"Ìàêñèìàëüíûé ýëåìåíò â int: "<<amax(intMassive, n)<<endl;
-    cout<<"Ìàêñèìàëüíûé ýëåìåíò â float: "<<amax(floatMassive, n)<<endl;
-    cout<<"Ìàêñèìàëüíûé ýëåìåíò â char: "<<amax(charMassive, n)<<endl;
+    cout<<"ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð² int: "<<amax(intMassive, n)<<endl;
+    cout<<"ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð² float: "<<amax(floatMassive, n)<<endl;
+    cout<<"ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð² char: "<<amax(charMassive, n)<<endl;
 
 
 

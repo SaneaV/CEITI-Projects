@@ -172,7 +172,7 @@ void removeByPtr(Tree *p, Tree *rm)
         }
          delete rm;
     }
-    else// Если корень
+    else// Р•СЃР»Рё РєРѕСЂРµРЅСЊ
     {
         if (rm->left && rm->right)
         {

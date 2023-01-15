@@ -1,4 +1,4 @@
-//Тест на знание урбанистики. Эксперементальная программа, работа с цветами.
+//РўРµСЃС‚ РЅР° Р·РЅР°РЅРёРµ СѓСЂР±Р°РЅРёСЃС‚РёРєРё. Р­РєСЃРїРµСЂРµРјРµРЅС‚Р°Р»СЊРЅР°СЏ РїСЂРѕРіСЂР°РјРјР°, СЂР°Р±РѕС‚Р° СЃ С†РІРµС‚Р°РјРё.
 
 #include <iostream>
 #include <windows.h>
@@ -37,9 +37,9 @@ int main()
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | Yellow));
-    cout<<setw(40)<<"Добро пожаловать!"<<endl;
+    cout<<setw(40)<<"Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ!"<<endl;
     char Name[20];
-    cout<<"Введите ваше имя: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РІР°С€Рµ РёРјСЏ: ";
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 13));
     gets(Name);
 
@@ -47,10 +47,10 @@ int main()
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 9));
-    cout<<"Первый вопрос: "<<endl<<"\nУрбанистика это наука о: "<<endl<<"1. О животных."<<endl<<"2. О человеке."<<endl<<"3. О городах.";
+    cout<<"РџРµСЂРІС‹Р№ РІРѕРїСЂРѕСЃ: "<<endl<<"\nРЈСЂР±Р°РЅРёСЃС‚РёРєР° СЌС‚Рѕ РЅР°СѓРєР° Рѕ: "<<endl<<"1. Рћ Р¶РёРІРѕС‚РЅС‹С…."<<endl<<"2. Рћ С‡РµР»РѕРІРµРєРµ."<<endl<<"3. Рћ РіРѕСЂРѕРґР°С….";
     int x;
     int Score=0;
-    cout<<endl<<endl<<"Ваш ответ: ";
+    cout<<endl<<endl<<"Р’Р°С€ РѕС‚РІРµС‚: ";
     cin>>x;
     cout<<endl;
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 12));
@@ -58,17 +58,17 @@ int main()
     {
         Score+=1;
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
-        cout<<"Вы угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
     }
     else
-        cout<<"Вы не угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ РЅРµ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
 
     Sleep(1000);
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 9));
-    cout<<"Второй вопрос: "<<endl<<"\nВ приоритете всегда: "<<endl<<"1. Машина."<<endl<<"2. Пешеход."<<endl<<"3. Велосипедисты.";
-    cout<<endl<<endl<<"Ваш ответ: ";
+    cout<<"Р’С‚РѕСЂРѕР№ РІРѕРїСЂРѕСЃ: "<<endl<<"\nР’ РїСЂРёРѕСЂРёС‚РµС‚Рµ РІСЃРµРіРґР°: "<<endl<<"1. РњР°С€РёРЅР°."<<endl<<"2. РџРµС€РµС…РѕРґ."<<endl<<"3. Р’РµР»РѕСЃРёРїРµРґРёСЃС‚С‹.";
+    cout<<endl<<endl<<"Р’Р°С€ РѕС‚РІРµС‚: ";
     cin>>x;
     cout<<endl;
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 12));
@@ -76,17 +76,17 @@ int main()
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
         Score+=1;
-        cout<<"Вы угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
     }
     else
-        cout<<"Вы не угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ РЅРµ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
 
     Sleep(1000);
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 9));
-    cout<<"Третий вопрос: "<<endl<<"\nЧтобы избавиться от пробок, необходимо: "<<endl<<"1. Увеличить количество дорог."<<endl<<"2. Уменьшить количество дорог."<<endl<<"3. Ничего не делать.";
-    cout<<endl<<endl<<"Ваш ответ: ";
+    cout<<"РўСЂРµС‚РёР№ РІРѕРїСЂРѕСЃ: "<<endl<<"\nР§С‚РѕР±С‹ РёР·Р±Р°РІРёС‚СЊСЃСЏ РѕС‚ РїСЂРѕР±РѕРє, РЅРµРѕР±С…РѕРґРёРјРѕ: "<<endl<<"1. РЈРІРµР»РёС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕСЂРѕРі."<<endl<<"2. РЈРјРµРЅСЊС€РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕСЂРѕРі."<<endl<<"3. РќРёС‡РµРіРѕ РЅРµ РґРµР»Р°С‚СЊ.";
+    cout<<endl<<endl<<"Р’Р°С€ РѕС‚РІРµС‚: ";
     cin>>x;
     cout<<endl;
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 12));
@@ -94,17 +94,17 @@ int main()
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
         Score+=1;
-        cout<<"Вы угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
     }
     else
-        cout<<"Вы не угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ РЅРµ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
 
     Sleep(1000);
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 9));
-    cout<<"Четверый вопрос: "<<endl<<"\nМодернизировать город выгодно? "<<endl<<"1. Да"<<endl<<"2. Нет."<<endl<<"3. Я из села.";
-    cout<<endl<<endl<<"Ваш ответ: ";
+    cout<<"Р§РµС‚РІРµСЂС‹Р№ РІРѕРїСЂРѕСЃ: "<<endl<<"\nРњРѕРґРµСЂРЅРёР·РёСЂРѕРІР°С‚СЊ РіРѕСЂРѕРґ РІС‹РіРѕРґРЅРѕ? "<<endl<<"1. Р”Р°"<<endl<<"2. РќРµС‚."<<endl<<"3. РЇ РёР· СЃРµР»Р°.";
+    cout<<endl<<endl<<"Р’Р°С€ РѕС‚РІРµС‚: ";
     cin>>x;
     cout<<endl;
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 12));
@@ -112,17 +112,17 @@ int main()
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
         Score+=1;
-        cout<<"Вы угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
     }
     else
-        cout<<"Вы не угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ РЅРµ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
 
     Sleep(1000);
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 9));
-    cout<<"Пятый вопрос: "<<endl<<"\nУрбанистический закон гласит: "<<endl<<"1. Чем больше этажей - тем лучше."<<endl<<"2. Дом должен быть на земле."<<endl<<"3. Дом должен быть не выше 6 этажей.";
-    cout<<endl<<endl<<"Ваш ответ: ";
+    cout<<"РџСЏС‚С‹Р№ РІРѕРїСЂРѕСЃ: "<<endl<<"\nРЈСЂР±Р°РЅРёСЃС‚РёС‡РµСЃРєРёР№ Р·Р°РєРѕРЅ РіР»Р°СЃРёС‚: "<<endl<<"1. Р§РµРј Р±РѕР»СЊС€Рµ СЌС‚Р°Р¶РµР№ - С‚РµРј Р»СѓС‡С€Рµ."<<endl<<"2. Р”РѕРј РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РЅР° Р·РµРјР»Рµ."<<endl<<"3. Р”РѕРј РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РЅРµ РІС‹С€Рµ 6 СЌС‚Р°Р¶РµР№.";
+    cout<<endl<<endl<<"Р’Р°С€ РѕС‚РІРµС‚: ";
     cin>>x;
     cout<<endl;
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 12));
@@ -130,46 +130,46 @@ int main()
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
         Score+=1;
-        cout<<"Вы угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
     }
     else
-        cout<<"Вы не угадали."<<endl<<"Ваш счёт: "<<Score;
+        cout<<"Р’С‹ РЅРµ СѓРіР°РґР°Р»Рё."<<endl<<"Р’Р°С€ СЃС‡С‘С‚: "<<Score;
 
     Sleep(1000);
     system("cls");
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 14));
-    cout<<"Поздравляем "<<Name<<", вы прошли тест!"<<endl;
-    cout<<"Ваш результат: "<<Score<<endl;
+    cout<<"РџРѕР·РґСЂР°РІР»СЏРµРј "<<Name<<", РІС‹ РїСЂРѕС€Р»Рё С‚РµСЃС‚!"<<endl;
+    cout<<"Р’Р°С€ СЂРµР·СѓР»СЊС‚Р°С‚: "<<Score<<endl;
     if (Score==0)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 7));
-        cout<<"Вы очень плохо знаете урбанистику.";
+        cout<<"Р’С‹ РѕС‡РµРЅСЊ РїР»РѕС…Рѕ Р·РЅР°РµС‚Рµ СѓСЂР±Р°РЅРёСЃС‚РёРєСѓ.";
     }
     if (Score==1)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 4));
-        cout<<"Вы плохо знаете урбанистику.";
+        cout<<"Р’С‹ РїР»РѕС…Рѕ Р·РЅР°РµС‚Рµ СѓСЂР±Р°РЅРёСЃС‚РёРєСѓ.";
     }
     if (Score==2)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 2));
-        cout<<"Ваши знания в урбанистике могли бы быть и лучше.";
+        cout<<"Р’Р°С€Рё Р·РЅР°РЅРёСЏ РІ СѓСЂР±Р°РЅРёСЃС‚РёРєРµ РјРѕРіР»Рё Р±С‹ Р±С‹С‚СЊ Рё Р»СѓС‡С€Рµ.";
     }
     if (Score==3)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 3));
-        cout<<"Вам стоит немного потрудится и вы поймёте урбанистику.";
+        cout<<"Р’Р°Рј СЃС‚РѕРёС‚ РЅРµРјРЅРѕРіРѕ РїРѕС‚СЂСѓРґРёС‚СЃСЏ Рё РІС‹ РїРѕР№РјС‘С‚Рµ СѓСЂР±Р°РЅРёСЃС‚РёРєСѓ.";
     }
     if (Score==4)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 14));
-        cout<<"Вы хорошо знаете урбанистику.";
+        cout<<"Р’С‹ С…РѕСЂРѕС€Рѕ Р·РЅР°РµС‚Рµ СѓСЂР±Р°РЅРёСЃС‚РёРєСѓ.";
     }
     if (Score==5)
     {
         SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 10));
-        cout<<"Вы отлично знаете урбанистику.";
+        cout<<"Р’С‹ РѕС‚Р»РёС‡РЅРѕ Р·РЅР°РµС‚Рµ СѓСЂР±Р°РЅРёСЃС‚РёРєСѓ.";
     }
 
     SetConsoleTextAttribute(hConsole, (WORD) ((Black << 4) | 15));

@@ -1,4 +1,4 @@
-//Создание односвязного списка
+//РЎРѕР·РґР°РЅРёРµ РѕРґРЅРѕСЃРІСЏР·РЅРѕРіРѕ СЃРїРёСЃРєР°
 
 #include <iostream>
 #include <windows.h>
@@ -16,13 +16,13 @@ void Create()
 {
     List *cr, *prv;
     if(bg!=NULL)
-        cout<<"Лист создан."<<endl;
+        cout<<"Р›РёСЃС‚ СЃРѕР·РґР°РЅ."<<endl;
     else
         do
         {
             cr = new List;
 
-            cout<<"Введите целое число: ";
+            cout<<"Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ";
             cin>>cr->info;
 
             if(cr->info!=0)
@@ -44,7 +44,7 @@ void Show()
     List *cr;
 
     if(bg==NULL)
-        cout<<"Лист пуст."<<endl;
+        cout<<"Р›РёСЃС‚ РїСѓСЃС‚."<<endl;
     else
     {
         cr=bg;
@@ -78,9 +78,9 @@ void Insert()
     List *r, *q;
     int poz;
     r = new List;
-    cout<<"Введите новый элемент: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Р№ СЌР»РµРјРµРЅС‚: ";
     cin>>r->info;
-    cout<<"Введите позицию: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РїРѕР·РёС†РёСЋ: ";
     cin>>poz;
     q = Find(poz-1);
     if (poz==1)
@@ -92,7 +92,7 @@ void Insert()
     {
         q=Find(poz-1);
         if(q==NULL)
-            cout<<"Нневозможно ввести."<<endl;
+            cout<<"РќРЅРµРІРѕР·РјРѕР¶РЅРѕ РІРІРµСЃС‚Рё."<<endl;
         else
         {
             r->next=q->next;
@@ -108,7 +108,7 @@ void Delete()
     List *r, *q;
 
     int poz;
-    cout<<"Введите позицию: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РїРѕР·РёС†РёСЋ: ";
     cin>>poz;
 
     if(poz==1)
@@ -122,7 +122,7 @@ void Delete()
     {
         q=Find(poz-1);
         if(q==NULL)
-            cout<<"Невозможно удалить."<<endl;
+            cout<<"РќРµРІРѕР·РјРѕР¶РЅРѕ СѓРґР°Р»РёС‚СЊ."<<endl;
         else
         {
             r=q->next;
@@ -153,7 +153,7 @@ int main()
     setlocale(LC_ALL,"RUS");
 
     bg=NULL;
-    cout<<"Введите числа, для окончания введите ноль."<<endl<<endl;
+    cout<<"Р’РІРµРґРёС‚Рµ С‡РёСЃР»Р°, РґР»СЏ РѕРєРѕРЅС‡Р°РЅРёСЏ РІРІРµРґРёС‚Рµ РЅРѕР»СЊ."<<endl<<endl;
     Create();
     system("cls");
 
@@ -162,13 +162,13 @@ int main()
     do
     {
         int Selection;
-        cout<<"Что вы хотите сделать дальше: "<<endl;
-        cout<<"1. Вывести список."<<endl;
-        cout<<"2. Найти элемент в списке."<<endl;
-        cout<<"3. Добавить новый элемент."<<endl;
-        cout<<"4. Удаление элемента."<<endl;
-        cout<<"5. Сумма элементов."<<endl;
-        cout<<"Ваш выбор: ";
+        cout<<"Р§С‚Рѕ РІС‹ С…РѕС‚РёС‚Рµ СЃРґРµР»Р°С‚СЊ РґР°Р»СЊС€Рµ: "<<endl;
+        cout<<"1. Р’С‹РІРµСЃС‚Рё СЃРїРёСЃРѕРє."<<endl;
+        cout<<"2. РќР°Р№С‚Рё СЌР»РµРјРµРЅС‚ РІ СЃРїРёСЃРєРµ."<<endl;
+        cout<<"3. Р”РѕР±Р°РІРёС‚СЊ РЅРѕРІС‹Р№ СЌР»РµРјРµРЅС‚."<<endl;
+        cout<<"4. РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°."<<endl;
+        cout<<"5. РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ."<<endl;
+        cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
         cin>>Selection;
         system("cls");
 
@@ -176,13 +176,13 @@ int main()
         {
         case 1:
         {
-            cout<<"Вот так выглядит ваш список: ";
+            cout<<"Р’РѕС‚ С‚Р°Рє РІС‹РіР»СЏРґРёС‚ РІР°С€ СЃРїРёСЃРѕРє: ";
             Show();
 
-            cout<<endl<<endl<<"Продолжить?"<<endl;
-            cout<<"1.Да"<<endl;
-            cout<<"2.Нет"<<endl;
-            cout<<"Ваш выбор: ";
+            cout<<endl<<endl<<"РџСЂРѕРґРѕР»Р¶РёС‚СЊ?"<<endl;
+            cout<<"1.Р”Р°"<<endl;
+            cout<<"2.РќРµС‚"<<endl;
+            cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
             cin>>YY;
 
             if(YY==1)
@@ -194,17 +194,17 @@ int main()
         }
         case 2:
         {
-            cout<<"Введите позицию: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РїРѕР·РёС†РёСЋ: ";
             int pp;
             cin>>pp;
 
             List *q=Find(pp);
-            cout<<"Число на "<<pp<<" позиции: "<<q->info;
+            cout<<"Р§РёСЃР»Рѕ РЅР° "<<pp<<" РїРѕР·РёС†РёРё: "<<q->info;
 
-            cout<<endl<<endl<<"Продолжить?"<<endl;
-            cout<<"1.Да"<<endl;
-            cout<<"2.Нет"<<endl;
-            cout<<"Ваш выбор: ";
+            cout<<endl<<endl<<"РџСЂРѕРґРѕР»Р¶РёС‚СЊ?"<<endl;
+            cout<<"1.Р”Р°"<<endl;
+            cout<<"2.РќРµС‚"<<endl;
+            cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
             cin>>YY;
 
             if(YY==1)
@@ -218,10 +218,10 @@ int main()
             Insert();
             Show();
 
-            cout<<endl<<endl<<"Продолжить?"<<endl;
-            cout<<"1.Да"<<endl;
-            cout<<"2.Нет"<<endl;
-            cout<<"Ваш выбор: ";
+            cout<<endl<<endl<<"РџСЂРѕРґРѕР»Р¶РёС‚СЊ?"<<endl;
+            cout<<"1.Р”Р°"<<endl;
+            cout<<"2.РќРµС‚"<<endl;
+            cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
             cin>>YY;
 
             if(YY==1)
@@ -235,10 +235,10 @@ int main()
             Delete();
             Show();
 
-            cout<<endl<<endl<<"Продолжить?"<<endl;
-            cout<<"1.Да"<<endl;
-            cout<<"2.Нет"<<endl;
-            cout<<"Ваш выбор: ";
+            cout<<endl<<endl<<"РџСЂРѕРґРѕР»Р¶РёС‚СЊ?"<<endl;
+            cout<<"1.Р”Р°"<<endl;
+            cout<<"2.РќРµС‚"<<endl;
+            cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
             cin>>YY;
 
             if(YY==1)
@@ -249,12 +249,12 @@ int main()
         }
         case 5:
         {
-            cout<<"Сумма элементов: "<<Sum();
+            cout<<"РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ: "<<Sum();
 
-            cout<<endl<<endl<<"Продолжить?"<<endl;
-            cout<<"1.Да"<<endl;
-            cout<<"2.Нет"<<endl;
-            cout<<"Ваш выбор: ";
+            cout<<endl<<endl<<"РџСЂРѕРґРѕР»Р¶РёС‚СЊ?"<<endl;
+            cout<<"1.Р”Р°"<<endl;
+            cout<<"2.РќРµС‚"<<endl;
+            cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
             cin>>YY;
 
             if(YY==1)

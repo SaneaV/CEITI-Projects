@@ -15,15 +15,15 @@ main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    cout<<setw(40)<<"¿ÎÂÍÒ‡Ì‰ P1713"<<endl;
+    cout<<setw(40)<<"–ê–ª–µ–∫—Å–∞–Ω–¥—Ä P1713"<<endl;
     Sleep(1000);
     system("cls");
 
-    cout<<fixed<<setw(40)<<"¬‡¯Ë ÔÂ‰ÎÓÊÂÌËˇ Ì‡ ÔÓ˜ÚÛ: SaneaVicev@mail.ru"<<endl;
+    cout<<fixed<<setw(40)<<"–í–∞—à–∏ –ø—Ä–µ–¥–ª–æ–∂–µ–Ω–∏—è –Ω–∞ –ø–æ—á—Ç—É: SaneaVicev@mail.ru"<<endl;
     Sleep(2000);
     system("cls");
 
-    cout<<"¬˚·ÂË ÒÂ·Â ÌËÍÌÂÈÏ: ";
+    cout<<"–í—ã–±–µ—Ä–∏ —Å–µ–±–µ –Ω–∏–∫–Ω–µ–π–º: ";
     char nik[20];
 
     gets(nik);
@@ -33,28 +33,28 @@ main()
 
     system ("cls");
 
-    cout<<setw(50)<<nik<<", ‰Ó·Ó ÔÓÊ‡ÎÓ‚‡Ú¸ ‚ 99 games in 1"<<endl;
+    cout<<setw(50)<<nik<<", –¥–æ–±—Ä–æ –ø–æ–∂–∞–ª–æ–≤–∞—Ç—å –≤ 99 games in 1"<<endl;
 
-    cout<<"\nÕ‡ ‰‡ÌÌ˚È ÏÓÏÂÌÚ ‚˚ ÏÓÊÂÚÂ ÔÓË„‡Ú¸ ‚: ";
-    cout<<"\n\n1. ¬ËÒÂÎËˆ‡.";
-    cout<<"\n2. œÓÎÂ ◊Û‰ÂÒ.";
-    cout<<"\n\n¬Ó ˜ÚÓ ·Û‰ÂÚÂ Ë„‡Ú¸: ";
+    cout<<"\n–ù–∞ –¥–∞–Ω–Ω—ã–π –º–æ–º–µ–Ω—Ç –≤—ã –º–æ–∂–µ—Ç–µ –ø–æ–∏–≥—Ä–∞—Ç—å –≤: ";
+    cout<<"\n\n1. –í–∏—Å–µ–ª–∏—Ü–∞.";
+    cout<<"\n2. –ü–æ–ª–µ –ß—É–¥–µ—Å.";
+    cout<<"\n\n–í–æ —á—Ç–æ –±—É–¥–µ—Ç–µ –∏–≥—Ä–∞—Ç—å: ";
 
     int vib;
 
-    while (!(cin>>vib))//¬‚Ó‰ËÏ ÁÌ‡˜ÂÌËÂ Ë ÂÒÎË ˝ÚÓ ÌÂ ˆËÙ‡, Ì‡˜ËÌ‡ÂÚÒˇ ˆËÍÎ (! - not)
+    while (!(cin>>vib))//–í–≤–æ–¥–∏–º –∑–Ω–∞—á–µ–Ω–∏–µ –∏ –µ—Å–ª–∏ —ç—Ç–æ –Ω–µ —Ü–∏—Ñ—Ä–∞, –Ω–∞—á–∏–Ω–∞–µ—Ç—Å—è —Ü–∏–∫–ª (! - not)
     {
-        cout<<"Œ¯Ë·Í‡, ‚˚ ‚‚ÂÎË ˜ÚÓ-ÚÓ ÌÂ ÚÓ. ";
-        cin.clear();//Œ˜Ë˘‡ÂÚ ÔÓÚÓÍ
-        cin.sync();//”‰‡ÎˇÂÚ ‰‡ÌÌ˚Â ËÁ ·ÛÙÙÂ‡
-        cout<<"\n¬Ó ˜ÚÓ ·Û‰ÂÚÂ Ë„‡Ú¸: ";
+        cout<<"–û—à–∏–±–∫–∞, –≤—ã –≤–≤–µ–ª–∏ —á—Ç–æ-—Ç–æ –Ω–µ —Ç–æ. ";
+        cin.clear();//–û—á–∏—â–∞–µ—Ç –ø–æ—Ç–æ–∫
+        cin.sync();//–£–¥–∞–ª—è–µ—Ç –¥–∞–Ω–Ω—ã–µ –∏–∑ –±—É—Ñ—Ñ–µ—Ä–∞
+        cout<<"\n–í–æ —á—Ç–æ –±—É–¥–µ—Ç–µ –∏–≥—Ä–∞—Ç—å: ";
     }
 
     switch (vib)
     {
     case 1:
     {
-        char Slova[1000]= {"ÒÏÂı, Î˛·Ó‚¸, ‰ÛÊ·‡, ÒÂÏÂ˜ÍË, ‚Ó‰Ó‚ÓÓÚ, ÚÂÎÂÙÓÌ, ÒÏ‡ÚÙÓÌ, ÍËÚ, ÏÓÊ, ‰ÓÊ‰¸, ˝ÍÒÍ‡‚‡ÚÓ, ‡ËÙÏÂÚËÍ‡, Â‡Î¸ÌÓÒÚ¸, Ô‡‚‰‡, ˜ÂÒÚÌÓÒÚ¸, ‰Ó‚ÂËÂ, ÏÛÁ˚Í‡, ˜ËÒÚÓÚ‡, Ò‚ÂÊÂÒÚ¸, ÂÍ‡, ÏÓÂ, ÓÍÂ‡Ì, ÓÒÚÓ‚, ÒÛ¯‡, ‚ÓÒÚÓÍ, ÒÂ‚Â, Á‡Ô‡‰, ˛„, ÍÂÏ, ÍÎ‡‚Ë‡ÚÛ‡, ÏÓÌËÚÓ, Û˜∏·‡, Ï‡ÚÂÏ‡ÚËÍ‡, ÔÓ„‡ÏÏËÓ‚‡ÌËÂ, ‰Ó·ÓÚ‡, ÍÎ‡‚Ë¯Ë, Ó·¯‡„‡, ÒÛÏ‡ÚÓı‡, ‰ÂÚÒÚ‚Ó, ‰Â‰Û¯Í‡, ·‡·Û¯Í‡, ÏÓÙÂÏ‡, ÍÓÒËÌÛÒ, ÒËÌÛÒ, Ô‡‡ÏÂÚ, ‰ÓÓ„‡, ÔÛÚ¸, Â‰ËÌÓÓ„, ÒÔÎÓ˜∏ÌÌÓÒÚ¸, ÍÓÎÎÂÍÚË‚, ÙÂÈıÛ‡, ‡ÔÂÎ¸ÒËÌ, Ï‡Ì‰‡ËÌ, ˇ·ÎÓÍÓ, „Ó‰, ÏÂÒˇˆ, ÁËÏ‡, ‚ÂÒÌ‡, ‚ËÒËÎËˆ‡, ‡ÎÂÍÒ‡Ì‰"};
+        char Slova[1000]= {"—Å–º–µ—Ö, –ª—é–±–æ–≤—å, –¥—Ä—É–∂–±–∞, —Å–µ–º–µ—á–∫–∏, –≤–æ–¥–æ–≤–æ—Ä–æ—Ç, —Ç–µ–ª–µ—Ñ–æ–Ω, —Å–º–∞—Ä—Ç—Ñ–æ–Ω, –∫–∏—Ç, –º–æ—Ä–∂, –¥–æ–∂–¥—å, —ç–∫—Å–∫–∞–≤–∞—Ç–æ—Ä, –∞—Ä–∏—Ñ–º–µ—Ç–∏–∫–∞, —Ä–µ–∞–ª—å–Ω–æ—Å—Ç—å, –ø—Ä–∞–≤–¥–∞, —á–µ—Å—Ç–Ω–æ—Å—Ç—å, –¥–æ–≤–µ—Ä–∏–µ, –º—É–∑—ã–∫–∞, —á–∏—Å—Ç–æ—Ç–∞, —Å–≤–µ–∂–µ—Å—Ç—å, —Ä–µ–∫–∞, –º–æ—Ä–µ, –æ–∫–µ–∞–Ω, –æ—Å—Ç—Ä–æ–≤, —Å—É—à–∞, –≤–æ—Å—Ç–æ–∫, —Å–µ–≤–µ—Ä, –∑–∞–ø–∞–¥, —é–≥, –∫—Ä–µ–º, –∫–ª–∞–≤–∏–∞—Ç—É—Ä–∞, –º–æ–Ω–∏—Ç–æ—Ä, —É—á—ë–±–∞, –º–∞—Ç–µ–º–∞—Ç–∏–∫–∞, –ø—Ä–æ–≥—Ä–∞–º–º–∏—Ä–æ–≤–∞–Ω–∏–µ, –¥–æ–±—Ä–æ—Ç–∞, –∫–ª–∞–≤–∏—à–∏, –æ–±—à–∞–≥–∞, —Å—É–º–∞—Ç–æ—Ö–∞, –¥–µ—Ç—Å—Ç–≤–æ, –¥–µ–¥—É—à–∫–∞, –±–∞–±—É—à–∫–∞, –º–æ—Ä—Ñ–µ–º–∞, –∫–æ—Å–∏–Ω—É—Å, —Å–∏–Ω—É—Å, –ø–∞—Ä–∞–º–µ—Ç—Ä, –¥–æ—Ä–æ–≥–∞, –ø—É—Ç—å, –µ–¥–∏–Ω–æ—Ä–æ–≥, —Å–ø–ª–æ—á—ë–Ω–Ω–æ—Å—Ç—å, –∫–æ–ª–ª–µ–∫—Ç–∏–≤, —Ñ–µ–π—Ö—É–∞, –∞–ø–µ–ª—å—Å–∏–Ω, –º–∞–Ω–¥–∞—Ä–∏–Ω, —è–±–ª–æ–∫–æ, –≥–æ–¥, –º–µ—Å—è—Ü, –∑–∏–º–∞, –≤–µ—Å–Ω–∞, –≤–∏—Å–∏–ª–∏—Ü–∞, –∞–ª–µ–∫—Å–∞–Ω–¥—Ä"};
         char Razdel[5]=", ";
 
         char *pch=strtok(Slova,Razdel);
@@ -72,22 +72,22 @@ main()
         }
 
         system("cls");
-        cout<<setw(40)<<"¬ËÒÂÎËˆ‡"<<endl;
-        cout<<"1. — ‰ÛÁ¸ˇÏË (4 ˜ÂÎÓ‚ÂÍ‡)";
-        cout<<"\n2. — ‰Û„ÓÏ. (2 ˜ÂÎÓ‚ÂÍ‡)";
-        cout<<"\n3. C ·ÓÚ‡ÏË. (1 ˜ÂÎÓ‚ÂÍ)";
-        cout<<"\n4. — ·ÓÚÓÏ. (1 ˜ÂÎÓ‚ÂÍ)";
+        cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞"<<endl;
+        cout<<"1. –° –¥—Ä—É–∑—å—è–º–∏ (4 —á–µ–ª–æ–≤–µ–∫–∞)";
+        cout<<"\n2. –° –¥—Ä—É–≥–æ–º. (2 —á–µ–ª–æ–≤–µ–∫–∞)";
+        cout<<"\n3. C –±–æ—Ç–∞–º–∏. (1 —á–µ–ª–æ–≤–µ–∫)";
+        cout<<"\n4. –° –±–æ—Ç–æ–º. (1 —á–µ–ª–æ–≤–µ–∫)";
 
-        cout<<"\n\n“˚ ·Û‰Â¯¸ Ë„‡Ú¸: ";
+        cout<<"\n\n–¢—ã –±—É–¥–µ—à—å –∏–≥—Ä–∞—Ç—å: ";
 
         int ViselitaVib;
 
-        while (!(cin>>ViselitaVib))//¬‚Ó‰ËÏ ÁÌ‡˜ÂÌËÂ Ë ÂÒÎË ˝ÚÓ ÌÂ ˆËÙ‡, Ì‡˜ËÌ‡ÂÚÒˇ ˆËÍÎ (! - not)
+        while (!(cin>>ViselitaVib))//–í–≤–æ–¥–∏–º –∑–Ω–∞—á–µ–Ω–∏–µ –∏ –µ—Å–ª–∏ —ç—Ç–æ –Ω–µ —Ü–∏—Ñ—Ä–∞, –Ω–∞—á–∏–Ω–∞–µ—Ç—Å—è —Ü–∏–∫–ª (! - not)
         {
-            cout<<"Œ¯Ë·Í‡, ‚˚ ‚‚ÂÎË ˜ÚÓ-ÚÓ ÌÂ ÚÓ. ";
-            cin.clear();//Œ˜Ë˘‡ÂÚ ÔÓÚÓÍ
-            cin.sync();//”‰‡ÎˇÂÚ ‰‡ÌÌ˚Â ËÁ ·ÛÙÙÂ‡
-            cout<<"\nC ÍÂÏ Ú˚ ·Û‰Â¯¸ Ë„‡Ú¸?: ";
+            cout<<"–û—à–∏–±–∫–∞, –≤—ã –≤–≤–µ–ª–∏ —á—Ç–æ-—Ç–æ –Ω–µ —Ç–æ. ";
+            cin.clear();//–û—á–∏—â–∞–µ—Ç –ø–æ—Ç–æ–∫
+            cin.sync();//–£–¥–∞–ª—è–µ—Ç –¥–∞–Ω–Ω—ã–µ –∏–∑ –±—É—Ñ—Ñ–µ—Ä–∞
+            cout<<"\nC –∫–µ–º —Ç—ã –±—É–¥–µ—à—å –∏–≥—Ä–∞—Ç—å?: ";
         }
         system("cls");
 
@@ -95,16 +95,16 @@ main()
         {
         case 1:
         {
-            cout<<"¬ ˝ÚÛ Ë„Û Ï‡ÍÒËÏÛÏ ÏÓ„ÛÚ Ë„‡Ú¸ ÚÓÎ¸ÍÓ 4 ˜ÂÎÓ‚ÂÍ‡.";
-            cout<<endl<<nik<<", Ï˚ ÛÊÂ ÁÌ‡ÍÓÏ˚, ‡ Í‡Í ÁÓ‚ÛÚ ‰Û„Ëı Ë„ÓÍÓ‚?";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 1 - "<< nik;
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 2 - ";
+            cout<<"–í —ç—Ç—É –∏–≥—Ä—É –º–∞–∫—Å–∏–º—É–º –º–æ–≥—É—Ç –∏–≥—Ä–∞—Ç—å —Ç–æ–ª—å–∫–æ 4 —á–µ–ª–æ–≤–µ–∫–∞.";
+            cout<<endl<<nik<<", –º—ã —É–∂–µ –∑–Ω–∞–∫–æ–º—ã, –∞ –∫–∞–∫ –∑–æ–≤—É—Ç –¥—Ä—É–≥–∏—Ö –∏–≥—Ä–æ–∫–æ–≤?";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 1 - "<< nik;
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 2 - ";
             char nik2[20];
             cin>>nik2;
-            cout<<endl<<"»„ÓÍ ÌÓÏÂ 3 - ";
+            cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 3 - ";
             char nik3[20];
             cin>>nik3;
-            cout<<endl<<"»„ÓÍ ÌÓÏÂ 4 - ";
+            cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 4 - ";
             char nik4[20];
             cin>>nik4;
 
@@ -138,7 +138,7 @@ main()
             {
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -148,13 +148,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score1<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score1<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -184,9 +184,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live1--<<endl;
-                        if (live1==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live1--<<endl;
+                        if (live1==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live1==9) cout<<"\n\n\n\n\n__()__";
                         if (live1==8)
                         {
@@ -268,11 +268,11 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -285,7 +285,7 @@ main()
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -295,13 +295,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik2<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik2<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score2<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score2<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -331,9 +331,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live2--<<endl;
-                        if (live2==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live2--<<endl;
+                        if (live2==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live2==9) cout<<"\n\n\n\n\n__()__";
                         if (live2==8)
                         {
@@ -415,9 +415,9 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
                     }
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -432,7 +432,7 @@ main()
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -442,13 +442,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik3<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik3<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score3<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score3<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -478,9 +478,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live3--<<endl;
-                        if (live3==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live3--<<endl;
+                        if (live3==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live3==9) cout<<"\n\n\n\n\n__()__";
                         if (live3==8)
                         {
@@ -562,9 +562,9 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
                     }
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -579,7 +579,7 @@ main()
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -589,13 +589,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik4<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik4<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score4<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score4<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -625,9 +625,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live4--<<endl;
-                        if (live4==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live4--<<endl;
+                        if (live4==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live4==9) cout<<"\n\n\n\n\n__()__";
                         if (live4==8)
                         {
@@ -709,9 +709,9 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                         }
                         if (proverka>=1) bukva2++;
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
                     }
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -730,18 +730,18 @@ main()
 
             }
 
-            if (score1>=score2 and score1>=score3 and score1>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik<<" - "<<score1<<endl;
-            if (score2>=score1 and score2>=score3 and score2>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik2<<" - "<<score2<<endl;
-            if (score3>=score2 and score3>=score1 and score3>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik3<<" - "<<score3<<endl;
-            if (score4>=score2 and score4>=score3 and score4>=score1) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik4<<" - "<<score4<<endl;
+            if (score1>=score2 and score1>=score3 and score1>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik<<" - "<<score1<<endl;
+            if (score2>=score1 and score2>=score3 and score2>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik2<<" - "<<score2<<endl;
+            if (score3>=score2 and score3>=score1 and score3>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik3<<" - "<<score3<<endl;
+            if (score4>=score2 and score4>=score3 and score4>=score1) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik4<<" - "<<score4<<endl;
             break;
         }
         case 2:
         {
-            cout<<"¬ ˝ÚÛ Ë„Û Ï‡ÍÒËÏÛÏ ÏÓ„ÛÚ Ë„‡Ú¸ 2 ˜ÂÎÓ‚ÂÍ‡.";
-            cout<<endl<<nik<<", Ï˚ ÛÊÂ ÁÌ‡ÍÓÏ˚, ‡ Í‡Í ÁÓ‚ÛÚ ‰Û„Ëı Ë„ÓÍÓ‚?";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 1 - "<< nik;
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 2 - ";
+            cout<<"–í —ç—Ç—É –∏–≥—Ä—É –º–∞–∫—Å–∏–º—É–º –º–æ–≥—É—Ç –∏–≥—Ä–∞—Ç—å 2 —á–µ–ª–æ–≤–µ–∫–∞.";
+            cout<<endl<<nik<<", –º—ã —É–∂–µ –∑–Ω–∞–∫–æ–º—ã, –∞ –∫–∞–∫ –∑–æ–≤—É—Ç –¥—Ä—É–≥–∏—Ö –∏–≥—Ä–æ–∫–æ–≤?";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 1 - "<< nik;
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 2 - ";
             char nik2[20];
             cin>>nik2;
 
@@ -774,7 +774,7 @@ main()
             while (schetchik!=999)
             {
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -784,13 +784,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score1<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score1<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -821,9 +821,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live1--<<endl;
-                        if (live1==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live1--<<endl;
+                        if (live1==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live1==9) cout<<"\n\n\n\n\n__()__";
                         if (live1==8)
                         {
@@ -905,11 +905,11 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -923,7 +923,7 @@ main()
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -933,13 +933,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik2<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik2<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score1<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score1<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -969,9 +969,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live2--<<endl;
-                        if (live2==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live2--<<endl;
+                        if (live2==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live2==9) cout<<"\n\n\n\n\n__()__";
                         if (live2==8)
                         {
@@ -1053,11 +1053,11 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -1075,15 +1075,15 @@ main()
                 }
 
             }
-            if (score1>=score2) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik<<" - "<<score1<<endl;
-            else cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik2<<" - "<<score2<<endl;
+            if (score1>=score2) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik<<" - "<<score1<<endl;
+            else cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik2<<" - "<<score2<<endl;
             break;
 
 
         }
         case 3:
         {
-            char botniks[1000]= {"¬Î‡‰ËÏË, ÕËÍÓÎ‡È, Õ‡ÒÚˇ,  Î‡‚‡, ¿ÎÂÍÒ‡Ì‰, ¬Î‡‰, “ËÏÛ, ƒÏËÚËÈ, ≈„Ó, Ã‡ÍÒËÏ, ¿ÚÛ, ŒÎÂ„, »‚‡Ì, ﬂÌ‡, Ã‡Ëˇ, ¿ÎÂÍÒÂÈ, ¬‡‰ËÏ, ÕËÍËÚ‡, ŒÎ¸„‡, —‚ˇÚÓÒÎ‡‚, Ã‡ËÌ‡, ¿ÎÂÍÒ‡Ì‰‡, ¿Ì‰ÂÈ"};
+            char botniks[1000]= {"–í–ª–∞–¥–∏–º–∏—Ä, –ù–∏–∫–æ–ª–∞–π, –ù–∞—Å—Ç—è, –ö–ª–∞–≤–∞, –ê–ª–µ–∫—Å–∞–Ω–¥—Ä, –í–ª–∞–¥, –¢–∏–º—É—Ä, –î–º–∏—Ç—Ä–∏–π, –ï–≥–æ—Ä, –ú–∞–∫—Å–∏–º, –ê—Ä—Ç—É—Ä, –û–ª–µ–≥, –ò–≤–∞–Ω, –Ø–Ω–∞, –ú–∞—Ä–∏—è, –ê–ª–µ–∫—Å–µ–π, –í–∞–¥–∏–º, –ù–∏–∫–∏—Ç–∞, –û–ª—å–≥–∞, –°–≤—è—Ç–æ—Å–ª–∞–≤, –ú–∞—Ä–∏–Ω–∞, –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–∞, –ê–Ω–¥—Ä–µ–π"};
 
             char botnik[25];
             char botnik1[25];
@@ -1106,11 +1106,11 @@ main()
 
 
 
-            cout<<"¬˚ ‚˚·‡ÎË Ë„Û Ò ·ÓÚ‡ÏË. — ‚‡ÏË Ë„‡˛Ú: ";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 1 - "<< nik<<" - ¬˚.";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 2 - "<< botnik;
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 3 - "<< botnik1;
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 4 - "<< botnik2;
+            cout<<"–í—ã –≤—ã–±—Ä–∞–ª–∏ –∏–≥—Ä—É —Å –±–æ—Ç–∞–º–∏. –° –≤–∞–º–∏ –∏–≥—Ä–∞—é—Ç: ";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 1 - "<< nik<<" - –í—ã.";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 2 - "<< botnik;
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 3 - "<< botnik1;
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 4 - "<< botnik2;
 
             Sleep(1500);
 
@@ -1143,7 +1143,7 @@ main()
             while (schetchik!=999)
             {
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -1153,13 +1153,13 @@ main()
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score1<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score1<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -1190,9 +1190,9 @@ main()
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live1--<<endl;
-                        if (live1==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live1--<<endl;
+                        if (live1==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live1==9) cout<<"\n\n\n\n\n__()__";
                         if (live1==8)
                         {
@@ -1274,11 +1274,11 @@ main()
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -1292,7 +1292,7 @@ main()
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -1303,7 +1303,7 @@ main()
                     puts(vivodslova);
                     cout<<endl<<endl;
 
-                    char bukvirus[200]= {"‡, ·, ‚, „, ‰, Â, ∏, Ê, Á, Ë, È, Í, Î, Ï, Ì, Ó, Ô, , Ò, Ú, Û, Ù, ı, ˆ, ˜, ¯, ˘, ˙, ˚, ¸, ˝, ˛, ˇ"};
+                    char bukvirus[200]= {"–∞, –±, –≤, –≥, –¥, –µ, —ë, –∂, –∑, –∏, –π, –∫, –ª, –º, –Ω, –æ, –ø, —Ä, —Å, —Ç, —É, —Ñ, —Ö, —Ü, —á, —à, —â, —ä, —ã, —å, —ç, —é, —è"};
                     int schetchikbot=0;
                     char razdeldliabukv[5]= {", "};
                     char *pch2=strtok (bukvirus, razdeldliabukv);
@@ -1325,7 +1325,7 @@ st1:
 
 
 
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<botnik<<": "<<bukvadliabota;
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<botnik<<": "<<bukvadliabota;
 
                     for (int i=0; i<1; i++)
                     {
@@ -1337,7 +1337,7 @@ st1:
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score2<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score2<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -1367,9 +1367,9 @@ st1:
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live2--<<endl;
-                        if (live2==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live2--<<endl;
+                        if (live2==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live2==9) cout<<"\n\n\n\n\n__()__";
                         if (live2==8)
                         {
@@ -1451,11 +1451,11 @@ st1:
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -1467,7 +1467,7 @@ st1:
                 if (live2!=0) system("cls");
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -1478,7 +1478,7 @@ st1:
                     puts(vivodslova);
                     cout<<endl<<endl;
 
-                    char bukvirus[200]= {"‡, ·, ‚, „, ‰, Â, ∏, Ê, Á, Ë, È, Í, Î, Ï, Ì, Ó, Ô, , Ò, Ú, Û, Ù, ı, ˆ, ˜, ¯, ˘, ˙, ˚, ¸, ˝, ˛, ˇ"};
+                    char bukvirus[200]= {"–∞, –±, –≤, –≥, –¥, –µ, —ë, –∂, –∑, –∏, –π, –∫, –ª, –º, –Ω, –æ, –ø, —Ä, —Å, —Ç, —É, —Ñ, —Ö, —Ü, —á, —à, —â, —ä, —ã, —å, —ç, —é, —è"};
                     int schetchikbot=0;
                     char razdeldliabukv[5]= {", "};
                     char *pch2=strtok (bukvirus, razdeldliabukv);
@@ -1499,7 +1499,7 @@ st2:
                         if (vivodslova[i]==bukvadliabota[0]) goto st2;
                     }
 
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<botnik1<<": "<<bukvadliabota;
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<botnik1<<": "<<bukvadliabota;
 
                     for (int i=0; i<1; i++)
                     {
@@ -1511,7 +1511,7 @@ st2:
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score3<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score3<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -1541,9 +1541,9 @@ st2:
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live3--<<endl;
-                        if (live3==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live3--<<endl;
+                        if (live3==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live3==9) cout<<"\n\n\n\n\n__()__";
                         if (live3==8)
                         {
@@ -1625,11 +1625,11 @@ st2:
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -1642,7 +1642,7 @@ st2:
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -1653,7 +1653,7 @@ st2:
                     puts(vivodslova);
                     cout<<endl<<endl;
 
-                    char bukvirus[200]= {"‡, ·, ‚, „, ‰, Â, ∏, Ê, Á, Ë, È, Í, Î, Ï, Ì, Ó, Ô, , Ò, Ú, Û, Ù, ı, ˆ, ˜, ¯, ˘, ˙, ˚, ¸, ˝, ˛, ˇ"};
+                    char bukvirus[200]= {"–∞, –±, –≤, –≥, –¥, –µ, —ë, –∂, –∑, –∏, –π, –∫, –ª, –º, –Ω, –æ, –ø, —Ä, —Å, —Ç, —É, —Ñ, —Ö, —Ü, —á, —à, —â, —ä, —ã, —å, —ç, —é, —è"};
                     int schetchikbot=0;
                     char razdeldliabukv[5]= {", "};
                     char *pch2=strtok (bukvirus, razdeldliabukv);
@@ -1673,7 +1673,7 @@ st3:
                         if (vivodslova[i]==bukvadliabota[0]) goto st3;
                     }
 
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<botnik2<<": "<<bukvadliabota;
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<botnik2<<": "<<bukvadliabota;
 
                     for (int i=0; i<1; i++)
                     {
@@ -1685,7 +1685,7 @@ st3:
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score4<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score4<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -1715,9 +1715,9 @@ st3:
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live4--<<endl;
-                        if (live4==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live4--<<endl;
+                        if (live4==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live4==9) cout<<"\n\n\n\n\n__()__";
                         if (live4==8)
                         {
@@ -1799,11 +1799,11 @@ st3:
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -1821,17 +1821,17 @@ st3:
                 }
 
             }
-            if (score1>=score2 and score1>=score3 and score1>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik<<" - "<<score1<<endl;
-            if (score2>=score1 and score2>=score3 and score2>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<botnik<<" - "<<score2<<endl;
-            if (score3>=score2 and score3>=score1 and score3>=score4) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<botnik1<<" - "<<score3<<endl;
-            if (score4>=score2 and score4>=score3 and score4>=score1) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<botnik2<<" - "<<score4<<endl;
+            if (score1>=score2 and score1>=score3 and score1>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik<<" - "<<score1<<endl;
+            if (score2>=score1 and score2>=score3 and score2>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<botnik<<" - "<<score2<<endl;
+            if (score3>=score2 and score3>=score1 and score3>=score4) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<botnik1<<" - "<<score3<<endl;
+            if (score4>=score2 and score4>=score3 and score4>=score1) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<botnik2<<" - "<<score4<<endl;
             break;
         }
 
 
         case 4:
         {
-            char botniks[1000]= {"¬Î‡‰ËÏË, ÕËÍÓÎ‡È, Õ‡ÒÚˇ,  Î‡‚‡, ¿ÎÂÍÒ‡Ì‰, ¬Î‡‰, “ËÏÛ, ƒÏËÚËÈ, ≈„Ó, Ã‡ÍÒËÏ, ¿ÚÛ, ŒÎÂ„, »‚‡Ì, ﬂÌ‡, Ã‡Ëˇ, ¿ÎÂÍÒÂÈ, ¬‡‰ËÏ, ÕËÍËÚ‡, ŒÎ¸„‡, —‚ˇÚÓÒÎ‡‚, Ã‡ËÌ‡, ¿ÎÂÍÒ‡Ì‰‡, ¿Ì‰ÂÈ"};
+            char botniks[1000]= {"–í–ª–∞–¥–∏–º–∏—Ä, –ù–∏–∫–æ–ª–∞–π, –ù–∞—Å—Ç—è, –ö–ª–∞–≤–∞, –ê–ª–µ–∫—Å–∞–Ω–¥—Ä, –í–ª–∞–¥, –¢–∏–º—É—Ä, –î–º–∏—Ç—Ä–∏–π, –ï–≥–æ—Ä, –ú–∞–∫—Å–∏–º, –ê—Ä—Ç—É—Ä, –û–ª–µ–≥, –ò–≤–∞–Ω, –Ø–Ω–∞, –ú–∞—Ä–∏—è, –ê–ª–µ–∫—Å–µ–π, –í–∞–¥–∏–º, –ù–∏–∫–∏—Ç–∞, –û–ª—å–≥–∞, –°–≤—è—Ç–æ—Å–ª–∞–≤, –ú–∞—Ä–∏–Ω–∞, –ê–ª–µ–∫—Å–∞–Ω–¥—Ä–∞, –ê–Ω–¥—Ä–µ–π"};
 
             char botnik[25];
             int randomnik = rand() %25;
@@ -1848,9 +1848,9 @@ st3:
 
 
 
-            cout<<"¬˚ ‚˚·‡ÎË Ë„Û Ò ·ÓÚÓÏ. — ‚‡ÏË Ë„‡ÂÚ ·ÓÚ: ";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 1 - "<< nik<<" - ¬˚.";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 2 - "<< botnik;
+            cout<<"–í—ã –≤—ã–±—Ä–∞–ª–∏ –∏–≥—Ä—É —Å –±–æ—Ç–æ–º. –° –≤–∞–º–∏ –∏–≥—Ä–∞–µ—Ç –±–æ—Ç: ";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 1 - "<< nik<<" - –í—ã.";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 2 - "<< botnik;
 
             Sleep(1500);
 
@@ -1883,7 +1883,7 @@ st3:
             while (schetchik!=999)
             {
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -1893,13 +1893,13 @@ st3:
                     ++shag;
                     puts(vivodslova);
                     cout<<endl<<endl;
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<nik<<": ";
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<nik<<": ";
                     cin>>bukva;
                     for (int i=proverkahoda; i<=proverkahoda; i++)
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score1<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score1<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -1930,9 +1930,9 @@ st3:
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live1--<<endl;
-                        if (live1==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live1--<<endl;
+                        if (live1==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live1==9) cout<<"\n\n\n\n\n__()__";
                         if (live1==8)
                         {
@@ -2014,11 +2014,11 @@ st3:
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -2032,7 +2032,7 @@ st3:
 
 
                 y=false;
-                cout<<setw(40)<<"¬ËÒÂÎËˆ‡!";
+                cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞!";
                 cout<<endl<<endl;
                 shag=0, ugadal=1;
                 proverkahoda++;
@@ -2043,7 +2043,7 @@ st3:
                     puts(vivodslova);
                     cout<<endl<<endl;
 
-                    char bukvirus[200]= {"‡, ·, ‚, „, ‰, Â, ∏, Ê, Á, Ë, È, Í, Î, Ï, Ì, Ó, Ô, , Ò, Ú, Û, Ù, ı, ˆ, ˜, ¯, ˘, ˙, ˚, ¸, ˝, ˛, ˇ"};
+                    char bukvirus[200]= {"–∞, –±, –≤, –≥, –¥, –µ, —ë, –∂, –∑, –∏, –π, –∫, –ª, –º, –Ω, –æ, –ø, —Ä, —Å, —Ç, —É, —Ñ, —Ö, —Ü, —á, —à, —â, —ä, —ã, —å, —ç, —é, —è"};
                     int schetchikbot=0;
                     char razdeldliabukv[5]= {", "};
                     char *pch2=strtok (bukvirus, razdeldliabukv);
@@ -2064,7 +2064,7 @@ st4:
                         if (vivodslova[i]==bukvadliabota[0]) goto st4;
                     }
 
-                    cout<<endl<<"\n¡ÛÍ‚Û „Ó‚ÓËÚ "<<botnik<<": "<<bukvadliabota;
+                    cout<<endl<<"\n–ë—É–∫–≤—É –≥–æ–≤–æ—Ä–∏—Ç "<<botnik<<": "<<bukvadliabota;
 
                     for (int i=0; i<1; i++)
                     {
@@ -2076,7 +2076,7 @@ st4:
                     {
                         x[proverkahoda]=bukva;
                     }
-                    cout<<endl<<endl<<"¬‡¯ Ò˜∏Ú: "<<score2<<endl;
+                    cout<<endl<<endl<<"–í–∞—à —Å—á—ë—Ç: "<<score2<<endl;
 
                     for (int i=0; i<dlinaslova; i++)
                     {
@@ -2106,9 +2106,9 @@ st4:
 
                     if (schetchik==bukva2)
                     {
-                        cout<<endl<<"»„ÓÍ ÌÂ Û„‡‰‡Î ·ÛÍ‚Û. ";
-                        cout<<endl<<" ÓÎË˜ÂÒÚ‚Ó ‚‡¯Ëı ÊËÁÌÂÈ: "<<live2--<<endl;
-                        if (live2==0) cout<<endl<<"¬˚ ÔÓË„‡ÎË."<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–µ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É. ";
+                        cout<<endl<<"–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ –≤–∞—à–∏—Ö –∂–∏–∑–Ω–µ–π: "<<live2--<<endl;
+                        if (live2==0) cout<<endl<<"–í—ã –ø—Ä–æ–∏–≥—Ä–∞–ª–∏."<<endl;
                         if (live2==9) cout<<"\n\n\n\n\n__()__";
                         if (live2==8)
                         {
@@ -2190,11 +2190,11 @@ st4:
                             if (slovovisel[i]==bukva) proverka++;
                             if (proverka>=1) bukva2++;
                         }
-                        cout<<endl<<"»„ÓÍ Û„‡‰‡Î ·ÛÍ‚Û!"<<endl<<endl;
+                        cout<<endl<<"–ò–≥—Ä–æ–∫ —É–≥–∞–¥–∞–ª –±—É–∫–≤—É!"<<endl<<endl;
 
                     }
 
-                    cout<<endl<<endl<<"¡ÛÍ‚˚, ÍÓÚÓ˚Â ÛÊÂ Ì‡Á˚‚‡ÎË: ";
+                    cout<<endl<<endl<<"–ë—É–∫–≤—ã, –∫–æ—Ç–æ—Ä—ã–µ —É–∂–µ –Ω–∞–∑—ã–≤–∞–ª–∏: ";
                     for (int i=0; i<=proverkahoda; i++)
                     {
                         cout<<x[i]<<" ";
@@ -2212,8 +2212,8 @@ st4:
                 }
 
             }
-            if (score1>=score2) cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<nik<<" - "<<score1<<endl;
-            else cout<<"—‡ÏÓÂ ·ÓÎ¸¯ÓÂ ÍÓÎË˜ÂÒÚ‚Ó Ó˜ÍÓ‚ Ì‡·‡Î: "<<botnik<<" - "<<score2<<endl;
+            if (score1>=score2) cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<nik<<" - "<<score1<<endl;
+            else cout<<"–°–∞–º–æ–µ –±–æ–ª—å—à–æ–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –æ—á–∫–æ–≤ –Ω–∞–±—Ä–∞–ª: "<<botnik<<" - "<<score2<<endl;
             break;
 
 
@@ -2222,9 +2222,9 @@ st4:
     }
     case 2:
     {
-        char Prizi[250]="Ã‡¯ËÌ‡, ¡‡ÍÎ‡Ê‡Ì, œÂÂˆ, 100$, œÓÂÁ‰Í‡ ‚ ÚÛˆË˛, ¡ËÎÂÚ ‚ ÍËÌÓ, “ÂÎÂ‚ËÁÓ,  ÓÏÔ¸˛ÚÂ, œÓÒÛ‰‡, 1 ÎÂÈ, ›ÍÒÍÛÒËˇ ÔÓ  Ë¯ËÌ∏‚Û, ÃÂÒÚÓ Ì‡ ·˛‰ÊÂÚÂ ‚ CEITI, —ÌÂ„ÓıÓ‰, ƒÂÌ¸  ‡ÒÓÚ˚";
-        char Vopros[20000]=" ÚÓ ·˚Î ÔÂ‚˚Ï ‚ ÍÓÒÏÓÒÂ? ÷ËÚÛÒÓ‚ÓÂ ‰ÂÂ‚Ó Ò ‡ÓÏ‡ÚÌ˚ÏË ˆ‚ÂÚÍ‡ÏË? Õ‡Á‚‡ÌËÂ ˝ÚÓ„Ó ‡ÒÚÂÌËˇ ÔÓËÁÓ¯ÎÓ ÓÚ „Â˜ÂÒÍÓ„Ó ´ÔÓÓÊ‰‡˛˘ËÈ ˜ËÒÚÓÚÛ? ›Ú‡ ÔÚËˆ‡ ÏÓÊÂÚ ÎÂÚ‡Ú¸ ÒÔËÌÓÈ ‚ÔÂÂ‰? ¡Â‰Ì˚È, ÌÂÍ‡ÁËÒÚ˚È ‰ÓÏË¯ÍÓ, ËÁ·ÂÌÍ‡?";
-        char Otvet[10000]="√‡„‡ËÌ. ¡Â„‡ÏÓÚ. ¡‡ÍÎ‡Ê‡Ì.  ÓÎË·Ë. ’Ë·‡‡.";
+        char Prizi[250]="–ú–∞—à–∏–Ω–∞, –ë–∞–∫–ª–∞–∂–∞–Ω, –ü–µ—Ä–µ—Ü, 100$, –ü–æ–µ–∑–¥–∫–∞ –≤ —Ç—É—Ä—Ü–∏—é, –ë–∏–ª–µ—Ç –≤ –∫–∏–Ω–æ, –¢–µ–ª–µ–≤–∏–∑–æ—Ä, –ö–æ–º–ø—å—é—Ç–µ—Ä, –ü–æ—Å—É–¥–∞, 1 –ª–µ–π, –≠–∫—Å–∫—É—Ä—Å–∏—è –ø–æ –ö–∏—à–∏–Ω—ë–≤—É, –ú–µ—Å—Ç–æ –Ω–∞ –±—é–¥–∂–µ—Ç–µ –≤ CEITI, –°–Ω–µ–≥–æ—Ö–æ–¥, –î–µ–Ω—å –ö—Ä–∞—Å–æ—Ç—ã";
+        char Vopros[20000]="–ö—Ç–æ –±—ã–ª –ø–µ—Ä–≤—ã–º –≤ –∫–æ—Å–º–æ—Å–µ? –¶–∏—Ç—Ä—É—Å–æ–≤–æ–µ –¥–µ—Ä–µ–≤–æ —Å –∞—Ä–æ–º–∞—Ç–Ω—ã–º–∏ —Ü–≤–µ—Ç–∫–∞–º–∏? –ù–∞–∑–≤–∞–Ω–∏–µ —ç—Ç–æ–≥–æ —Ä–∞—Å—Ç–µ–Ω–∏—è –ø—Ä–æ–∏–∑–æ—à–ª–æ –æ—Ç –≥—Ä–µ—á–µ—Å–∫–æ–≥–æ ¬´–ø–æ—Ä–æ–∂–¥–∞—é—â–∏–π —á–∏—Å—Ç–æ—Ç—É? –≠—Ç–∞ –ø—Ç–∏—Ü–∞ –º–æ–∂–µ—Ç –ª–µ—Ç–∞—Ç—å —Å–ø–∏–Ω–æ–π –≤–ø–µ—Ä–µ–¥? –ë–µ–¥–Ω—ã–π, –Ω–µ–∫–∞–∑–∏—Å—Ç—ã–π –¥–æ–º–∏—à–∫–æ, –∏–∑–±–µ–Ω–∫–∞?";
+        char Otvet[10000]="–ì–∞–≥–∞—Ä–∏–Ω. –ë–µ—Ä–≥–∞–º–æ—Ç. –ë–∞–∫–ª–∞–∂–∞–Ω. –ö–æ–ª–∏–±—Ä–∏. –•–∏–±–∞—Ä–∞.";
         char DelVopros[5]="?";
         char DelOtvet[5]=". ";
 
@@ -2259,21 +2259,21 @@ st4:
 
         system("cls");
 
-        cout<<setw(40)<<"¬ËÒÂÎËˆ‡"<<endl;
-        cout<<"1. — ‰ÛÁ¸ˇÏË (3 ˜ÂÎÓ‚ÂÍ‡)";
-        cout<<"\n2. — ‰Û„ÓÏ Ë ·ÓÚÓÏ. (2 ˜ÂÎÓ‚ÂÍ‡)";
-        cout<<"\n3. C ·ÓÚ‡ÏË. (1 ˜ÂÎÓ‚ÂÍ)";
+        cout<<setw(40)<<"–í–∏—Å–µ–ª–∏—Ü–∞"<<endl;
+        cout<<"1. –° –¥—Ä—É–∑—å—è–º–∏ (3 —á–µ–ª–æ–≤–µ–∫–∞)";
+        cout<<"\n2. –° –¥—Ä—É–≥–æ–º –∏ –±–æ—Ç–æ–º. (2 —á–µ–ª–æ–≤–µ–∫–∞)";
+        cout<<"\n3. C –±–æ—Ç–∞–º–∏. (1 —á–µ–ª–æ–≤–µ–∫)";
 
-        cout<<"\n\n“˚ ·Û‰Â¯¸ Ë„‡Ú¸: ";
+        cout<<"\n\n–¢—ã –±—É–¥–µ—à—å –∏–≥—Ä–∞—Ç—å: ";
 
         int PoleVib;
 
         while (!(cin>>PoleVib))
         {
-            cout<<"Œ¯Ë·Í‡, ‚˚ ‚‚ÂÎË ˜ÚÓ-ÚÓ ÌÂ ÚÓ. ";
+            cout<<"–û—à–∏–±–∫–∞, –≤—ã –≤–≤–µ–ª–∏ —á—Ç–æ-—Ç–æ –Ω–µ —Ç–æ. ";
             cin.clear();
             cin.sync();
-            cout<<"\nC ÍÂÏ Ú˚ ·Û‰Â¯¸ Ë„‡Ú¸?: ";
+            cout<<"\nC –∫–µ–º —Ç—ã –±—É–¥–µ—à—å –∏–≥—Ä–∞—Ç—å?: ";
         }
         system("cls");
 
@@ -2298,33 +2298,33 @@ st4:
             int Score2=0;
             int Score3=0;
 
-            //—ÂÍÚÓ‡ Ì‡ ·‡‡·‡ÌÂ
+            //–°–µ–∫—Ç–æ—Ä–∞ –Ω–∞ –±–∞—Ä–∞–±–∞–Ω–µ
             int SektorPlus;
             char SektorF[6];
             char SektorPriz[6];
 
-            //ƒÎˇ ÒÂÍÚÓÓ‚ Ì‡ ·‡‡·‡ÌÂ
+            //–î–ª—è —Å–µ–∫—Ç–æ—Ä–æ–≤ –Ω–∞ –±–∞—Ä–∞–±–∞–Ω–µ
             int RandomF;
             int LevPravSektorF;
-            char LevSektorFB[6]="ÀÂ‚‡ˇ";
-            char LevSektorFS[6]="ÎÂ‚‡ˇ";
+            char LevSektorFB[6]="–õ–µ–≤–∞—è";
+            char LevSektorFS[6]="–ª–µ–≤–∞—è";
             int DliaStrcmp;
             int Dengi1=0;
             int Dengi2=0;
             int Dengi3=0;
-            char Prodoljiti[6]="¡ÛÍ‚‡";
-            char VibPriz[5]="œËÁ";
+            char Prodoljiti[6]="–ë—É–∫–≤–∞";
+            char VibPriz[5]="–ü—Ä–∏–∑";
             int RandomVedushii;
             int RandomVedushiiVib;
             int DengiPriz=0;
 
-            cout<<"¬ ˝ÚÛ Ë„Û Ï‡ÍÒËÏÛÏ ÏÓ„ÛÚ Ë„‡Ú¸ ÚÓÎ¸ÍÓ 3 ˜ÂÎÓ‚ÂÍ‡.";
-            cout<<endl<<nik<<", Ï˚ ÛÊÂ ÁÌ‡ÍÓÏ˚, ‡ Í‡Í ÁÓ‚ÛÚ ‰Û„Ëı Ë„ÓÍÓ‚?";
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 1 - "<< nik;
-            cout<<endl<<endl<<"»„ÓÍ ÌÓÏÂ 2 - ";
+            cout<<"–í —ç—Ç—É –∏–≥—Ä—É –º–∞–∫—Å–∏–º—É–º –º–æ–≥—É—Ç –∏–≥—Ä–∞—Ç—å —Ç–æ–ª—å–∫–æ 3 —á–µ–ª–æ–≤–µ–∫–∞.";
+            cout<<endl<<nik<<", –º—ã —É–∂–µ –∑–Ω–∞–∫–æ–º—ã, –∞ –∫–∞–∫ –∑–æ–≤—É—Ç –¥—Ä—É–≥–∏—Ö –∏–≥—Ä–æ–∫–æ–≤?";
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 1 - "<< nik;
+            cout<<endl<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 2 - ";
             char nik2[20];
             cin>>nik2;
-            cout<<endl<<"»„ÓÍ ÌÓÏÂ 3 - ";
+            cout<<endl<<"–ò–≥—Ä–æ–∫ –Ω–æ–º–µ—Ä 3 - ";
             char nik3[20];
             cin>>nik3;
 
@@ -2338,23 +2338,23 @@ st4:
 
             while (PoleGame)
             {
-                //œÂ‚˚È Ë„ÓÍ
-                cout<<setw(40)<<"œÓÎÂ ˜Û‰ÂÒ!";
+                //–ü–µ—Ä–≤—ã–π –∏–≥—Ä–æ–∫
+                cout<<setw(40)<<"–ü–æ–ª–µ —á—É–¥–µ—Å!";
                 cout<<endl<<endl;
                 while (Igrok1)
                 {
                     cout<<endl;
                     puts(SlovoTochki);
 
-                    cout<<endl<<nik<<" ,ÍÛÚËÚÂ ·‡‡·‡Ì!"<<endl;
+                    cout<<endl<<nik<<" ,–∫—Ä—É—Ç–∏—Ç–µ –±–∞—Ä–∞–±–∞–Ω!"<<endl;
 
-                    cout<<"¬‚Â‰ËÚÂ ÒËÎÛ ‚‡˘ÂÌËˇ (1-100): ";
+                    cout<<"–í–≤–µ–¥–∏—Ç–µ —Å–∏–ª—É –≤—Ä–∞—â–µ–Ω–∏—è (1-100): ";
                     while (!(cin>>SilaVrash))
                     {
-                        cout<<"Œ¯Ë·Í‡, ‚˚ ‚‚ÂÎË ˜ÚÓ-ÚÓ ÌÂ ÚÓ. ";
+                        cout<<"–û—à–∏–±–∫–∞, –≤—ã –≤–≤–µ–ª–∏ —á—Ç–æ-—Ç–æ –Ω–µ —Ç–æ. ";
                         cin.clear();
                         cin.sync();
-                        cout<<"\n¬‚Â‰ËÚÂ ÒËÎÛ ‚‡˘ÂÌËˇ (1-10): ";
+                        cout<<"\n–í–≤–µ–¥–∏—Ç–µ —Å–∏–ª—É –≤—Ä–∞—â–µ–Ω–∏—è (1-10): ";
                     }
 
 
@@ -2362,7 +2362,7 @@ st4:
 
                     if (RandomBaraban1==1)
                     {
-                        cout<<endl<<"—ÂÍÚÓ \"+\" Ì‡ ·‡‡·‡ÌÂ!"<<endl<<"¬˚ ÏÓÊÂÚÂ ÓÚÍ˚Ú¸ Î˛·Û˛ ·ÛÍ‚Û ‚ ÒÎÓ‚Â, ‚‚Â‰ËÚÂ Â∏ ÌÓÏÂ: ";
+                        cout<<endl<<"–°–µ–∫—Ç–æ—Ä \"+\" –Ω–∞ –±–∞—Ä–∞–±–∞–Ω–µ!"<<endl<<"–í—ã –º–æ–∂–µ—Ç–µ –æ—Ç–∫—Ä—ã—Ç—å –ª—é–±—É—é –±—É–∫–≤—É –≤ —Å–ª–æ–≤–µ, –≤–≤–µ–¥–∏—Ç–µ –µ—ë –Ω–æ–º–µ—Ä: ";
                         cin>>SektorPlus;
                         SektorPlus-=1;
 
@@ -2374,18 +2374,18 @@ st4:
                     if (RandomBaraban1==2)
                     {
                         Score1+=60;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 60 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 60 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==3)
                     {
                         Score1+=20;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 20 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 20 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==4)
                     {
-                        cout<<endl<<"—ÂÍÚÓ \"‘\" Ì‡ ·‡‡·‡ÌÂ!"<<endl<<"ƒ‚Â ¯Í‡ÚÛÎÍË ‚ ÒÚÛ‰Ë˛!";
+                        cout<<endl<<"–°–µ–∫—Ç–æ—Ä \"–§\" –Ω–∞ –±–∞—Ä–∞–±–∞–Ω–µ!"<<endl<<"–î–≤–µ —à–∫–∞—Ç—É–ª–∫–∏ –≤ —Å—Ç—É–¥–∏—é!";
                         RandomF= rand() %2;
-                        cout<<endl<<"¬˚·Ë‡ÈÚÂ ¯Í‡ÚÛÎÍÛ (ÎÂ‚‡ˇ/Ô‡‚‡ˇ): ";
+                        cout<<endl<<"–í—ã–±–∏—Ä–∞–π—Ç–µ —à–∫–∞—Ç—É–ª–∫—É (–ª–µ–≤–∞—è/–ø—Ä–∞–≤–∞—è): ";
                         cin>>SektorF;
                         if (strcmp(SektorF, LevSektorFB)==0) LevPravSektorF=1;
                         else if (strcmp(SektorF, LevSektorFS)==0) LevPravSektorF=1;
@@ -2393,61 +2393,61 @@ st4:
 
                         if (LevPravSektorF==RandomF)
                         {
-                            cout<<"œÓÁ‰‡‚ÎˇÂÏ! ¬˚ ‚˚Ë„‡ÎË 100 ÎÂÈ!"<<endl;
+                            cout<<"–ü–æ–∑–¥—Ä–∞–≤–ª—è–µ–º! –í—ã –≤—ã–∏–≥—Ä–∞–ª–∏ 100 –ª–µ–π!"<<endl;
                             Dengi1+=100;
                         }
                         else
                         {
-                            cout<<"¬˚ ÌÂ Û„‡‰‡ÎË ¯Í‡ÚÛÎÍÛ"<<endl;
+                            cout<<"–í—ã –Ω–µ —É–≥–∞–¥–∞–ª–∏ —à–∫–∞—Ç—É–ª–∫—É"<<endl;
                         }
                     }
                     if (RandomBaraban1==5)
                     {
                         Score1+=150;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 150 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 150 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==6)
                     {
                         Score1+=60;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 60 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 60 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==7)
                     {
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 0 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 0 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==8)
                     {
                         Score1+=100;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 100 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 100 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==9)
                     {
                         Score1+=150;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 150 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 150 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==10)
                     {
                         Score1+=20;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 10 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 10 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==12)
                     {
                         Score1+=100;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 100 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 100 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==13)
                     {
                         Score1+=100;
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ 100 Ó˜ÍÓ‚!"<<endl;
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ 100 –æ—á–∫–æ–≤!"<<endl;
                     }
                     if (RandomBaraban1==14)
                     {
-                        cout<<endl<<"Õ‡ ·‡‡·‡ÌÂ ÒÂÍÚÓ ÔËÁ!"<<endl;
-                        cout<<"¬˚·Ë‡ÈÚÂ, ÔËÁ ËÎË Ì‡Á˚‚‡ÂÚÂ ·ÛÍ‚Û, ÂÒÎË Û„‡‰‡ÂÚÂ, ÚÓ 500 Ó˜ÍÓ‚ ‚‡¯Ë!";
-                        cout<<endl<<"œËÁ ËÎË ·ÛÍ‚‡: ";
+                        cout<<endl<<"–ù–∞ –±–∞—Ä–∞–±–∞–Ω–µ —Å–µ–∫—Ç–æ—Ä –ø—Ä–∏–∑!"<<endl;
+                        cout<<"–í—ã–±–∏—Ä–∞–π—Ç–µ, –ø—Ä–∏–∑ –∏–ª–∏ –Ω–∞–∑—ã–≤–∞–µ—Ç–µ –±—É–∫–≤—É, –µ—Å–ª–∏ —É–≥–∞–¥–∞–µ—Ç–µ, —Ç–æ 500 –æ—á–∫–æ–≤ –≤–∞—à–∏!";
+                        cout<<endl<<"–ü—Ä–∏–∑ –∏–ª–∏ –±—É–∫–≤–∞: ";
                         gets(SektorPriz);
-                        if (stricmp(SektorPriz,Prodoljiti)==0) cout<<"¬˚ ‚˚·‡ÎË Ì‡Á‚‡Ú¸ ·ÛÍ‚Û Ë ÔÓÎÛ˜ËÚ¸ 500 Ó˜ÍÓ‚";
-                        if (stricmp(SektorPriz,VibPriz)==0) cout<<"◊∏Ì˚È ˇ˘ËÍ ‚ ÒÚÛ‰Ë˛!";
+                        if (stricmp(SektorPriz,Prodoljiti)==0) cout<<"–í—ã –≤—ã–±—Ä–∞–ª–∏ –Ω–∞–∑–≤–∞—Ç—å –±—É–∫–≤—É –∏ –ø–æ–ª—É—á–∏—Ç—å 500 –æ—á–∫–æ–≤";
+                        if (stricmp(SektorPriz,VibPriz)==0) cout<<"–ß—ë—Ä–Ω—ã–π —è—â–∏–∫ –≤ —Å—Ç—É–¥–∏—é!";
 
                         RandomVedushii=1;
                         RandomVedushiiVib=2;
@@ -2458,7 +2458,7 @@ st4:
                             RandomVedushii= rand() %5;
                             RandomVedushiiVib= rand() %5;
                             DengiPriz+=150;
-                            cout<<endl<<"Ã˚ ÔÂ‰Î‡„‡ÂÏ ‚‡Ï ÔÓ‰ÛÏ‡Ú¸: "<<DengiPriz<<" ÎÂÈ!";
+                            cout<<endl<<"–ú—ã –ø—Ä–µ–¥–ª–∞–≥–∞–µ–º –≤–∞–º –ø–æ–¥—É–º–∞—Ç—å: "<<DengiPriz<<" –ª–µ–π!";
                         }
 
 

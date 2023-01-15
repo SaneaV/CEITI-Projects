@@ -49,8 +49,8 @@ void Tsepi()
                         for(int q=p; q<n; q++)
                             if(G[p][q]==1)
                             {
-                                if(i==p and q==j) cout<<"Öèêë: "<<endl;
-                                else cout<<"Öåïü: "<<endl;
+                                if(i==p and q==j) cout<<"Ð¦Ð¸ÐºÐ»: "<<endl;
+                                else cout<<"Ð¦ÐµÐ¿ÑŒ: "<<endl;
                                 cout<<i<<" "<<j<<endl;
                                 cout<<j<<" "<<p<<endl;
                                 cout<<p<<" "<<q<<endl;

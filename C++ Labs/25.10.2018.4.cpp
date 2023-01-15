@@ -51,11 +51,11 @@ void ProcessingSolution()
     /*if(strcmp(C[0].color,"0")==0)
     for(int i=0;i<m;i++)
     {
-        cout<<"Ââåäèòå öâåò: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†Ð²ÐµÑ‚: ";
         cin>>C[i].color;
     }*/
 
-    cout<<endl<<"Ðåøåíèå:"<<endl;
+    cout<<endl<<"Ð ÐµÑˆÐµÐ½Ð¸Ðµ:"<<endl;
     cout<<m<<endl;
     for(int i=0; i<n; i++)
     {

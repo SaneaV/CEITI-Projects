@@ -14,19 +14,19 @@ private:
 public:
     virtual void getdata()
     {
-        cout<<"Ââåäèòå èìÿ ïîñòàâùèêà: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ°: ";
         cin>>postavshik;
-        cout<<"Ââåäèòå öåíó: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ½Ñƒ: ";
         cin>>price;
-        cout<<"Ââåäèòå êîëè÷åñòâî ïðîäóêòà: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°: ";
         cin>>kolOf;
     }
 
     virtual void putdata()
     {
-        cout<<"èìÿ ïîñòàâùèêà: "<<postavshik<<endl;
-        cout<<"öåíà: "<<price<<endl;
-        cout<<"êîëè÷åñòâî ïðîäóêòà: "<<kolOf<<endl;
+        cout<<"Ð¸Ð¼Ñ Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ°: "<<postavshik<<endl;
+        cout<<"Ñ†ÐµÐ½Ð°: "<<price<<endl;
+        cout<<"ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°: "<<kolOf<<endl;
     }
 
     int Getprice()
@@ -45,18 +45,18 @@ private:
 public:
     void getdata()
     {
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà ïåðâûé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[0];
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà âòîðîé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[1];
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà òðåòèé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ñ‚Ñ€ÐµÑ‚Ð¸Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[2];
     }
     void putdata()
     {
-        cout<<"Ñóììà ïðîäàæ çà ïåðâûé ìåñÿö: "<<Massive[0]<<endl;
-        cout<<"Ñóììà ïðîäàæ çà âòîðîé ìåñÿö: "<<Massive[1]<<endl;
-        cout<<"Ñóììà ïðîäàæ çà òðåòèé ìåñÿö: "<<Massive[2]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[0]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[1]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ñ‚Ñ€ÐµÑ‚Ð¸Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[2]<<endl;
     }
 
     int ObshSum()
@@ -78,17 +78,17 @@ public:
     {
         product::getdata();
         delivery::getdata();
-        cout<<"Ââåäèòå íàçâàíèå êðóïû: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÑ€ÑƒÐ¿Ñ‹: ";
         cin>>nameCrupa;
-        cout<<"Ââåäèòå âåñ: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ: ";
         cin>>weight;
     }
     void putdata()
     {
         product::putdata();
         delivery::putdata();
-        cout<<"Íàçâàíèå êðóïû: "<<*nameCrupa<<endl;
-        cout<<"Âåñ: "<<weight<<endl;
+        cout<<"ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÑ€ÑƒÐ¿Ñ‹: "<<*nameCrupa<<endl;
+        cout<<"Ð’ÐµÑ: "<<weight<<endl;
     }
 
     int Summa()
@@ -114,20 +114,20 @@ public:
     {
         product::getdata();
         delivery::getdata();
-        cout<<"Ââåäèòå íàçâàíèå ñîêà: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ¾ÐºÐ°: ";
         cin>>nameSok;
-        cout<<"Ââåäèòå ëèðàæ: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð»Ð¸Ñ€Ð°Ð¶: ";
         cin>>litr;
-        cout<<"Ââåäèòå ñîñòàâ: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¾ÑÑ‚Ð°Ð²: ";
         cin>>sostav;
     }
     void putdata()
     {
         product::putdata();
         delivery::putdata();
-        cout<<"Íàçâàíèå ñîêà: "<<*nameSok<<endl;
-        cout<<"Ëèòðàæ: "<<litr<<endl;
-        cout<<"Ñîñòàâ: "<<*sostav<<endl;
+        cout<<"ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ¾ÐºÐ°: "<<*nameSok<<endl;
+        cout<<"Ð›Ð¸Ñ‚Ñ€Ð°Ð¶: "<<litr<<endl;
+        cout<<"Ð¡Ð¾ÑÑ‚Ð°Ð²: "<<*sostav<<endl;
     }
     bool isDeficiency()
     {
@@ -154,13 +154,13 @@ int main()
 
     do
     {
-        cout<<"Äîáàâèòü êðóïó(1) "<<endl;
-        cout<<"Äîáàâèòü ñîê(2)"<<endl;
-        cout<<"Âûâåñòè íà ýêðàí(3)"<<endl;
-        cout<<"Âûâåñòè îáùóþ ñóììó(4)"<<endl;
-        cout<<"Âûâåñòè îòäåëüíóþ ñóììó(5)"<<endl;
-        cout<<"Âûéòè èç ïðîãðàììû (0)"<<endl;
-        cout<<"Âàø âûáîð: ";
+        cout<<"Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÐºÑ€ÑƒÐ¿Ñƒ(1) "<<endl;
+        cout<<"Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ¾Ðº(2)"<<endl;
+        cout<<"Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð½Ð° ÑÐºÑ€Ð°Ð½(3)"<<endl;
+        cout<<"Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð¾Ð±Ñ‰ÑƒÑŽ ÑÑƒÐ¼Ð¼Ñƒ(4)"<<endl;
+        cout<<"Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð¾Ñ‚Ð´ÐµÐ»ÑŒÐ½ÑƒÑŽ ÑÑƒÐ¼Ð¼Ñƒ(5)"<<endl;
+        cout<<"Ð’Ñ‹Ð¹Ñ‚Ð¸ Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹ (0)"<<endl;
+        cout<<"Ð’Ð°Ñˆ Ð²Ñ‹Ð±Ð¾Ñ€: ";
         cin>>Select;
 
 
@@ -186,7 +186,7 @@ int main()
             {
                 prod[i]->putdata();
                 if(prod[i]->isDeficiency())
-                    cout<<endl<<"Íóæåí çàêàç!!!"<<endl;
+                    cout<<endl<<"ÐÑƒÐ¶ÐµÐ½ Ð·Ð°ÐºÐ°Ð·!!!"<<endl;
                 cout<<endl;
             }
             system("Pause");
@@ -199,7 +199,7 @@ int main()
             {
                 Sum += prod[i]->Summa();
             }
-            cout<<"Îáùàÿ ñóììà: "<<Sum<<endl;
+            cout<<"ÐžÐ±Ñ‰Ð°Ñ ÑÑƒÐ¼Ð¼Ð°: "<<Sum<<endl;
             system("PAUSE");
             break;
         }
@@ -207,11 +207,11 @@ int main()
         {
             int y = 0;
             int Sum = 0;
-            cout<<"Ââåäèòå íîìåð îáúåêòà: ";
+            cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¾Ð±ÑŠÐµÐºÑ‚Ð°: ";
 
             cin>>y;
             Sum += prod[y]->Summa();
-            cout<<"Îáùàÿ ñóììà: "<<Sum<<endl;
+            cout<<"ÐžÐ±Ñ‰Ð°Ñ ÑÑƒÐ¼Ð¼Ð°: "<<Sum<<endl;
             system("PAUSE");
             break;
         }

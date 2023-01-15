@@ -1,10 +1,10 @@
-//Для каждого из заданных треугольников известно:
-//-обозначение(например, ABC, MNK);
-//-длины сторон;
-//-величины двух углов.
-//Напишите программу, которая:
-//• Определяет вид каждого треугольника (прямоугольный, остроугольный, тупоугольный, равнобедренный, равносторонний)
-//• Находит периметр и площадь каждого треугольника.
+//Р”Р»СЏ РєР°Р¶РґРѕРіРѕ РёР· Р·Р°РґР°РЅРЅС‹С… С‚СЂРµСѓРіРѕР»СЊРЅРёРєРѕРІ РёР·РІРµСЃС‚РЅРѕ:
+//-РѕР±РѕР·РЅР°С‡РµРЅРёРµ(РЅР°РїСЂРёРјРµСЂ, ABC, MNK);
+//-РґР»РёРЅС‹ СЃС‚РѕСЂРѕРЅ;
+//-РІРµР»РёС‡РёРЅС‹ РґРІСѓС… СѓРіР»РѕРІ.
+//РќР°РїРёС€РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ, РєРѕС‚РѕСЂР°СЏ:
+//вЂў РћРїСЂРµРґРµР»СЏРµС‚ РІРёРґ РєР°Р¶РґРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° (РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№, РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№, С‚СѓРїРѕСѓРіРѕР»СЊРЅС‹Р№, СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№, СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№)
+//вЂў РќР°С…РѕРґРёС‚ РїРµСЂРёРјРµС‚СЂ Рё РїР»РѕС‰Р°РґСЊ РєР°Р¶РґРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°.
 
 #include <iostream>
 #include <windows.h>
@@ -18,7 +18,7 @@ int main()
     setlocale(LC_ALL,"RUS");
 
     int Amount;
-    cout<<"Введите количество треугольников: ";
+    cout<<"Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєРѕРІ: ";
     cin>>Amount;
 
     system("cls");
@@ -39,31 +39,31 @@ int main()
     {
         do
         {
-            cout<<"Введите обозначение треугольника(ABC): ";
+            cout<<"Р’РІРµРґРёС‚Рµ РѕР±РѕР·РЅР°С‡РµРЅРёРµ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°(ABC): ";
             cin>>T[i].NameTriangle;
             if(strlen(T[i].NameTriangle)>3 or strlen(T[i].NameTriangle)<3)
             {
-                cout<<endl<<"Убедитесь, что название состоит из 3 букв"<<endl;
+                cout<<endl<<"РЈР±РµРґРёС‚РµСЃСЊ, С‡С‚Рѕ РЅР°Р·РІР°РЅРёРµ СЃРѕСЃС‚РѕРёС‚ РёР· 3 Р±СѓРєРІ"<<endl;
             }
         }
         while(strlen(T[i].NameTriangle)>3 or strlen(T[i].NameTriangle)<3);
 
         do
         {
-            cout<<"Введите длину первой стороны: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РїРµСЂРІРѕР№ СЃС‚РѕСЂРѕРЅС‹: ";
             cin>>T[i].Lenght1;
 
-            cout<<"Введите длину второй стороны: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РІС‚РѕСЂРѕР№ СЃС‚РѕСЂРѕРЅС‹: ";
             cin>>T[i].Lenght2;
 
-            cout<<"Введите длину третьей стороны: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ С‚СЂРµС‚СЊРµР№ СЃС‚РѕСЂРѕРЅС‹: ";
             cin>>T[i].Lenght3;
 
             if(T[i].Lenght1<=0 or T[i].Lenght2<=0 or T[i].Lenght3<=0 or
                     (T[i].Lenght1+T[i].Lenght2)<T[i].Lenght3 or
                     (T[i].Lenght1+T[i].Lenght3)<T[i].Lenght2 or
                     (T[i].Lenght3+T[i].Lenght2)<T[i].Lenght1)
-                cout<<"Треугольник с такими сторонами невозможно построить."<<endl<<"Повторите ввод."<<endl;
+                cout<<"РўСЂРµСѓРіРѕР»СЊРЅРёРє СЃ С‚Р°РєРёРјРё СЃС‚РѕСЂРѕРЅР°РјРё РЅРµРІРѕР·РјРѕР¶РЅРѕ РїРѕСЃС‚СЂРѕРёС‚СЊ."<<endl<<"РџРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ."<<endl;
 
         }
         while(T[i].Lenght1<=0 or T[i].Lenght2<=0 or T[i].Lenght3<=0 or
@@ -73,17 +73,17 @@ int main()
 
         do
         {
-            cout<<"Введите величину первого угла: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РІРµР»РёС‡РёРЅСѓ РїРµСЂРІРѕРіРѕ СѓРіР»Р°: ";
             cin>>T[i].AngleValue1;
 
-            cout<<"Введите величину второго угла: ";
+            cout<<"Р’РІРµРґРёС‚Рµ РІРµР»РёС‡РёРЅСѓ РІС‚РѕСЂРѕРіРѕ СѓРіР»Р°: ";
             cin>>T[i].AngleValue2;
 
             AngleValue3 = 180 - T[i].AngleValue1 - T[i].AngleValue2;
 
             if((AngleValue3+T[i].AngleValue1+T[i].AngleValue2)<180 or (AngleValue3+T[i].AngleValue1+T[i].AngleValue2)>180
                     or AngleValue3==0 or T[i].AngleValue1==0 or T[i].AngleValue2==0)
-                cout<<"Треугольник с такими углами невозможно построить."<<endl<<"Повторите ввод."<<endl;
+                cout<<"РўСЂРµСѓРіРѕР»СЊРЅРёРє СЃ С‚Р°РєРёРјРё СѓРіР»Р°РјРё РЅРµРІРѕР·РјРѕР¶РЅРѕ РїРѕСЃС‚СЂРѕРёС‚СЊ."<<endl<<"РџРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ."<<endl;
 
         }
         while((AngleValue3+T[i].AngleValue1+T[i].AngleValue2)<180 or (AngleValue3+T[i].AngleValue1+T[i].AngleValue2)>180
@@ -98,9 +98,9 @@ int main()
 
     while(!FinishProgram)
     {
-        cout<<"1. Определить вид каждого треугольника."<<endl;
-        cout<<"2. Найти периметр и площадь каждого треугольника."<<endl;
-        cout<<"Ваш выбор: ";
+        cout<<"1. РћРїСЂРµРґРµР»РёС‚СЊ РІРёРґ РєР°Р¶РґРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°."<<endl;
+        cout<<"2. РќР°Р№С‚Рё РїРµСЂРёРјРµС‚СЂ Рё РїР»РѕС‰Р°РґСЊ РєР°Р¶РґРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°."<<endl;
+        cout<<"Р’Р°С€ РІС‹Р±РѕСЂ: ";
         do
         {
             cin>>Selection;
@@ -118,26 +118,26 @@ int main()
                 AngleValue3 = 180 - T[i].AngleValue1 - T[i].AngleValue2;
 
                 if(T[i].Lenght1==T[i].Lenght2 and T[i].Lenght1==T[i].Lenght3)
-                    cout<<T[i].NameTriangle<<" треугольник равносторонний."<<endl;
+                    cout<<T[i].NameTriangle<<" С‚СЂРµСѓРіРѕР»СЊРЅРёРє СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№."<<endl;
 
                 if((T[i].Lenght1==T[i].Lenght2 and T[i].Lenght3!=T[i].Lenght1) or
                         (T[i].Lenght1==T[i].Lenght3 and T[i].Lenght1!=T[i].Lenght2) or
                         (T[i].Lenght2==T[i].Lenght3 and T[i].Lenght1!=T[i].Lenght2))
                 {
-                    cout<<T[i].NameTriangle<<" треугольник равнобедренный, ";
+                    cout<<T[i].NameTriangle<<" С‚СЂРµСѓРіРѕР»СЊРЅРёРє СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№, ";
 
                     if (T[i].AngleValue1==T[i].AngleValue2 and AngleValue3<90 or
                             T[i].AngleValue1==AngleValue3 and T[i].AngleValue2<90 or
                             AngleValue3==T[i].AngleValue2 and T[i].AngleValue1<90)
-                        cout<<"остроугольный."<<endl;
+                        cout<<"РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№."<<endl;
 
                     if(T[i].AngleValue1>90 or T[i].AngleValue2>90 or AngleValue3>90)
-                        cout<<"тупоугольный."<<endl;
+                        cout<<"С‚СѓРїРѕСѓРіРѕР»СЊРЅС‹Р№."<<endl;
 
                     if((T[i].AngleValue1+T[i].AngleValue2)==90 or
                             (T[i].AngleValue1+AngleValue3)==90 or
                             (T[i].AngleValue2+AngleValue3)==90)
-                        cout<<"прямоугольный"<<endl;
+                        cout<<"РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№"<<endl;
 
                 }
 
@@ -145,23 +145,23 @@ int main()
                         T[i].Lenght1!=T[i].Lenght3 and
                         T[i].Lenght2!=T[i].Lenght3)
                 {
-                    cout<<T[i].NameTriangle<<" треугольник разносторонний, ";
+                    cout<<T[i].NameTriangle<<" С‚СЂРµСѓРіРѕР»СЊРЅРёРє СЂР°Р·РЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№, ";
 
                     if(T[i].AngleValue1<90 and T[i].AngleValue2<90 and AngleValue3<90)
-                        cout<<"остроугольный."<<endl;
+                        cout<<"РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№."<<endl;
 
                     if(T[i].AngleValue1>90 or T[i].AngleValue2>90 or AngleValue3>90)
-                        cout<<"тупоугольный."<<endl;
+                        cout<<"С‚СѓРїРѕСѓРіРѕР»СЊРЅС‹Р№."<<endl;
                     if(T[i].AngleValue1==90 or T[i].AngleValue2==90 or AngleValue3==90)
-                        cout<<"прямоугольный."<<endl;
+                        cout<<"РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№."<<endl;
 
                 }
 
             }
 
             cout<<endl<<endl;
-            cout<<"1.Вернуться в меню."<<endl;
-            cout<<"2.Выйти из программы."<<endl;
+            cout<<"1.Р’РµСЂРЅСѓС‚СЊСЃСЏ РІ РјРµРЅСЋ."<<endl;
+            cout<<"2.Р’С‹Р№С‚Рё РёР· РїСЂРѕРіСЂР°РјРјС‹."<<endl;
             do
             {
                 cin>>Reselection;
@@ -182,13 +182,13 @@ int main()
             {
                 p = (T[i].Lenght1+T[i].Lenght2+T[i].Lenght3)/2.0;
                 S = sqrt(p*(p-T[i].Lenght1)*(p-T[i].Lenght2)*(p-T[i].Lenght3));
-                         cout<<"Периметр треугольника "<<T[i].NameTriangle<<" - "<<T[i].Lenght1+T[i].Lenght2+T[i].Lenght3<<endl;
-                         cout<<"Площадь треугольника "<<T[i].NameTriangle<<" - "<<S<<endl<<endl;
+                         cout<<"РџРµСЂРёРјРµС‚СЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° "<<T[i].NameTriangle<<" - "<<T[i].Lenght1+T[i].Lenght2+T[i].Lenght3<<endl;
+                         cout<<"РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° "<<T[i].NameTriangle<<" - "<<S<<endl<<endl;
             }
 
                 cout<<endl<<endl;
-            cout<<"1.Вернуться в меню."<<endl;
-            cout<<"2.Выйти из программы."<<endl;
+            cout<<"1.Р’РµСЂРЅСѓС‚СЊСЃСЏ РІ РјРµРЅСЋ."<<endl;
+            cout<<"2.Р’С‹Р№С‚Рё РёР· РїСЂРѕРіСЂР°РјРјС‹."<<endl;
             do
             {
                 cin>>Reselection;

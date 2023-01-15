@@ -8,7 +8,7 @@ class matrix
       int m;
       int a[SIZE][SIZE];
   public:
-    matrix(int,int,int); // Конструктор по умолчанию без параметров
+    matrix(int,int,int); // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ
     ~matrix(){}
     void init(int);
     void input();

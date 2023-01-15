@@ -1,5 +1,5 @@
-//Ввести n.
-//От 1 до n
+//Р’РІРµСЃС‚Рё n.
+//РћС‚ 1 РґРѕ n
 //S+=1*1.0/2.0*n
 
 #include <iostream>
@@ -9,7 +9,7 @@ using namespace std;
 main()
 {
     setlocale (0,"Rus");
-    cout<<"Введите n: ";
+    cout<<"Р’РІРµРґРёС‚Рµ n: ";
     float n,S=0;
     cin>>n;
     for (int i=1; i<=n;i++)

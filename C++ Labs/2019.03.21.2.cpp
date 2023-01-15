@@ -20,21 +20,21 @@ int main()
     float y,z;
     char p,q;
 
-    cout<<"Ââåäèòå çíà÷åíèÿ äëÿ int: "<<endl;
+    cout<<"Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ Ğ´Ğ»Ñ int: "<<endl;
     cout<<"a = ";
     cin>>a;
     cout<<"b = ";
     cin>>b;
 
 
-    cout<<endl<<endl<<"Ââåäèòå çíà÷åíèÿ äëÿ float: "<<endl;
+    cout<<endl<<endl<<"Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ Ğ´Ğ»Ñ float: "<<endl;
     cout<<"y = ";
     cin>>y;
     cout<<"z = ";
     cin>>z;
 
 
-    cout<<endl<<endl<<"Ââåäèòå çíà÷åíèÿ äëÿ char: "<<endl;
+    cout<<endl<<endl<<"Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ Ğ´Ğ»Ñ char: "<<endl;
     cout<<"p = ";
     cin>>p;
     cout<<"q = ";
@@ -45,11 +45,11 @@ int main()
     swaps(p,q);
 
     cout<<endl<<endl;
-    cout<<"Çíà÷åíèÿ int: ";
+    cout<<"Ğ—Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ int: ";
     cout<<endl<<"a = "<<a<<"; b = "<<b<<endl;
-    cout<<"Çíà÷åíèÿ float: ";
+    cout<<"Ğ—Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ float: ";
     cout<<endl<<"y = "<<y<<"; z = "<<z<<endl;
-    cout<<"Çíà÷åíèÿ char: ";
+    cout<<"Ğ—Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ char: ";
     cout<<endl<<"p = "<<p<<"; q = "<<q<<endl;
 
     return 0;

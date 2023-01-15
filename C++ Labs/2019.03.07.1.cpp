@@ -12,15 +12,15 @@ private:
 public:
     virtual void getdata()
     {
-        cout<<"Ââåäèòå íàçâàíèå ïóáëèêàöèè: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸: ";
         cin>>BookName;
-        cout<<"Ââåäèòå ñòîèìîñòü ïóáëèêàöèè: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ð¿ÑƒÐ±Ð»Ð¸ÐºÐ°Ñ†Ð¸Ð¸: ";
         cin>>price;
     }
 
     virtual void putdata()
     {
-        cout<<"Íàçâàíèå êíèãè: "<<BookName<<" - ñòîèìîñòü - "<<price<<endl;
+        cout<<"ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ ÐºÐ½Ð¸Ð³Ð¸: "<<BookName<<" - ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ - "<<price<<endl;
     }
 
     virtual bool isOveersize() = 0;
@@ -33,18 +33,18 @@ private:
 public:
     void getdata()
     {
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà ïåðâûé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[0];
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà âòîðîé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[1];
-        cout<<"Ââåäèòå ñóììó ïðîäàæ çà òðåòèé ìåñÿö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑƒÐ¼Ð¼Ñƒ Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ñ‚Ñ€ÐµÑ‚Ð¸Ð¹ Ð¼ÐµÑÑÑ†: ";
         cin>>Massive[2];
     }
     void putdata()
     {
-        cout<<"Ñóììà ïðîäàæ çà ïåðâûé ìåñÿö: "<<Massive[0]<<endl;
-        cout<<"Ñóììà ïðîäàæ çà âòîðîé ìåñÿö: "<<Massive[1]<<endl;
-        cout<<"Ñóììà ïðîäàæ çà òðåòèé ìåñÿö: "<<Massive[2]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð¿ÐµÑ€Ð²Ñ‹Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[0]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[1]<<endl;
+        cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€Ð¾Ð´Ð°Ð¶ Ð·Ð° Ñ‚Ñ€ÐµÑ‚Ð¸Ð¹ Ð¼ÐµÑÑÑ†: "<<Massive[2]<<endl;
     }
 };
 
@@ -57,14 +57,14 @@ public:
     void getdata()
     {
         publication::getdata();
-        cout<<"Ââåäèòå êîëè÷åñòâî ñòðàíèö: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†: ";
         cin>>NumberOfPages;
         sales::getdata();
     }
     void putdata()
     {
         publication::putdata();
-        cout<<"Êîëè÷åñòâî ñòðàíèö â âàøåé êíèãè: "<<NumberOfPages<<endl;
+        cout<<"ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ† Ð² Ð²Ð°ÑˆÐµÐ¹ ÐºÐ½Ð¸Ð³Ð¸: "<<NumberOfPages<<endl;
         sales::putdata();
     }
     bool isOveersize()
@@ -80,14 +80,14 @@ private:
     void getdata()
     {
         publication::getdata();
-        cout<<"Ââåäèòå ïðîäîëæèòåëüíîñòü àóäèî-çàïèñè êíèãè: ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÑŒ Ð°ÑƒÐ´Ð¸Ð¾-Ð·Ð°Ð¿Ð¸ÑÐ¸ ÐºÐ½Ð¸Ð³Ð¸: ";
         cin>>AudioDuration;
         sales::getdata();
     }
     void putdata()
     {
         publication::putdata();
-        cout<<"Ïðîäîëæèòåëüíîñòü àóäèî-çàïèñè êíèãè: "<<AudioDuration<<endl;
+        cout<<"ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÑŒ Ð°ÑƒÐ´Ð¸Ð¾-Ð·Ð°Ð¿Ð¸ÑÐ¸ ÐºÐ½Ð¸Ð³Ð¸: "<<AudioDuration<<endl;
         sales::putdata();
     }
 
@@ -107,16 +107,16 @@ public:
     void getdata()
     {
         publication::getdata();
-        cout<<"Ââåäèòå íàçâàíèå íîñèòåëÿ CD(c) èëè DVD(d): ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»Ñ CD(c) Ð¸Ð»Ð¸ DVD(d): ";
         cin>>Type;
-        cout<<"Ââåäèòå ðàçìåð íîñèòåëÿ(GB): ";
+        cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»Ñ(GB): ";
         cin>>Size;
         sales::getdata();
     }
     void putdata()
     {
         publication::putdata();
-        cout<<"Ôèçè÷åñêèé íîñèòåëü: ";
+        cout<<"Ð¤Ð¸Ð·Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»ÑŒ: ";
         if(Type=='c')
             cout<<"CD";
         else
@@ -143,11 +143,11 @@ int main()
 
     do
     {
-        cout<<"Ñîçäàòü êíèãó(b) "<<endl;
-        cout<<"Ñîçäàòü àóäèî-çàïèñü(a)"<<endl;
-        cout<<"Çàïèñü íà äèñê(d)"<<endl;
-        cout<<"Âûéòè èç ïðîãðàììû (x)"<<endl;
-        cout<<"Âàø âûáîð: ";
+        cout<<"Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ ÐºÐ½Ð¸Ð³Ñƒ(b) "<<endl;
+        cout<<"Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ð°ÑƒÐ´Ð¸Ð¾-Ð·Ð°Ð¿Ð¸ÑÑŒ(a)"<<endl;
+        cout<<"Ð—Ð°Ð¿Ð¸ÑÑŒ Ð½Ð° Ð´Ð¸ÑÐº(d)"<<endl;
+        cout<<"Ð’Ñ‹Ð¹Ñ‚Ð¸ Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹ (x)"<<endl;
+        cout<<"Ð’Ð°Ñˆ Ð²Ñ‹Ð±Ð¾Ñ€: ";
         cin>>Select;
 
 
@@ -178,7 +178,7 @@ int main()
         }
         default:
         {
-            cout<<"Ïîâòîðèòå ââîä."<<endl;
+            cout<<"ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð²Ð²Ð¾Ð´."<<endl;
         }
         }
 
@@ -198,7 +198,7 @@ int main()
     {
         pubarr[i]->putdata();
         if(pubarr[i]->isOveersize())
-            cout<<endl<<"Ïðåâûøåíèå ðàçìåðà!"<<endl;
+            cout<<endl<<"ÐŸÑ€ÐµÐ²Ñ‹ÑˆÐµÐ½Ð¸Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð°!"<<endl;
         cout<<endl;
     }
 }

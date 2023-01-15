@@ -1,4 +1,4 @@
-//Модульное программирование
+//РњРѕРґСѓР»СЊРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ
 
 #include <iostream>
 #include "28.05.2018.1.cpp"
@@ -14,7 +14,7 @@ main()
 {
     setlocale(LC_ALL,"RUS");
 
-    cout<<"Введите размер массива: ";
+    cout<<"Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°: ";
     cin>>n;
 
     int *Array = new int [n];
@@ -24,10 +24,10 @@ main()
     system("cls");
     SortArray(Array, n);
     ShowArray(Array, n);
-    cout<<endl<<"Сумма элементов: "<<Sum(Array,n);
-    cout<<endl<<"Количество чисел, больше нуля: "<<MoreZero(Array,n);
-    cout<<endl<<"Произведение элементов: "<<Proizvedenie(Array,n);
-    cout<<endl<<"Максимальный элемент: "<<Max(Array, n);
+    cout<<endl<<"РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ: "<<Sum(Array,n);
+    cout<<endl<<"РљРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР», Р±РѕР»СЊС€Рµ РЅСѓР»СЏ: "<<MoreZero(Array,n);
+    cout<<endl<<"РџСЂРѕРёР·РІРµРґРµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ: "<<Proizvedenie(Array,n);
+    cout<<endl<<"РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚: "<<Max(Array, n);
     cout<<endl;
 
     ShowArray(Array, n);
