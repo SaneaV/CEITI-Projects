@@ -1,4 +1,4 @@
-﻿#include <iostream>
+п»ї#include <iostream>
 #include <vector>
 #include <stdlib.h>
 #include <ctime>
@@ -13,9 +13,9 @@ int main()
 	vector<int>::iterator it;
 	it = MyVector.begin();
 
-	cout << "Первый элемент вектора: " << *it << endl;
+	cout << "РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РІРµРєС‚РѕСЂР°: " << *it << endl;
 
-	cout << endl << "Элементы вектора: ";
+	cout << endl << "Р­Р»РµРјРµРЅС‚С‹ РІРµРєС‚РѕСЂР°: ";
 
 	for (;it != MyVector.end();it++)
 	{
@@ -26,7 +26,7 @@ int main()
 
 	////////////////////////////////////////////////////////////////////
 
-	cout << "Ревёрс иттератор: ";
+	cout << "Р РµРІС‘СЂСЃ РёС‚С‚РµСЂР°С‚РѕСЂ: ";
 	vector<double> MySecondVector = { 2.1, 56.5, 75,4, 2.3, -1 };
 	vector<double>::reverse_iterator ri = MySecondVector.rbegin();
 
@@ -41,40 +41,4 @@ int main()
 	vector<char> MyThirdVector = { 'a', 'b', 'c', 'd', 'f' };
 	vector<char>::iterator CharIterrator = MyThirdVector.begin();
 
-	cout << "Использование функции advance: " << endl;
-	cout << "Первый элемент вектора: " << *CharIterrator << endl;
-	advance(CharIterrator, 3);
-	cout << "advance(*CharIterrator, 3) ------> " << *CharIterrator << endl;
-	cout << endl << endl << endl;
-
-	////////////////////////////////////////////////////////////////////
-	cout << "Добавление элемнтов в вектор при помощи insert: " << endl;
-
-	vector<int>NewVec(10);
-	NewVec = { 10, 5, 634, 5 };
-
-	vector<int>::iterator itv = NewVec.begin();
-
-	NewVec.insert(itv, 1);
-
-	for (itv = NewVec.begin();itv != NewVec.end();itv++)
-	{
-		cout << *itv << endl;
-	}
-
-	cout << endl << endl << endl;
-
-	////////////////////////////////////////////////////////////////////
-	cout << "Метод erase: " << endl;
-
-	itv = NewVec.begin();
-
-	NewVec.erase(itv);
-
-	for (itv = NewVec.begin();itv != NewVec.end();itv++)
-	{
-		cout << *itv << endl;
-	}
-
-	return 0;
-}
+	cout << "Р

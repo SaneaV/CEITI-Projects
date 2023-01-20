@@ -22,7 +22,7 @@ int main()
 
     for(int i=0;true;i++)
     {
-        cout<<"ID - потока - \t"<<this_thread::get_id()<<"\tFirst Threat\t"<<i<<endl;
+        cout<<"ID - РїРѕС‚РѕРєР° - \t"<<this_thread::get_id()<<"\tFirst Threat\t"<<i<<endl;
         this_thread::sleep_for(chrono::milliseconds(400));
     }
 

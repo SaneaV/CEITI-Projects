@@ -8,7 +8,7 @@ void SecondThread()
 {
     for(int i=1;i<=10;i++)
     {
-        cout<<"ID - потока - \t"<<this_thread::get_id()<<"\tSecond Threat\t"<<i<<endl;
+        cout<<"ID - РїРѕС‚РѕРєР° - \t"<<this_thread::get_id()<<"\tSecond Threat\t"<<i<<endl;
         this_thread::sleep_for(chrono::milliseconds(1000));
     }
 }
@@ -21,7 +21,7 @@ int main()
 
     for(size_t i=1;i<=10;i++)
     {
-        cout<<"ID - потока - \t"<<this_thread::get_id()<<"\tFirst Threat\t"<<i<<endl;
+        cout<<"ID - РїРѕС‚РѕРєР° - \t"<<this_thread::get_id()<<"\tFirst Threat\t"<<i<<endl;
         this_thread::sleep_for(chrono::milliseconds(400));
     }
 

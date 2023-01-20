@@ -17,7 +17,7 @@ int main()
     srand(time(0));
 
     int n = 0;
-    cout<<"Ââåäèòå ğàçìåğ âåêòîğà: ";
+    cout<<"Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ€Ğ°Ğ·Ğ¼ĞµÑ€ Ğ²ĞµĞºÑ‚Ğ¾Ñ€Ğ°: ";
     cin>>n;
 
     cout<<endl<<endl;
@@ -34,7 +34,7 @@ int main()
     }
 
     cout<<endl<<endl;
-    cout<<"Êîëè÷åñòâî îòğèöàòåëüíûõ ÷èñåë: "<<countNegative;
+    cout<<"ĞšĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ Ğ¾Ñ‚Ñ€Ğ¸Ñ†Ğ°Ñ‚ĞµĞ»ÑŒĞ½Ñ‹Ñ… Ñ‡Ğ¸ÑĞµĞ»: "<<countNegative;
     cout<<endl<<endl;
     return 0;
 }

@@ -1,4 +1,4 @@
-﻿#include <iostream>
+п»ї#include <iostream>
 #include <list>
 #include <algorithm>
 #include <ctime>
@@ -34,42 +34,42 @@ int main()
 
 	auto listIter = myList.begin();
 
-	cout << "Вывод листа на экран: " << endl;
+	cout << "Р’С‹РІРѕРґ Р»РёСЃС‚Р° РЅР° СЌРєСЂР°РЅ: " << endl;
 	printList(myList);
 
-	cout << "Вывод сортированного по возрастанию листа: " << endl;
+	cout << "Р’С‹РІРѕРґ СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ Р»РёСЃС‚Р°: " << endl;
 	myList.sort();
 	printList(myList);
 
-	cout << "Удаление первого и последнего элемента: " << endl;
+	cout << "РЈРґР°Р»РµРЅРёРµ РїРµСЂРІРѕРіРѕ Рё РїРѕСЃР»РµРґРЅРµРіРѕ СЌР»РµРјРµРЅС‚Р°: " << endl;
 	myList.pop_back();
 	myList.pop_front();
 	printList(myList);
 
-	cout << "Количество элементов в списке: ";
+	cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ: ";
 	cout << myList.size() << endl << endl;
 
-	cout << "Удаление дубликатов в списке (подряд): " << endl;
+	cout << "РЈРґР°Р»РµРЅРёРµ РґСѓР±Р»РёРєР°С‚РѕРІ РІ СЃРїРёСЃРєРµ (РїРѕРґСЂСЏРґ): " << endl;
 	myList.push_front(99);
 	printList(myList);
 	myList.unique();
 	printList(myList);
 
-	cout << "Очистка листа: " << endl;
+	cout << "РћС‡РёСЃС‚РєР° Р»РёСЃС‚Р°: " << endl;
 	myList.clear();
-	cout << "Количество элементов в списке: ";
+	cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ: ";
 	cout << myList.size() << endl;
-	cout << "Заполнение листа случайными числами." << endl << endl;;
+	cout << "Р—Р°РїРѕР»РЅРµРЅРёРµ Р»РёСЃС‚Р° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё." << endl << endl;;
 	myList.resize(10);
 	generate(myList.begin(), myList.end(), randNumber());
-	cout << "Лист заполнен: " << endl;
+	cout << "Р›РёСЃС‚ Р·Р°РїРѕР»РЅРµРЅ: " << endl;
 	printList(myList);
 
-	cout << "Ревёрс списка: " << endl;
+	cout << "Р РµРІС‘СЂСЃ СЃРїРёСЃРєР°: " << endl;
 	myList.reverse();
 	printList(myList);
 
-	cout << "Добавление и удаление элемента через Insert и Erase: " << endl;
+	cout << "Р”РѕР±Р°РІР»РµРЅРёРµ Рё СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° С‡РµСЂРµР· Insert Рё Erase: " << endl;
 	listIter = myList.begin();
 	advance(listIter, 5);
 	myList.insert(listIter, 1000);
@@ -78,7 +78,7 @@ int main()
 	myList.erase(listIter);
 	printList(myList);
 
-	cout << "Удаление конкретного числа (remove): " << endl;
+	cout << "РЈРґР°Р»РµРЅРёРµ РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ С‡РёСЃР»Р° (remove): " << endl;
 	listIter = myList.begin();
 	advance(listIter, 5);
 	myList.insert(listIter, 7);
@@ -89,18 +89,18 @@ int main()
 	printList(myList);
 
 
-	cout << "Заполнение списка при помощи assign() только одним элементом: " << endl;
+	cout << "Р—Р°РїРѕР»РЅРµРЅРёРµ СЃРїРёСЃРєР° РїСЂРё РїРѕРјРѕС‰Рё assign() С‚РѕР»СЊРєРѕ РѕРґРЅРёРј СЌР»РµРјРµРЅС‚РѕРј: " << endl;
 	myList.assign(10, (rand() % 100));
 	printList(myList);
 
-	cout << "Перезапись одного списка в другой: " << endl;
-	cout << "Первый список: ";
+	cout << "РџРµСЂРµР·Р°РїРёСЃСЊ РѕРґРЅРѕРіРѕ СЃРїРёСЃРєР° РІ РґСЂСѓРіРѕР№: " << endl;
+	cout << "РџРµСЂРІС‹Р№ СЃРїРёСЃРѕРє: ";
 	printList(myList);
-	cout << "Второй список: ";
+	cout << "Р’С‚РѕСЂРѕР№ СЃРїРёСЃРѕРє: ";
 	list<int> myList2 = { 1,2,3,4,5 };
 	printList(myList2);
-	cout << "Копирование." << endl << endl;
-	cout << "Первый список: " << endl;
+	cout << "РљРѕРїРёСЂРѕРІР°РЅРёРµ." << endl << endl;
+	cout << "РџРµСЂРІС‹Р№ СЃРїРёСЃРѕРє: " << endl;
 	myList.assign(myList2.begin(), myList2.end());
 	printList(myList);
 

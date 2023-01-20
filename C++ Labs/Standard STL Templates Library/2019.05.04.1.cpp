@@ -9,7 +9,7 @@ using namespace std;
 template <typename t>
 void fill_Queue (queue<t> &Q)
 {
-    cout<<"Çàïîëíåíèå î÷åðåäè: "<<endl;
+    cout<<"Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸: "<<endl;
 
     for(int i = 0; i < 10; i++)
     {
@@ -22,7 +22,7 @@ void fill_Queue (queue<t> &Q)
 template <typename t>
 void print_Queue(queue<t> &Q)
 {
-    cout<<"Âûâîä î÷åðåäè íà ýêðàí: "<<endl;\
+    cout<<"Ð’Ñ‹Ð²Ð¾Ð´ Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸ Ð½Ð° ÑÐºÑ€Ð°Ð½: "<<endl;\
 
     vector<t> Temp(Q.size());
     Temp.clear();

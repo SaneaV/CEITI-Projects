@@ -1,4 +1,4 @@
-﻿#include <iostream>
+п»ї#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 #include <stack>
@@ -10,7 +10,7 @@ using namespace std;
 template<typename t>
 void fill_Stack(stack<t>& Stack)
 {
-	cout << "Заполнение стека." << endl;
+	cout << "Р—Р°РїРѕР»РЅРµРЅРёРµ СЃС‚РµРєР°." << endl;
 
 	for (int i = 0;i < 10;i++)
 		Stack.emplace(rand() % 20);
@@ -21,7 +21,7 @@ void fill_Stack(stack<t>& Stack)
 template<typename t>
 void print_Stack(stack<t> & Stack)
 {
-	cout << "Вывод стека на экран(одноразовый способ): " << endl;
+	cout << "Р’С‹РІРѕРґ СЃС‚РµРєР° РЅР° СЌРєСЂР°РЅ(РѕРґРЅРѕСЂР°Р·РѕРІС‹Р№ СЃРїРѕСЃРѕР±): " << endl;
 
 	if (!Stack.empty())
 		while (!Stack.empty())
@@ -29,7 +29,7 @@ void print_Stack(stack<t> & Stack)
 			cout << Stack.top() << " ";
 			Stack.pop();
 		}
-	else cout << "Стек пуст" << endl;
+	else cout << "РЎС‚РµРє РїСѓСЃС‚" << endl;
 
 	cout << endl;
 }
@@ -37,7 +37,7 @@ void print_Stack(stack<t> & Stack)
 template<typename t>
 void print_Stack_Multi(stack<t> & Stack)
 {
-	cout << "Вывод стека на экран(многоразовый способ): " << endl;
+	cout << "Р’С‹РІРѕРґ СЃС‚РµРєР° РЅР° СЌРєСЂР°РЅ(РјРЅРѕРіРѕСЂР°Р·РѕРІС‹Р№ СЃРїРѕСЃРѕР±): " << endl;
 
 	vector<t> Temp(Stack.size());
 	Temp.clear();
@@ -62,7 +62,7 @@ void print_Stack_Multi(stack<t> & Stack)
 template<typename t>
 void print_Container(deque<t>& Container)
 {
-	cout << "Вывод stack(deque) на экран: " << endl;
+	cout << "Р’С‹РІРѕРґ stack(deque) РЅР° СЌРєСЂР°РЅ: " << endl;
 
 	auto it = Container.rbegin();
 

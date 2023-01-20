@@ -26,9 +26,9 @@ int Sum(int a, int b)
 {
     Timer timer;
     this_thread::sleep_for(chrono::milliseconds(500));
-    cout<<"ID ïîòîêà - "<<this_thread::get_id()<<" - Ñòàðò Ôóíêöèè"<<endl;
+    cout<<"ID Ð¿Ð¾Ñ‚Ð¾ÐºÐ° - "<<this_thread::get_id()<<" - Ð¡Ñ‚Ð°Ñ€Ñ‚ Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸"<<endl;
     this_thread::sleep_for(chrono::milliseconds(500));
-    cout<<"ID ïîòîêà - "<<this_thread::get_id()<<" - Êîíåö Ôóíêöèè"<<endl;
+    cout<<"ID Ð¿Ð¾Ñ‚Ð¾ÐºÐ° - "<<this_thread::get_id()<<" - ÐšÐ¾Ð½ÐµÑ† Ð¤ÑƒÐ½ÐºÑ†Ð¸Ð¸"<<endl;
     return a+b;
 }
 
@@ -46,7 +46,7 @@ int main()
 
     for(int i=1; i<=10; i++)
     {
-        cout<<"ID ïîòîêà - "<<this_thread::get_id()<<" - "<<i<<endl;
+        cout<<"ID Ð¿Ð¾Ñ‚Ð¾ÐºÐ° - "<<this_thread::get_id()<<" - "<<i<<endl;
         this_thread::sleep_for(chrono::milliseconds(200));
     }
 

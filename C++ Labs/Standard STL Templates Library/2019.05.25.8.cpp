@@ -1,5 +1,5 @@
-///Тут то же самое, просто я сам немного неправильно дал названия.
-///Вроде ничего отличного нет
+///РўСѓС‚ С‚Рѕ Р¶Рµ СЃР°РјРѕРµ, РїСЂРѕСЃС‚Рѕ СЏ СЃР°Рј РЅРµРјРЅРѕРіРѕ РЅРµРїСЂР°РІРёР»СЊРЅРѕ РґР°Р» РЅР°Р·РІР°РЅРёСЏ.
+///Р’СЂРѕРґРµ РЅРёС‡РµРіРѕ РѕС‚Р»РёС‡РЅРѕРіРѕ РЅРµС‚
 
 #include <iostream>
 
@@ -14,7 +14,7 @@ public:
 
     virtual void SetNumberOfPage()
     {
-        cout<<"Введите количество страниц: ";
+        cout<<"Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†: ";
         cin>>NumberOfPage;
     }
 
@@ -33,7 +33,7 @@ public:
 
     virtual void SetNumberOfSoldCopies()
     {
-        cout<<"Введите количество проданных копий: ";
+        cout<<"Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґР°РЅРЅС‹С… РєРѕРїРёР№: ";
         cin>>NumberOfCopies;
     }
 
@@ -55,7 +55,7 @@ public:
 
     void SetBook()
     {
-        cout<<"Введите название книги: ";
+        cout<<"Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ РєРЅРёРіРё: ";
         cin>>NameBook;
         publication::SetNumberOfPage();
         sales::SetNumberOfSoldCopies();
@@ -63,9 +63,9 @@ public:
 
     void GetBook()
     {
-        cout<<"Название книги: "<<NameBook<<endl;
-        cout<<"Количество страниц: "<<publication::getNumberOfPage()<<endl;
-        cout<<"Количество проданных копий: "<<sales::getNumberOfCopies()<<endl;
+        cout<<"РќР°Р·РІР°РЅРёРµ РєРЅРёРіРё: "<<NameBook<<endl;
+        cout<<"РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†: "<<publication::getNumberOfPage()<<endl;
+        cout<<"РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРґР°РЅРЅС‹С… РєРѕРїРёР№: "<<sales::getNumberOfCopies()<<endl;
     }
 
 

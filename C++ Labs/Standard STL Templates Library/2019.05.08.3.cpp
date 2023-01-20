@@ -9,29 +9,29 @@ int main()
     setlocale(LC_ALL,"RUS");
 
 #ifdef DEBUG
-    cout<<"Íà÷àëî öèêëà: "<<endl;
+    cout<<"ÐÐ°Ñ‡Ð°Ð»Ð¾ Ñ†Ð¸ÐºÐ»Ð°: "<<endl;
 
     #else
-    cout<<"Äåáàã íå îïðåäåë¸í"<<endl;
+    cout<<"Ð”ÐµÐ±Ð°Ð³ Ð½Ðµ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½"<<endl;
 #endif // DEBUG
 
     for(int i=0; i<5; i++)
         cout<<i<<"\t";
 
 #ifdef DEBUG
-            cout<<endl<<"Êîíåö öèêëà: "<<endl;
+            cout<<endl<<"ÐšÐ¾Ð½ÐµÑ† Ñ†Ð¸ÐºÐ»Ð°: "<<endl;
 #endif // DEBUG
 
 
 #ifndef DEBUG
-cout<<endl<<"Äåáàã íå îïðåäåë¸í"<<endl;
+cout<<endl<<"Ð”ÐµÐ±Ð°Ð³ Ð½Ðµ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½"<<endl;
 #endif // DEBUG
 
 
 #if DEBUG2 == 2
-cout<<endl<<"Äåáàã îïðåäåë¸í"<<endl;
+cout<<endl<<"Ð”ÐµÐ±Ð°Ð³ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½"<<endl;
 #elif DEBUG2 == 1
-cout<<"Äåáàã îïðåäåë¸í, íî çíà÷åíèå äðóãîå."<<endl;
+cout<<"Ð”ÐµÐ±Ð°Ð³ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½, Ð½Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð´Ñ€ÑƒÐ³Ð¾Ðµ."<<endl;
 #endif // DEBUG2
 
     return 0;

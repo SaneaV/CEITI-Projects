@@ -8,7 +8,7 @@ using namespace std;
 template <typename t>
 void fill_Queue (priority_queue<t> &Q)
 {
-    cout<<"Заполнение очереди: "<<endl;
+    cout<<"Р—Р°РїРѕР»РЅРµРЅРёРµ РѕС‡РµСЂРµРґРё: "<<endl;
 
     for(int i = 0; i < 10; i++)
     {
@@ -21,7 +21,7 @@ void fill_Queue (priority_queue<t> &Q)
 template <typename t>
 void print_Queue(priority_queue<t> &Q)
 {
-    cout<<"Вывод очереди на экран(многоразовый способ): "<<endl;\
+    cout<<"Р’С‹РІРѕРґ РѕС‡РµСЂРµРґРё РЅР° СЌРєСЂР°РЅ(РјРЅРѕРіРѕСЂР°Р·РѕРІС‹Р№ СЃРїРѕСЃРѕР±): "<<endl;\
 
     vector<t> Temp(Q.size());
     Temp.clear();

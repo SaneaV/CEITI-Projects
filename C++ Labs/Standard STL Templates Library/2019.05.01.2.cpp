@@ -9,7 +9,7 @@ using namespace std;
 template <typename T>
 void printMultiset (const multiset<T> &M)
 {
-    cout<<"Вывод Multiset на экран: "<<endl;
+    cout<<"Р’С‹РІРѕРґ Multiset РЅР° СЌРєСЂР°РЅ: "<<endl;
     for(auto &item: M)
     {
         cout<<item<<" ";
@@ -25,7 +25,7 @@ int main()
     multiset<int> myMultiset;
 
     /**-----------------------------------------------------------*/
-    cout<<"Заполнение Set случайными числами(с повторами). "<<endl;
+    cout<<"Р—Р°РїРѕР»РЅРµРЅРёРµ Set СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё(СЃ РїРѕРІС‚РѕСЂР°РјРё). "<<endl;
     for(int i=0; i<20; i++)
     {
         myMultiset.insert(rand()%30);
@@ -35,17 +35,17 @@ int main()
     printMultiset(myMultiset);
 
     /**-----------------------------------------------------------*/
-    cout<<"Возврат первого найденного элемента: ";
+    cout<<"Р’РѕР·РІСЂР°С‚ РїРµСЂРІРѕРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°: ";
     auto it = myMultiset.lower_bound(1);
     cout<<*it<<endl;
-    cout<<"Возврат элемента идущего после последнего найденного: ";
+    cout<<"Р’РѕР·РІСЂР°С‚ СЌР»РµРјРµРЅС‚Р° РёРґСѓС‰РµРіРѕ РїРѕСЃР»Рµ РїРѕСЃР»РµРґРЅРµРіРѕ РЅР°Р№РґРµРЅРЅРѕРіРѕ: ";
     auto it2 = myMultiset.upper_bound(1);
     cout<<*it2<<endl;
 
     cout<<endl;
 
     /**-----------------------------------------------------------*/
-    cout<<"Возврат значений от lower_bound до upper_bound: "<<endl;
+    cout<<"Р’РѕР·РІСЂР°С‚ Р·РЅР°С‡РµРЅРёР№ РѕС‚ lower_bound РґРѕ upper_bound: "<<endl;
     auto it4 = myMultiset.equal_range(3);
 
     cout << "\nThe lower bound of 3 is " << *it4.first;
