@@ -1,0 +1,141 @@
+Create database Caffe 
+go
+use Caffe
+go
+
+Create table TipBL(
+					CodTipa int primary key,
+					NameTipa varchar(20))
+go
+
+Create table Bliuda(CodBl int primary key,
+					NameBl varchar(30),
+					CodTipa int foreign key references TipBL(CodTipa),
+					Gramaj int,
+					Price int)
+go
+Create table Menu(Datam date default '00-00-0000',
+					CodBl int unique references Bliuda(CodBl))
+go
+Create table Zakaz(IdSciota int primary key, 
+					Dataz date default '00-00-0000', 
+					CodBl int unique references Bliuda(CodBl), 
+					ColPr int ) 
+go
+
+Insert into TipBL(CodTipa,NameTipa) values(10,'РҐРѕР»РѕРґРЅС‹Рµ Р·Р°РєСѓСЃРєРё') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(11,'РЎР°Р»Р°С‚С‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(12,'Р“РѕСЂСЏС‡РёРµ Р·Р°РєСѓСЃРєРё') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(13,'РЎСѓРїС‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(14,'Р“СЂР°С‚Р°СЂРЅС‹Рµ Р±Р»СЋРґР°') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(15,'Р‘Р»СЋРґР° РёР· СЂС‹Р±С‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(16,'Р‘Р»СЋРґР° РёР· РіРѕРІСЏРІРёРґРµРЅС‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(17,'Р‘Р»СЋРґР° РёР· СЃРІРёРЅРёРЅС‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(18,'Р‘Р»СЋРґР° РёР· РїС‚РёС†С‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(19,'Р‘Р»СЋРґР° РёР· СЏРёС†') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(20,'РњСѓС‡РЅС‹Рµ Р‘Р»СЋРґР°') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(21,'Р‘Р»СЋРґР° РёР· РѕРІРѕС‰РµР№') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(22,'Р“Р°СЂРЅРёСЂС‹') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(23,'РЎР»Р°РґРєРёРµ Р±Р»СЋРґР°') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(24,'Р“РѕСЂСЏРёРµ РЅР°РїРёС‚РєРё') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(25,'РљРѕРєС‚РµР№Р»Рё') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(26,'РЎРїРёСЂС‚РЅРѕРµ') 
+go 
+Insert into TipBL(CodTipa,NameTipa) values(27,'РЁРѕРєРѕР»Р°Рґ') 
+go
+
+Insert into Menu(Datam,CodBl) values('2007.11.16',1001) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.16',1101) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.16',1201) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.16',1301) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.16',1401) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',1501) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',1601) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',1701) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',1801) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',1901) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.17',2001) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.18',2101) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.18',2201) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.18',2301) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.18',2401) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.19',2501) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.19',2601) 
+go 
+Insert into Menu(Datam,CodBl) values('2007.11.19',2701) 
+go 
+
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(10010001,'2007.11.16',1001,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(10040002,'2007.11.16',1201,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(11010003,'2007.11.16',1301,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(11030004,'2007.11.16',1401,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(13010005,'2007.11.16',1501,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(13020006,'2007.11.17',1601,2) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(14020007,'2007.11.17',1701,4) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(15020008,'2007.11.17',1801,4) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(16010009,'2007.11.17',1901,4) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(20020010,'2007.11.18',2001,1) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(21020011,'2007.11.18',2101,1) 
+go 
+Insert into Zakaz(IdSciota,Dataz,CodBl,ColPr) values(22020012,'2007.11.18',2201,2) 
+go
+
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1001,'РљР°РЅР°РїРµ СЃ С‡РµСЂРЅРѕР№ РёРєСЂРѕР№',10,250,42)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1004,'РћСЃРµС‚СЂРёРЅР° СЃ Р»РёРјРѕРЅРѕРј',10,400,60)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1006,'РЎРµР»СЊРґ СЃ РјР°СЃР»РёРЅР°РјРё',10,400,60)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1008,'РђСЃРѕСЂС‚Рё РёР· СЃРІРµР¶РёС… РѕРІРѕС‰РµР№',11,400,51)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1101,'РћС‚ С€РµС„-РїРѕРІР°СЂР°',11,400,25)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1102,'РљР°РЅР°РїРµ СЃ РєСЂР°СЃРЅРѕР№ РёРєСЂРѕР№',10,400,27)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1104,'РљСЂР°Р±РѕРІС‹Р№',11,250,25)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1105,'Р“СЂРµС‡РµСЃРєРёР№',11,300,29)
+go
+Insert into Bliuda(CodBl,NameBl,CodTipa,Gramaj,Price) values(1107,'Р

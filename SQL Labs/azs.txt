@@ -1,0 +1,51 @@
+create database AZS
+go
+use AZS
+go
+create table sprawka(
+ codt int primary key ,
+ marka varchar(12),
+ prisez decimal(5,2),
+ koef decimal(4,2))
+ go
+ 
+ create table smena(
+ cods int primary key ,
+ nums int,
+ datas date default '0000-00-00')
+ go
+ 
+ create table peresmenka(
+ cods int foreign key references smena(cods),
+ codt int foreign key references sprawka(codt),
+ ktns int,
+ ktks int)
+ go
+ 
+ create table prihod(
+ cods int foreign key references smena(cods),
+ codt int foreign key references sprawka(codt),
+ kolp int)
+ go
+
+create table rashod(
+codt int foreign key references sprawka(codt),
+koln int,
+datar date default '0000-00-00'
+)
+go
+
+select * from sprawka
+ go
+select * from smena
+ go
+ select * from peresmenka
+ go
+ select * from prihod
+ go
+  select * from rashod
+ go
+ 
+ 
+ 
+ 

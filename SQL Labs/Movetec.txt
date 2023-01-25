@@ -1,0 +1,58 @@
+create database Movie
+go
+use Movie
+go
+create type AllNames from varchar(20)
+go
+create type Adress from varchar(15)
+go
+
+create table moviestar(
+ codstar int primary key,
+ namestar AllNames,
+ adres Adress,
+ gender varchar(1),
+ birthday date default '0000-00-00')
+ go
+ 
+create table moviexec(
+ prodc int primary key,
+ nameprod AllNames,
+ adresE Adress,
+ networth int
+ go
+
+create table studio(
+ codstudio int primary key,
+ namestudio AllNames,
+ adresstudio Adress,
+ prodc int foreign key references moviexec(prodc))
+ go
+ 
+create table movie(
+ codm int primary key,
+ title AllNames,
+ yearm date default '0000-00-00',
+ lengthm int,
+ incolor char(1),
+ codstudio int foreign key references studio(codstudio),
+ prodc int foreign key references moviexec(prodc))
+ go
+
+create table starsln(
+codm int foreign key references movie(codm),
+codstar int foreign key references moviestar(codstar))
+go
+
+ 
+ select * from moviestar
+ go
+  select * from moviexec
+ go
+ select * from studio
+ go
+  select * from movie
+ go
+ select * from starsln
+ go
+ 

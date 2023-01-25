@@ -1,0 +1,123 @@
+Create database SeaBattle
+go
+
+	Use SeaBattle
+go
+
+	Create table Battles
+		( Cod_Bat int primary key,
+		  Name_Bat varchar (35),
+		  Data_S date,
+		  Data_N date)
+go
+
+	INSERT INTO Battles (Cod_Bat, Name_Bat, Data_S, Data_N) 
+		VALUES ( 10, 'North Atlantic','1941-05-24', '1941-05-27'),
+			   ( 20, 'Guadacanal','1942-11-15', '1942-11-15'),
+			   ( 30, 'North Cape','1943-12-26', '1943-12-26'),
+		   	   ( 40, 'Surigao Strait','1944-10-25','1944-10-25')
+go
+
+	SELECT *FROM Battles
+go
+
+	Create table Classes
+		( Cod_Cl int primary key,
+		  Name_Cl varchar (25),
+		  Typ_Cl char (2),
+		  Country varchar (25),
+		  Num_Guns int,
+		  Bore int, 
+		  Displacement int)
+go
+
+	INSERT INTO Classes (Cod_Cl, Name_Cl, Typ_Cl, Country, Num_Guns, Bore, Displacement)
+		VALUES ( 01, 'Bismark', 'bb', 'Germany', 8, 15, 42000),
+			   ( 02, 'Iowa', 'bb', 'USA', 9, 16, 46000),
+			   ( 03, 'Kongo', 'bc', 'Japan', 8, 14, 32000),
+			   ( 04, 'North California', 'bb', 'USA', 9, 16, 37000),
+			   ( 05, 'Renown', 'bc', 'Gt. Britain', 6, 15, 32000),
+			   ( 06, 'Revenge', 'bb', 'Gt. Britain', 8, 15, 29000),
+			   ( 07, 'Tennessee', 'bb', 'USA', 12, 14, 32000),
+			   ( 08, 'Yamato', 'bb', 'Japan', 9, 18, 65000) 
+go
+
+	SELECT *FROM Classes
+go
+
+
+	Create table Result 
+		( Cod_R int primary key,
+		  Name_R varchar (7) )
+go
+
+	INSERT INTO Result (Cod_R, Name_R)
+		VALUES ( 1, 'Sunk'),
+			   ( 2, 'Ok'),
+			   ( 3, 'Damaget')
+go
+
+	SELECT *FROM Result
+go
+
+
+	Create table Ships 
+		( Cod_Ship int primary key,
+		  Cod_Cl int foreign key references Classes(Cod_Cl),
+		  Launched int,
+		  Name_Ship varchar (20) )
+go
+
+	INSERT INTO Ships (Cod_Ship, Cod_Cl, Launched, Name_Ship)
+		VALUES ( 01, 01, 1921, 'California'),
+			   ( 02, 02, 1915, 'Haruna'),
+			   ( 03, 03, 1914, 'Hiei'),
+			   ( 04, 06, 1943, 'Iowa'),
+			   ( 05, 08, 1915, 'Kirishima'),
+			   ( 06, 08, 1913, 'Komgo'),
+			   ( 07, 08, 1944, 'Missouri'),
+			   ( 08, 06, 1942, 'Mussashi'),
+			   ( 09, 04, 1943, 'New Jersey'), 
+			   ( 10, 05, 1941, 'North California'),
+			   ( 11, 06, 1917, 'Ramillies'),
+			   ( 12, 07, 1916, 'Renown'),
+			   ( 13, 07, 1916, 'Repulse'),
+			   ( 14, 08, 1916, 'Resolution'),
+			   ( 15, 01, 1916, 'Royal Oak'),
+			   ( 16, 02, 1916, 'Royal Sovereigh'),
+			   ( 17, 03, 1920, 'Tennesse'),
+			   ( 18, 04, 1941, 'Washington'),
+			   ( 19, 04, 1944, 'Wisconsin'),
+			   ( 20, 05, 1941, 'Yamato')
+go
+
+	SELECT *FROM Ships
+go
+
+
+	Create table Outcomes 
+		( Cod_Ship int foreign key references Ships(Cod_Ship),
+		  Cod_Bat int foreign key references Battles(Cod_Bat),
+		  Cod_R int foreign key references Result(Cod_R))
+go
+	  
+	INSERT INTO Outcomes(Cod_Ship, Cod_Bat, Cod_R)
+		VALUES ( 01, 10, 1),
+			   ( 02, 20, 2),
+			   ( 03, 10, 3),
+			   ( 04, 10, 1),
+			   ( 05, 20, 1),
+			   ( 06, 20, 2),
+			   ( 07, 10, 2),
+			   ( 08, 30, 1),
+			   ( 09, 40, 3),
+			   ( 10, 40, 3),
+			   ( 11, 40, 3),
+			   ( 12, 30, 1),
+			   ( 13, 30, 2),
+			   ( 14, 30, 2),
+			   ( 15, 10, 3)
+go
+
+	SELECT *FROM Outcomes
+go
