@@ -157,25 +157,25 @@ int main()
 
     int nM = 5;
     int mM = 3;
-    cout<<"РќР°С‡Р°Р»СЊРЅР°СЏ РјР°С‚СЂРёС†Р°: "<<endl;
+    cout<<"Начальная матрица: "<<endl;
     printMatrix(matrix, nM, mM);
     printf("\n");
 
     int arr[] = {5,4,7,8,9,10,23,15,6,3,11,36,19,20,55};
 
     int n = 5*3;
-    printf("Р§РёСЃР»Р° РёР· РјР°СЃСЃРёРІР° РІ РјР°С‚СЂРёС†Сѓ: ");
+    printf("Числа из массива в матрицу: ");
     printArray(arr, n);
 
     timSort(arr, n);
 
-    printf("РћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ: ");
+    printf("Отсортированный массив: ");
     printArray(arr, n);
 
     cout<<endl<<endl;
 
     MassivToMatrix(matrix, nM, mM, arr);
-    cout<<"РљРѕРЅРµС‡РЅР°СЏ РјР°С‚СЂРёС†Р°: "<<endl;
+    cout<<"Конечная матрица°: "<<endl;
     printMatrix(matrix, nM, mM);
     return 0;
 }

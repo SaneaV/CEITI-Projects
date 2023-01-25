@@ -1,4 +1,4 @@
-п»ї#include <iostream>
+#include <iostream>
 #include "Sum.h"
 #include "MyClass.h"
 
