@@ -38,7 +38,7 @@ DECRYPT<br><br>
 Concatenate a, b, c, d => (01101000 01100101 01100100 01100111 01100101 01101000 01101111 01100111) “hedgehog”
 
 
-<h5>The output of this program</h5>
+<h2>The output of this program</h2>
 
 <p>Enter an 8-letter word: telegram<br>
 Enter a 2 letter codeword: AV<br>
